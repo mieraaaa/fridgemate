@@ -1,0 +1,2004 @@
+{
+  "resep": [
+    {
+      "id": 1,
+      "nama": "Ayam Geprek Sambal Bawang",
+      "deskripsi": "Ayam krispi gurih yang dihancurkan bersama sambal bawang pedas nendang, cocok disantap dengan nasi hangat.",
+      "porsi": 2,
+      "waktu_menit": 30,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Tinggi Protein", "Pedas", "Makan Siang"],
+      "bahan": [
+        { "nama": "Ayam bagian paha/dada", "takaran": "2 potong" },
+        { "nama": "Tepung bumbu serbaguna", "takaran": "150 gram" },
+        { "nama": "Cabai rawit merah", "takaran": "15 buah" },
+        { "nama": "Bawang putih", "takaran": "3 siung" },
+        { "nama": "Minyak goreng panas", "takaran": "3 sdm" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Goreng Ayam",
+          "deskripsi": "Baluri ayam dengan adonan tepung basah, lalu gulingkan ke tepung kering sambil dicubit-cubit. Goreng dalam minyak panas hingga krispi dan matang. Tiriskan."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Buat Sambal",
+          "deskripsi": "Ulek kasar cabai rawit, bawang putih, garam, dan sedikit penyedap rasa."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Geprek & Sajikan",
+          "deskripsi": "Siram sambal ulek dengan minyak panas bekas menggoreng ayam. Letakkan ayam di atas cobek, lalu geprek bersama sambal hingga hancur dan tercampur."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 420,
+        "protein": "28g",
+        "lemak": "22g",
+        "karbohidrat": "25g",
+        "serat": "2g"
+      }
+    },
+    {
+      "id": 2,
+      "nama": "Sayur Sop Bakso Bening",
+      "deskripsi": "Sayur sop rumahan berkuah kaldu bening yang segar dengan isian sayuran dan bakso sapi kenyal.",
+      "porsi": 4,
+      "waktu_menit": 25,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Berkuah", "Sayuran", "Anak-anak"],
+      "bahan": [
+        { "nama": "Bakso sapi", "takaran": "10 butir, belah dua" },
+        { "nama": "Wortel", "takaran": "2 buah, potong bulat" },
+        { "nama": "Kentang", "takaran": "1 buah, potong dadu" },
+        { "nama": "Kol dan Buncis", "takaran": "Secukupnya, potong-potong" },
+        { "nama": "Bawang putih", "takaran": "3 siung, memarkan dan tumis sebentar" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Rebus Sayuran Keras",
+          "deskripsi": "Didihkan air dalam panci. Masukkan wortel dan kentang terlebih dahulu, rebus hingga setengah empuk."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Bumbui Kuah",
+          "deskripsi": "Masukkan tumisan bawang putih, bakso sapi, garam, lada bubuk, dan kaldu jamur ke dalam panci."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Masukkan Sayuran Daun",
+          "deskripsi": "Terakhir, masukkan kol, buncis, daun bawang, dan seledri. Masak sebentar hingga layu. Sajikan selagi hangat."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 180,
+        "protein": "10g",
+        "lemak": "6g",
+        "karbohidrat": "22g",
+        "serat": "4g"
+      }
+    },
+    {
+      "id": 3,
+      "nama": "Telur Dadar Khas Padang",
+      "deskripsi": "Telur dadar tebal, padat, dan gurih dengan irisan daun kunyit dan kelapa parut sangrai.",
+      "porsi": 3,
+      "waktu_menit": 15,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Di bawah 20 Menit", "Tinggi Protein", "Khas Indonesia"],
+      "bahan": [
+        { "nama": "Telur bebek/ayam", "takaran": "4 butir" },
+        { "nama": "Kelapa parut sangrai", "takaran": "2 sdm" },
+        { "nama": "Daun bawang", "takaran": "2 batang, iris halus" },
+        { "nama": "Tepung beras", "takaran": "1 sdm, larutkan sedikit air" },
+        { "nama": "Bumbu halus (bawang merah, cabai merah, kunyit)", "takaran": "2 sdm" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Campur Adonan",
+          "deskripsi": "Kocok telur bersama bumbu halus, kelapa sangrai, irisan daun bawang, larutan tepung beras, garam, dan lada hingga berbuih."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Masak Telur",
+          "deskripsi": "Panaskan minyak agak banyak di wajan cekung. Tuang adonan telur. Masak dengan api kecil agar matang hingga ke dalam."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Balik & Potong",
+          "deskripsi": "Balik telur dadar dengan hati-hati saat bagian bawah sudah kokoh dan kecokelatan. Angkat, tiriskan, lalu potong-potong sesuai selera."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 250,
+        "protein": "14g",
+        "lemak": "18g",
+        "karbohidrat": "8g",
+        "serat": "2g"
+      }
+    },
+    {
+      "id": 4,
+      "nama": "Mie Goreng Tek-Tek",
+      "deskripsi": "Mie goreng ala abang gerobakan dengan aroma khas bumbu kemiri dan sayuran yang melimpah.",
+      "porsi": 2,
+      "waktu_menit": 20,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Makan Malam", "Karbohidrat", "Jajanan"],
+      "bahan": [
+        { "nama": "Mie telur kering", "takaran": "1 bungkus, rebus setengah matang" },
+        { "nama": "Telur ayam", "takaran": "1 butir" },
+        { "nama": "Sawi hijau dan Kol", "takaran": "Secukupnya, iris kasar" },
+        { "nama": "Kecap manis", "takaran": "3 sdm" },
+        { "nama": "Bumbu halus (bawang putih, kemiri, lada)", "takaran": "1 sdm" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Orak-Arik Telur",
+          "deskripsi": "Panaskan sedikit minyak, masukkan telur lalu buat orak-arik. Sisihkan di tepi wajan."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Tumis Bumbu & Sayuran",
+          "deskripsi": "Masukkan bumbu halus, tumis hingga harum. Tambahkan sawi dan kol, aduk rata hingga sayuran sedikit layu."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Campur Mie",
+          "deskripsi": "Masukkan mie rebus. Tambahkan kecap manis, garam, dan penyedap. Aduk cepat di atas api besar hingga warna merata dan harum berasap."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 380,
+        "protein": "12g",
+        "lemak": "14g",
+        "karbohidrat": "52g",
+        "serat": "3g"
+      }
+    },
+    {
+      "id": 5,
+      "nama": "Capcay Seafood Kuah Kental",
+      "deskripsi": "Tumis sayuran campur dengan udang dan cumi, disajikan dengan kuah gurih yang kental.",
+      "porsi": 3,
+      "waktu_menit": 25,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Seafood", "Sayuran", "Sehat"],
+      "bahan": [
+        { "nama": "Udang dan Cumi", "takaran": "150 gram, bersihkan dan iris" },
+        { "nama": "Sayuran campur (brokoli, wortel, sawi, kembang kol)", "takaran": "300 gram" },
+        { "nama": "Bawang putih", "takaran": "3 siung, cincang halus" },
+        { "nama": "Saus tiram", "takaran": "2 sdm" },
+        { "nama": "Tepung maizena", "takaran": "1 sdm, larutkan dengan air" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Tumis Seafood",
+          "deskripsi": "Tumis bawang putih hingga wangi. Masukkan udang dan cumi, masak sebentar hingga berubah warna."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Masak Sayuran",
+          "deskripsi": "Masukkan sayuran bertekstur keras (wortel, kembang kol) dan sedikit air. Setelah setengah empuk, masukkan sayuran daun."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Kentalkan Kuah",
+          "deskripsi": "Tambahkan saus tiram, garam, dan lada. Tuang larutan maizena, aduk perlahan hingga kuah mengental dan meletup. Angkat."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 220,
+        "protein": "18g",
+        "lemak": "8g",
+        "karbohidrat": "20g",
+        "serat": "6g"
+      }
+    },
+    {
+      "id": 6,
+      "nama": "Sosis Asam Manis Sayuran",
+      "deskripsi": "Lauk praktis sosis tumis berpadu nanas segar dan paprika dalam saus asam manis yang menggugah selera.",
+      "porsi": 2,
+      "waktu_menit": 15,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Di bawah 20 Menit", "Anak-anak", "Praktis"],
+      "bahan": [
+        { "nama": "Sosis ayam/sapi", "takaran": "5 buah, iris serong" },
+        { "nama": "Bawang bombay", "takaran": "1/2 buah, potong dadu" },
+        { "nama": "Paprika hijau & merah", "takaran": "Masing-masing 1/4 buah, iris kotak" },
+        { "nama": "Saus tomat", "takaran": "3 sdm" },
+        { "nama": "Nanas", "takaran": "50 gram, potong kecil" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Tumis Bumbu & Sosis",
+          "deskripsi": "Panaskan margarin, tumis bawang bombay hingga layu. Masukkan irisan sosis, masak hingga sosis mengembang."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Buat Saus",
+          "deskripsi": "Tambahkan saus tomat, sejumput gula pasir, merica, dan sedikit air. Aduk merata hingga saus berbuih."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Campur Sayur & Nanas",
+          "deskripsi": "Masukkan irisan paprika dan nanas. Aduk cepat selama 1 menit agar paprika tetap renyah. Angkat dan sajikan."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 310,
+        "protein": "12g",
+        "lemak": "18g",
+        "karbohidrat": "24g",
+        "serat": "3g"
+      }
+    },
+    {
+      "id": 7,
+      "nama": "Udang Saus Padang",
+      "deskripsi": "Udang segar berlumur saus pedas, asam, manis yang legit khas hidangan laut Indonesia.",
+      "porsi": 2,
+      "waktu_menit": 30,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Seafood", "Pedas", "Makan Malam"],
+      "bahan": [
+        { "nama": "Udang segar", "takaran": "300 gram, belah punggung dan bersihkan" },
+        { "nama": "Jagung manis", "takaran": "1 buah, potong-potong dan rebus" },
+        { "nama": "Saus sambal & Saus tomat", "takaran": "Masing-masing 3 sdm" },
+        { "nama": "Telur ayam", "takaran": "1 butir, kocok lepas" },
+        { "nama": "Bumbu halus (bawang merah, bawang putih, cabai merah)", "takaran": "2 sdm" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Tumis Bumbu Dasar",
+          "deskripsi": "Tumis bumbu halus bersama daun jeruk dan jahe geprek hingga harum dan matang."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Masak Udang & Saus",
+          "deskripsi": "Masukkan udang, aduk hingga berubah warna. Tambahkan saus sambal, saus tomat, saus tiram, dan sedikit air. Beri garam dan gula."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Masukkan Jagung & Telur",
+          "deskripsi": "Masukkan jagung rebus. Terakhir, tuang telur kocok perlahan sambil diaduk memutar agar membentuk serabut kuah kental. Angkat."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 280,
+        "protein": "26g",
+        "lemak": "10g",
+        "karbohidrat": "22g",
+        "serat": "3g"
+      }
+    },
+    {
+      "id": 8,
+      "nama": "Tumis Kangkung Belacan",
+      "deskripsi": "Tumisan sayur kangkung hijau cerah dengan aroma terasi udang yang menggugah selera.",
+      "porsi": 2,
+      "waktu_menit": 15,
+      "tingkat_kesulitan": "Pemula",
+      "tag": ["Di bawah 20 Menit", "Sayuran", "Murah"],
+      "bahan": [
+        { "nama": "Kangkung", "takaran": "1 ikat besar, petik daunnya" },
+        { "nama": "Bawang merah", "takaran": "4 siung, iris" },
+        { "nama": "Bawang putih", "takaran": "2 siung, iris" },
+        { "nama": "Cabai merah iris & Terasi bakar", "takaran": "Sesuai selera" },
+        { "nama": "Saus tiram", "takaran": "1 sdm" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Siapkan Bumbu Tumis",
+          "deskripsi": "Panaskan minyak, tumis bawang merah, bawang putih, cabai, dan terasi yang sudah dihancurkan hingga aromanya keluar."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Masak Kangkung",
+          "deskripsi": "Gunakan api besar, masukkan kangkung. Aduk cepat agar warna kangkung tetap hijau segar."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Beri Bumbu Terakhir",
+          "deskripsi": "Tuangkan saus tiram, sedikit garam, dan kaldu jamur. Tambahkan sedikit air panas jika suka berkuah. Masak 1 menit saja, lalu angkat."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 90,
+        "protein": "4g",
+        "lemak": "5g",
+        "karbohidrat": "8g",
+        "serat": "3g"
+      }
+    },
+    {
+      "id": 9,
+      "nama": "Cumi Asin Cabe Ijo",
+      "deskripsi": "Potongan cumi asin kenyal berpadu dengan irisan cabai hijau besar dan tomat hijau yang segar.",
+      "porsi": 3,
+      "waktu_menit": 25,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Seafood", "Pedas", "Khas Indonesia"],
+      "bahan": [
+        { "nama": "Cumi asin", "takaran": "150 gram, rendam air panas, potong-potong" },
+        { "nama": "Cabai hijau besar", "takaran": "10 buah, iris serong" },
+        { "nama": "Tomat hijau", "takaran": "2 buah, potong dadu" },
+        { "nama": "Bawang merah & putih", "takaran": "Masing-masing 4 siung, iris tipis" },
+        { "nama": "Daun salam & Lengkuas", "takaran": "Secukupnya" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Goreng Cumi (Opsional)",
+          "deskripsi": "Goreng cumi asin sebentar dalam minyak panas agar sedikit renyah, lalu angkat dan tiriskan."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Tumis Bumbu Iris",
+          "deskripsi": "Gunakan sedikit minyak sisa menggoreng cumi, tumis bawang merah, bawang putih, daun salam, dan lengkuas hingga layu."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Campur Semua Bahan",
+          "deskripsi": "Masukkan cabai hijau, tomat hijau, dan cumi. Tambahkan sedikit gula pasir dan kaldu (hindari garam berlebih karena cumi sudah asin). Aduk rata."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 210,
+        "protein": "16g",
+        "lemak": "12g",
+        "karbohidrat": "10g",
+        "serat": "2g"
+      }
+    },
+    {
+      "id": 10,
+      "nama": "Fuyunghai Ayam Sayur",
+      "deskripsi": "Omelet tebal ala Chinese restoran dengan isian ayam dan sayur, disiram saus asam manis polong.",
+      "porsi": 2,
+      "waktu_menit": 30,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Tinggi Protein", "Chinese Food"],
+      "bahan": [
+        { "nama": "Telur ayam", "takaran": "3 butir" },
+        { "nama": "Daging ayam cincang", "takaran": "50 gram" },
+        { "nama": "Kol dan Wortel", "takaran": "Secukupnya, iris sehalus korek api" },
+        { "nama": "Tepung tapioka", "takaran": "1 sdm" },
+        { "nama": "Kacang polong & Saus tomat", "takaran": "Bahan untuk saus siraman" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Goreng Fuyunghai",
+          "deskripsi": "Kocok telur, ayam cincang, sayuran iris, tepung tapioka, lada, dan garam. Goreng adonan dalam minyak panas yang cukup banyak hingga mengembang dan kecokelatan di kedua sisi. Tiriskan."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Buat Saus Siram",
+          "deskripsi": "Tumis sedikit bawang bombay, masukkan saus tomat, air kaldu, sejumput gula pasir, dan cuka. Tambahkan kacang polong."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Penyajian",
+          "deskripsi": "Kentalkan saus dengan sedikit larutan maizena. Letakkan fuyunghai di atas piring, lalu siram dengan saus asam manis panas."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 360,
+        "protein": "18g",
+        "lemak": "24g",
+        "karbohidrat": "18g",
+        "serat": "3g"
+      }
+    },
+    {
+      "id": 11,
+      "nama": "Rendang Daging Sapi",
+      "deskripsi": "Daging sapi empuk yang dimasak perlahan dengan santan dan rempah-rempah pekat khas Minang hingga bumbu meresap sempurna.",
+      "porsi": 5,
+      "waktu_menit": 120,
+      "tingkat_kesulitan": "Sulit",
+      "tag": ["Tinggi Protein", "Khas Indonesia", "Makan Malam"],
+      "bahan": [
+        { "nama": "Daging sapi (bagian paha/gandik)", "takaran": "500 gram, potong kotak" },
+        { "nama": "Santan kental", "takaran": "500 ml dari 1 butir kelapa" },
+        { "nama": "Bumbu halus (cabai merah, bawang, jahe, lengkuas)", "takaran": "4 sdm" },
+        { "nama": "Daun kunyit & Daun jeruk", "takaran": "Masing-masing 2 lembar" },
+        { "nama": "Serai", "takaran": "2 batang, memarkan" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Masak Santan & Bumbu",
+          "deskripsi": "Rebus santan bersama bumbu halus, daun kunyit, daun jeruk, dan serai. Aduk perlahan agar santan tidak pecah hingga mendidih dan harum."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Masukkan Daging",
+          "deskripsi": "Setelah santan mendidih dan sedikit menyusut, masukkan potongan daging sapi. Masak dengan api sedang sambil sesekali diaduk."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Proses Karamelisasi",
+          "deskripsi": "Kecilkan api, masak terus hingga kuah santan mengering, mengeluarkan minyak, dan bumbu berubah warna menjadi cokelat gelap atau hitam."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 480,
+        "protein": "32g",
+        "lemak": "35g",
+        "karbohidrat": "10g",
+        "serat": "4g"
+      }
+    },
+    {
+      "id": 12,
+      "nama": "Soto Ayam Lamongan",
+      "deskripsi": "Soto ayam berkuah kuning gurih dengan taburan bubuk koya khas yang membuatnya semakin kental dan nikmat.",
+      "porsi": 4,
+      "waktu_menit": 45,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Berkuah", "Khas Indonesia", "Makan Siang"],
+      "bahan": [
+        { "nama": "Ayam kampung/pejantan", "takaran": "1/2 ekor" },
+        { "nama": "Bihun", "takaran": "1 keping, seduh air panas" },
+        { "nama": "Kol", "takaran": "Secukupnya, iris tipis" },
+        { "nama": "Bumbu halus (bawang, kunyit, kemiri, jahe)", "takaran": "3 sdm" },
+        { "nama": "Bubuk Koya (kerupuk udang & bawang putih goreng dihancurkan)", "takaran": "Secukupnya" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Buat Kaldu & Rebus Ayam",
+          "deskripsi": "Rebus ayam dengan air secukupnya hingga empuk. Angkat ayam, suwir-suwir dagingnya, dan saring air kaldunya."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Tumis Bumbu Kuah",
+          "deskripsi": "Tumis bumbu halus bersama daun jeruk dan serai hingga harum dan matang. Masukkan ke dalam air kaldu ayam, didihkan kembali. Beri garam dan merica."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Sajikan Soto",
+          "deskripsi": "Tata bihun, kol, dan ayam suwir di mangkuk. Siram dengan kuah soto panas, lalu taburi daun seledri, bawang goreng, dan bubuk koya."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 320,
+        "protein": "24g",
+        "lemak": "14g",
+        "karbohidrat": "22g",
+        "serat": "3g"
+      }
+    },
+    {
+      "id": 13,
+      "nama": "Pecel Lele Goreng Krispi",
+      "deskripsi": "Ikan lele segar yang digoreng hingga garing beralaskan sambal terasi khas warung tenda dan lalapan.",
+      "porsi": 2,
+      "waktu_menit": 25,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Tinggi Protein", "Pedas", "Murah"],
+      "bahan": [
+        { "nama": "Ikan lele", "takaran": "4 ekor, bersihkan dan kerat tubuhnya" },
+        { "nama": "Bumbu marinasi instan (kunyit ketumbar)", "takaran": "1 sdm" },
+        { "nama": "Jeruk nipis", "takaran": "1 buah" },
+        { "nama": "Tomat merah & Cabai (untuk sambal)", "takaran": "Sesuai selera" },
+        { "nama": "Terasi bakar", "takaran": "1 sdt" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Marinasi Lele",
+          "deskripsi": "Lumuri lele dengan perasan jeruk nipis dan bumbu marinasi. Diamkan 10 menit agar bau amis hilang dan bumbu meresap."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Goreng Kering",
+          "deskripsi": "Goreng lele dalam minyak panas dan banyak (deep fry) hingga bagian luar garing dan dalamnya matang. Tiriskan."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Ulek Sambal",
+          "deskripsi": "Goreng cabai, bawang merah, bawang putih, dan tomat hingga layu. Ulek kasar bersama terasi bakar, garam, dan gula merah. Sajikan bersama lele."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 350,
+        "protein": "28g",
+        "lemak": "22g",
+        "karbohidrat": "8g",
+        "serat": "2g"
+      }
+    },
+    {
+      "id": 14,
+      "nama": "Tongseng Daging Sapi",
+      "deskripsi": "Hidangan daging sapi berkuah santan kental yang manis gurih dengan isian kol renyah dan cabai rawit utuh.",
+      "porsi": 3,
+      "waktu_menit": 40,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Berkuah", "Pedas", "Makan Malam"],
+      "bahan": [
+        { "nama": "Daging sapi tetelan/has", "takaran": "300 gram, iris kecil" },
+        { "nama": "Kol", "takaran": "100 gram, potong kasar" },
+        { "nama": "Santan encer", "takaran": "400 ml" },
+        { "nama": "Kecap manis", "takaran": "3 sdm" },
+        { "nama": "Cabai rawit merah utuh", "takaran": "10 buah" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Tumis Bumbu & Daging",
+          "deskripsi": "Tumis bumbu gulai/bumbu halus merah dengan serai dan daun jeruk. Masukkan irisan daging, aduk hingga daging berubah warna."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Masak Kuah Santan",
+          "deskripsi": "Tuangkan santan, masak dengan api kecil hingga daging empuk. Masukkan kecap manis, garam, dan merica."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Tambahkan Sayuran",
+          "deskripsi": "Sesaat sebelum diangkat, masukkan potongan kol, irisan tomat, dan cabai rawit utuh. Aduk sebentar hingga sayur sedikit layu, lalu sajikan."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 410,
+        "protein": "25g",
+        "lemak": "26g",
+        "karbohidrat": "18g",
+        "serat": "3g"
+      }
+    },
+    {
+      "id": 15,
+      "nama": "Ikan Gurame Bakar Kecap",
+      "deskripsi": "Ikan gurame utuh yang dibakar dengan olesan bumbu kecap manis legit, menghasilkan kulit karamel yang menggugah selera.",
+      "porsi": 3,
+      "waktu_menit": 40,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Seafood", "Khas Indonesia", "Rendah Lemak"],
+      "bahan": [
+        { "nama": "Ikan Gurame", "takaran": "1 ekor (500-600 gram), bersihkan" },
+        { "nama": "Kecap manis", "takaran": "5 sdm" },
+        { "nama": "Jeruk nipis", "takaran": "1 buah" },
+        { "nama": "Margarin", "takaran": "1 sdm, untuk olesan" },
+        { "nama": "Bumbu oles (bawang putih, ketumbar, kunyit dihaluskan)", "takaran": "2 sdm" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Siapkan Ikan",
+          "deskripsi": "Kerat-kerat badan ikan gurame, lumuri dengan air perasan jeruk nipis dan sedikit garam. Diamkan selama 15 menit."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Racik Bumbu Oles",
+          "deskripsi": "Campurkan bumbu halus, kecap manis, dan margarin cair. Aduk rata hingga menjadi saus kental."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Bakar Ikan",
+          "deskripsi": "Bakar ikan di atas pemanggang sambil dibolak-balik. Olesi dengan bumbu kecap secara merata dan berulang hingga ikan matang sempurna dan terkaramelisasi."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 290,
+        "protein": "34g",
+        "lemak": "8g",
+        "karbohidrat": "18g",
+        "serat": "1g"
+      }
+    },
+    {
+      "id": 16,
+      "nama": "Martabak Telur Kulit Lumpia",
+      "deskripsi": "Camilan gurih renyah berisi campuran telur, daging cincang, dan daun bawang yang dibalut kulit lumpia instan.",
+      "porsi": 2,
+      "waktu_menit": 20,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Camilan", "Di bawah 20 Menit", "Anak-anak"],
+      "bahan": [
+        { "nama": "Kulit lumpia siap pakai", "takaran": "10 lembar" },
+        { "nama": "Telur ayam/bebek", "takaran": "2 butir" },
+        { "nama": "Daun bawang", "takaran": "3 batang, iris halus" },
+        { "nama": "Daging ayam/sapi cincang", "takaran": "50 gram, tumis matang" },
+        { "nama": "Bumbu kari bubuk", "takaran": "1 sdt" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Buat Isian",
+          "deskripsi": "Kocok telur bersama daun bawang, daging cincang, bubuk kari, garam, dan lada. Aduk rata."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Isi dan Lipat",
+          "deskripsi": "Ambil selembar kulit lumpia, tuang 1 sendok makan isian di tengahnya. Lipat rapi seperti amplop kotak."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Goreng Crispy",
+          "deskripsi": "Segera goreng dalam minyak panas (api sedang) agar isian tidak bocor. Goreng hingga kuning kecokelatan dan garing. Tiriskan."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 250,
+        "protein": "12g",
+        "lemak": "14g",
+        "karbohidrat": "18g",
+        "serat": "2g"
+      }
+    },
+    {
+      "id": 17,
+      "nama": "Sayur Lodeh Sunda",
+      "deskripsi": "Sayur campur khas Sunda berkuah santan ringan yang menyegarkan dengan isian labu siam, jagung, dan kacang panjang.",
+      "porsi": 4,
+      "waktu_menit": 30,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Sayuran", "Berkuah", "Vegetarian"],
+      "bahan": [
+        { "nama": "Labu siam", "takaran": "1 buah, potong korek api" },
+        { "nama": "Kacang panjang", "takaran": "1 ikat, potong-potong" },
+        { "nama": "Jagung manis", "takaran": "1 buah, potong melingkar" },
+        { "nama": "Santan encer", "takaran": "500 ml" },
+        { "nama": "Bumbu halus (bawang merah, kemiri, ketumbar)", "takaran": "2 sdm" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Didihkan Kuah",
+          "deskripsi": "Rebus santan bersama bumbu halus, lengkuas geprek, dan daun salam sambil diaduk pelan agar tidak pecah."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Masak Sayuran Keras",
+          "deskripsi": "Masukkan jagung dan melinjo (opsional). Masak hingga jagung empuk dan matang."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Masukkan Sayuran Lunak",
+          "deskripsi": "Tambahkan labu siam dan kacang panjang. Beri garam dan gula merah secukupnya. Masak sebentar agar sayuran tetap renyah, lalu angkat."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 180,
+        "protein": "4g",
+        "lemak": "10g",
+        "karbohidrat": "20g",
+        "serat": "5g"
+      }
+    },
+    {
+      "id": 18,
+      "nama": "Ayam Bakar Bumbu Rujak",
+      "deskripsi": "Ayam bakar empuk dengan lumuran bumbu merah yang kaya rempah, pedas, manis, dan sedikit asam.",
+      "porsi": 4,
+      "waktu_menit": 50,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Tinggi Protein", "Pedas Manis", "Makan Malam"],
+      "bahan": [
+        { "nama": "Ayam potong", "takaran": "1/2 ekor, potong 4 bagian" },
+        { "nama": "Santan kental", "takaran": "200 ml" },
+        { "nama": "Air asam jawa", "takaran": "2 sdm" },
+        { "nama": "Gula merah muda", "takaran": "1 sdm, sisir" },
+        { "nama": "Bumbu halus (cabai merah besar, bawang, kemiri bakar)", "takaran": "4 sdm" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Tumis Bumbu Ungkep",
+          "deskripsi": "Tumis bumbu halus bersama serai dan daun jeruk. Tuangkan santan, air asam jawa, dan gula merah. Aduk rata."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Ungkep Ayam",
+          "deskripsi": "Masukkan potongan ayam. Masak dengan api kecil hingga ayam empuk dan kuah menyusut menjadi bumbu kental."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Bakar Ayam",
+          "deskripsi": "Panggang ayam di atas bara api atau teflon, sambil diolesi sisa bumbu ungkepan hingga permukaannya agak kecokelatan dan harum."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 380,
+        "protein": "30g",
+        "lemak": "22g",
+        "karbohidrat": "15g",
+        "serat": "2g"
+      }
+    },
+    {
+      "id": 19,
+      "nama": "Semur Tahu Telur Puyuh",
+      "deskripsi": "Lauk manis gurih bernuansa kecap dengan isian tahu lembut dan telur puyuh utuh, sangat disukai anak-anak.",
+      "porsi": 3,
+      "waktu_menit": 30,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Murah", "Anak-anak", "Tinggi Protein"],
+      "bahan": [
+        { "nama": "Tahu putih", "takaran": "1 buah besar, potong dadu, goreng setengah matang" },
+        { "nama": "Telur puyuh", "takaran": "15 butir, rebus dan kupas" },
+        { "nama": "Kecap manis", "takaran": "4 sdm" },
+        { "nama": "Bumbu halus (bawang merah, bawang putih, kemiri, pala bubuk)", "takaran": "2 sdm" },
+        { "nama": "Tomat merah", "takaran": "1 buah, potong-potong" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Tumis Bumbu Halus",
+          "deskripsi": "Panaskan sedikit minyak, tumis bumbu halus, lengkuas, dan daun salam hingga harum."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Tuang Kecap & Air",
+          "deskripsi": "Tambahkan kecap manis dan air secukupnya. Biarkan hingga mendidih."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Masak Isian",
+          "deskripsi": "Masukkan tahu goreng, telur puyuh, dan potongan tomat. Beri garam dan sedikit lada. Masak hingga kuah meresap dan sedikit mengental."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 260,
+        "protein": "16g",
+        "lemak": "14g",
+        "karbohidrat": "18g",
+        "serat": "2g"
+      }
+    },
+    {
+      "id": 20,
+      "nama": "Oseng Mercon Tetelan",
+      "deskripsi": "Tumisan daging tetelan sapi super pedas yang meledak di mulut, cocok buat penggemar rempah dan cabai.",
+      "porsi": 2,
+      "waktu_menit": 45,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Pedas", "Khas Indonesia", "Makan Malam"],
+      "bahan": [
+        { "nama": "Tetelan daging sapi", "takaran": "250 gram, rebus hingga empuk, iris" },
+        { "nama": "Cabai rawit merah", "takaran": "30 buah (sesuaikan selera), ulek kasar" },
+        { "nama": "Bawang merah & bawang putih", "takaran": "Total 8 siung, iris tipis" },
+        { "nama": "Lengkuas & Jahe", "takaran": "Masing-masing 1 cm, geprek" },
+        { "nama": "Gula merah muda", "takaran": "1 sdt" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Tumis Bumbu Pedas",
+          "deskripsi": "Tumis bawang merah dan bawang putih iris hingga harum. Masukkan cabai rawit ulek, lengkuas, jahe, dan daun salam."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Masak Tetelan",
+          "deskripsi": "Masukkan irisan daging tetelan sapi ke dalam tumisan bumbu pedas. Aduk rata."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Resapkan Bumbu",
+          "deskripsi": "Tuangkan sedikit air kaldu sisa rebusan sapi. Tambahkan gula merah, garam, dan kaldu sapi bubuk. Masak hingga air menyusut dan bumbu meresap sempurna."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 330,
+        "protein": "22g",
+        "lemak": "24g",
+        "karbohidrat": "8g",
+        "serat": "3g"
+      }
+    },
+    {
+      "id": 21,
+      "nama": "Nasi Liwet Sunda Teri",
+      "deskripsi": "Nasi gurih yang dimasak langsung bersama rempah aromatik, petai, dan teri medan goreng yang asin renyah.",
+      "porsi": 4,
+      "waktu_menit": 45,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Khas Indonesia", "Karbohidrat", "Makan Siang"],
+      "bahan": [
+        { "nama": "Beras", "takaran": "3 cup, cuci bersih" },
+        { "nama": "Teri Medan", "takaran": "50 gram, goreng kering" },
+        { "nama": "Bawang merah & putih", "takaran": "Total 8 siung, iris tipis" },
+        { "nama": "Serai & Daun salam", "takaran": "2 batang memarkan, 3 lembar daun" },
+        { "nama": "Petai kupas", "takaran": "1 papan" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Tumis Rempah",
+          "deskripsi": "Panaskan sedikit minyak, tumis irisan bawang, serai, daun salam, dan cabai rawit utuh hingga harum dan layu."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Masak Beras",
+          "deskripsi": "Masukkan beras ke dalam rice cooker. Tuangkan air secukupnya seperti memasak nasi biasa. Masukkan tumisan bumbu, garam, dan kaldu bubuk. Aduk rata, lalu tekan tombol 'Cook'."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Beri Topping",
+          "deskripsi": "Setelah nasi matang (ceklek), buka rice cooker, taburkan teri goreng dan petai di atasnya. Tutup kembali selama 10 menit agar aroma menyatu sebelum diaduk dan disajikan."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 320,
+        "protein": "8g",
+        "lemak": "6g",
+        "karbohidrat": "55g",
+        "serat": "2g"
+      }
+    },
+    {
+      "id": 22,
+      "nama": "Mie Kuah Susu Keju",
+      "deskripsi": "Kreasi mie instan dengan kuah susu yang creamy, gurih, dan diperkaya dengan keju lumer. Cepat dan bikin nagih!",
+      "porsi": 1,
+      "waktu_menit": 10,
+      "tingkat_kesulitan": "Pemula",
+      "tag": ["Di bawah 20 Menit", "Camilan", "Anak-anak"],
+      "bahan": [
+        { "nama": "Mie instan rasa ayam bawang", "takaran": "1 bungkus" },
+        { "nama": "Susu cair full cream", "takaran": "250 ml" },
+        { "nama": "Keju cheddar parut", "takaran": "2 sdm" },
+        { "nama": "Telur ayam", "takaran": "1 butir" },
+        { "nama": "Cabai bubuk (opsional)", "takaran": "Sesuai selera" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Rebus Mie Setengah Matang",
+          "deskripsi": "Rebus mie dalam air mendidih selama 1 menit saja agar tidak terlalu lembek. Tiriskan dan buang air rebusannya."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Masak Kuah Susu",
+          "deskripsi": "Tuang susu cair ke dalam panci, panaskan dengan api kecil. Masukkan telur utuh, diamkan sebentar hingga telur setengah matang."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Campur Semua Bahan",
+          "deskripsi": "Masukkan mie, bumbu instan, dan keju parut ke dalam rebusan susu. Aduk rata hingga kuah mengental dan keju meleleh. Angkat segera."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 450,
+        "protein": "18g",
+        "lemak": "20g",
+        "karbohidrat": "48g",
+        "serat": "2g"
+      }
+    },
+    {
+      "id": 23,
+      "nama": "Ayam Woku Belanga",
+      "deskripsi": "Ayam berkuah nyak-nyek khas Manado yang super pedas dan sarat akan aroma kemangi, pandan, serta daun jeruk.",
+      "porsi": 4,
+      "waktu_menit": 40,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Pedas", "Tinggi Protein", "Khas Indonesia"],
+      "bahan": [
+        { "nama": "Ayam potong", "takaran": "500 gram, potong agak kecil" },
+        { "nama": "Daun kemangi", "takaran": "2 genggam besar" },
+        { "nama": "Daun pandan & Daun kunyit", "takaran": "Masing-masing 1 lembar, iris kasar" },
+        { "nama": "Daun jeruk & Serai", "takaran": "Secukupnya" },
+        { "nama": "Bumbu halus (cabai, bawang, jahe, kunyit, kemiri)", "takaran": "4 sdm" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Tumis Bumbu Aromatik",
+          "deskripsi": "Tumis bumbu halus bersama serai, daun jeruk, irisan daun pandan, dan daun kunyit hingga wangi dan matang."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Masak Ayam",
+          "deskripsi": "Masukkan potongan ayam, aduk hingga berubah warna. Tuangkan air secukupnya, tambahkan garam dan sedikit gula. Ungkep hingga ayam empuk dan air menyusut."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Masukkan Kemangi",
+          "deskripsi": "Terakhir, masukkan tomat iris, daun bawang, dan daun kemangi. Aduk sebentar saja hingga kemangi layu, lalu angkat."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 280,
+        "protein": "26g",
+        "lemak": "16g",
+        "karbohidrat": "8g",
+        "serat": "2g"
+      }
+    },
+    {
+      "id": 24,
+      "nama": "Tahu Walik Krispi Ayam",
+      "deskripsi": "Tahu pong yang dibalik bagian dalamnya, diisi dengan adonan aci dan ayam cincang, lalu digoreng hingga renyah.",
+      "porsi": 4,
+      "waktu_menit": 35,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Camilan", "Tinggi Protein", "Gorengan"],
+      "bahan": [
+        { "nama": "Tahu pong/cokelat", "takaran": "10 buah, belah dua segitiga" },
+        { "nama": "Daging ayam fillet", "takaran": "150 gram, haluskan" },
+        { "nama": "Tepung tapioka & terigu", "takaran": "5 sdm tapioka, 2 sdm terigu" },
+        { "nama": "Bawang putih & Daun bawang", "takaran": "3 siung haluskan, 2 batang iris" },
+        { "nama": "Air es", "takaran": "50 ml" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Balik Tahu",
+          "deskripsi": "Keluarkan sedikit isi putih tahu pong, lalu balik kulitnya hingga bagian dalam berada di luar. Sisihkan."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Buat Isian",
+          "deskripsi": "Campur ayam halus, tepung tapioka, terigu, bawang putih, daun bawang, garam, lada, kaldu jamur, dan sisa isian putih tahu. Tambahkan air es sedikit demi sedikit hingga adonan bisa dibentuk."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Isi & Goreng",
+          "deskripsi": "Masukkan adonan ke dalam cekungan tahu yang sudah dibalik. Goreng dalam minyak agak banyak dengan api sedang hingga kecokelatan dan garing merata."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 190,
+        "protein": "10g",
+        "lemak": "8g",
+        "karbohidrat": "20g",
+        "serat": "1g"
+      }
+    },
+    {
+      "id": 25,
+      "nama": "Spaghetti Aglio Olio Tuna",
+      "deskripsi": "Pasta klasik Italia yang dimasak dengan bawang putih, minyak zaitun, cabai pedas, dan tambahan suwiran ikan tuna.",
+      "porsi": 2,
+      "waktu_menit": 20,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Di bawah 20 Menit", "Makan Malam", "Seafood"],
+      "bahan": [
+        { "nama": "Spaghetti", "takaran": "200 gram" },
+        { "nama": "Tuna kaleng (in oil/water)", "takaran": "1 kaleng kecil, tiriskan" },
+        { "nama": "Bawang putih", "takaran": "5 siung, iris tipis" },
+        { "nama": "Cabai rawit / Chili flakes", "takaran": "Sesuai selera" },
+        { "nama": "Minyak zaitun (Olive oil)", "takaran": "3 sdm" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Rebus Pasta",
+          "deskripsi": "Rebus air yang banyak, tambahkan garam. Masukkan spaghetti dan rebus hingga 'al dente'. Sisihkan sedikit air rebusan pasta, lalu tiriskan spaghetti."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Tumis Bumbu & Tuna",
+          "deskripsi": "Panaskan minyak zaitun dengan api kecil. Masukkan bawang putih dan cabai, tumis perlahan agar minyak beraroma tanpa membuat bawang gosong. Masukkan suwiran tuna, aduk sebentar."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Campur Pasta",
+          "deskripsi": "Masukkan spaghetti ke dalam wajan. Tambahkan sedikit air rebusan pasta, garam, lada hitam, dan peterseli cincang. Aduk cepat hingga merata. Angkat."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 420,
+        "protein": "22g",
+        "lemak": "18g",
+        "karbohidrat": "45g",
+        "serat": "3g"
+      }
+    },
+    {
+      "id": 26,
+      "nama": "Telur Ceplok Balado Pedas Manis",
+      "deskripsi": "Lauk harian praktis berupa telur mata sapi yang disiram bumbu balado merah merona, pedas, manis, dan legit.",
+      "porsi": 4,
+      "waktu_menit": 20,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Di bawah 20 Menit", "Murah", "Tinggi Protein"],
+      "bahan": [
+        { "nama": "Telur ayam", "takaran": "4 butir" },
+        { "nama": "Daun jeruk", "takaran": "2 lembar, sobek pinggirnya" },
+        { "nama": "Bumbu halus (cabai merah besar, keriting, tomat)", "takaran": "3 sdm" },
+        { "nama": "Bawang merah & putih", "takaran": "4 siung dan 2 siung, haluskan bersama cabai" },
+        { "nama": "Gula merah / Gula pasir", "takaran": "1 sdm" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Goreng Telur",
+          "deskripsi": "Goreng telur satu per satu menjadi telur mata sapi (ceplok). Tingkat kematangan kuning telur bisa disesuaikan selera. Sisihkan."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Tumis Balado",
+          "deskripsi": "Panaskan sedikit minyak, tumis bumbu halus dan daun jeruk hingga bumbu benar-benar matang, harum, dan minyaknya keluar."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Masukkan Telur",
+          "deskripsi": "Bumbui dengan garam, kaldu bubuk, dan gula. Beri sedikit air jika terlalu kering. Masukkan telur ceplok, aduk perlahan agar bumbu melumuri telur merata."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 180,
+        "protein": "12g",
+        "lemak": "14g",
+        "karbohidrat": "6g",
+        "serat": "1g"
+      }
+    },
+    {
+      "id": 27,
+      "nama": "Orak Arik Buncis Telur",
+      "deskripsi": "Tumisan sayur kilat berbahan dasar buncis renyah dan telur yang diorak-arik, cocok untuk sarapan atau bekal.",
+      "porsi": 2,
+      "waktu_menit": 15,
+      "tingkat_kesulitan": "Pemula",
+      "tag": ["Di bawah 20 Menit", "Sayuran", "Anak-anak"],
+      "bahan": [
+        { "nama": "Buncis muda", "takaran": "150 gram, iris serong tipis" },
+        { "nama": "Telur ayam", "takaran": "2 butir, kocok lepas" },
+        { "nama": "Bawang putih", "takaran": "3 siung, cincang halus" },
+        { "nama": "Bawang merah", "takaran": "2 siung, iris tipis" },
+        { "nama": "Lada putih bubuk", "takaran": "1/2 sdt" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Orak-Arik Telur",
+          "deskripsi": "Panaskan minyak, tuang telur kocok. Buat orak-arik kasar, angkat dan sisihkan sebentar agar tidak terlalu kering."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Tumis Sayuran",
+          "deskripsi": "Di wajan yang sama, tambah sedikit minyak. Tumis bawang putih dan merah hingga wangi. Masukkan irisan buncis, aduk rata."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Campur & Bumbui",
+          "deskripsi": "Tambahkan sedikit air, biarkan buncis setengah empuk namun tetap renyah. Masukkan kembali telur orak-arik. Beri garam, lada, dan kaldu jamur. Aduk merata lalu sajikan."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 150,
+        "protein": "10g",
+        "lemak": "10g",
+        "karbohidrat": "8g",
+        "serat": "3g"
+      }
+    },
+    {
+      "id": 28,
+      "nama": "Soto Daging Madura",
+      "deskripsi": "Soto daging sapi berkuah keruh kecokelatan dengan rasa kaldu pekat yang gurih, disajikan dengan irisan telur rebus dan seledri.",
+      "porsi": 4,
+      "waktu_menit": 60,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Berkuah", "Khas Indonesia", "Makan Malam"],
+      "bahan": [
+        { "nama": "Daging sapi (sandung lamur)", "takaran": "400 gram" },
+        { "nama": "Beras/Nasi putih", "takaran": "Untuk penyajian" },
+        { "nama": "Bumbu halus (bawang, jahe, kunyit, ketumbar, merica)", "takaran": "4 sdm" },
+        { "nama": "Serai, Daun jeruk, Lengkuas geprek", "takaran": "Secukupnya" },
+        { "nama": "Telur rebus & Jeruk nipis", "takaran": "Bahan pelengkap" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Rebus Daging",
+          "deskripsi": "Rebus daging sapi dalam air mendidih hingga setengah empuk. Buang buih kotoran di permukaannya. Angkat daging, potong dadu, lalu masukkan kembali ke kaldu."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Tumis Bumbu Soto",
+          "deskripsi": "Tumis bumbu halus bersama serai, daun jeruk, dan lengkuas hingga matang dan harum. Tuang tumisan bumbu ini ke dalam panci rebusan daging."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Masak Kuah Berkaldu",
+          "deskripsi": "Masak kuah dengan api kecil hingga daging benar-benar empuk dan bumbu meresap. Bumbui dengan garam dan sedikit gula. Sajikan di mangkuk dengan pelengkap."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 310,
+        "protein": "26g",
+        "lemak": "18g",
+        "karbohidrat": "10g",
+        "serat": "1g"
+      }
+    },
+    {
+      "id": 29,
+      "nama": "Terong Balado Teri Jengki",
+      "deskripsi": "Terong ungu goreng yang dilumuri bumbu balado pedas dan ikan teri jengki yang asin gurih.",
+      "porsi": 3,
+      "waktu_menit": 25,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Pedas", "Sayuran", "Murah"],
+      "bahan": [
+        { "nama": "Terong ungu", "takaran": "2 buah besar, potong-potong" },
+        { "nama": "Teri jengki/teri medan", "takaran": "50 gram, cuci bersih" },
+        { "nama": "Bumbu tumbuk kasar (cabai merah, bawang merah, tomat)", "takaran": "4 sdm" },
+        { "nama": "Garam & Gula", "takaran": "Secukupnya" },
+        { "nama": "Minyak goreng", "takaran": "Secukupnya" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Goreng Terong & Teri",
+          "deskripsi": "Goreng terong ungu sebentar saja hingga agak layu, angkat dan tiriskan. Goreng ikan teri hingga kering dan renyah, sisihkan."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Tumis Sambal",
+          "deskripsi": "Tumis bumbu tumbuk kasar dengan sisa minyak secukupnya. Masak dengan api sedang hingga bau langu cabai hilang dan sambal matang kemerahan."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Campur Bersama",
+          "deskripsi": "Bumbui sambal dengan sedikit garam (karena teri sudah asin) dan gula. Matikan api. Masukkan terong dan teri goreng, aduk rata perlahan. Siap dihidangkan."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 220,
+        "protein": "8g",
+        "lemak": "16g",
+        "karbohidrat": "14g",
+        "serat": "4g"
+      }
+    },
+    {
+      "id": 30,
+      "nama": "Nasi Bakar Ayam Kemangi",
+      "deskripsi": "Nasi gurih berbumbu yang dibungkus daun pisang, diisi ayam suwir kemangi pedas, lalu dibakar untuk mengeluarkan aroma asap.",
+      "porsi": 3,
+      "waktu_menit": 45,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Khas Indonesia", "Makan Siang", "Tinggi Protein"],
+      "bahan": [
+        { "nama": "Nasi putih", "takaran": "3 porsi" },
+        { "nama": "Ayam suwir matang", "takaran": "150 gram" },
+        { "nama": "Daun kemangi", "takaran": "1 genggam besar" },
+        { "nama": "Daun pisang", "takaran": "Secukupnya, layukan" },
+        { "nama": "Bumbu halus isian (cabai merah, bawang, kunyit)", "takaran": "2 sdm" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Buat Isian Ayam",
+          "deskripsi": "Tumis bumbu halus bersama serai dan daun jeruk hingga harum. Masukkan ayam suwir, tambahkan sedikit air, garam, dan gula. Masak hingga meresap. Matikan api, masukkan kemangi, aduk rata."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Bungkus Nasi",
+          "deskripsi": "Ambil 2 lembar daun pisang. Taruh satu porsi nasi putih di atasnya, pipihkan. Beri isian ayam kemangi di tengahnya. Gulung padat menyerupai lontong, sematkan lidi di kedua ujungnya."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Bakar Nasi",
+          "deskripsi": "Bakar bungkusan nasi di atas teflon atau pemanggang hingga daun pisang layu, kecokelatan, dan beraroma wangi asap. Sajikan selagi hangat."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 390,
+        "protein": "18g",
+        "lemak": "10g",
+        "karbohidrat": "55g",
+        "serat": "2g"
+      }
+    },
+    {
+      "id": 31,
+      "nama": "Mie Aceh Kuah Pedas",
+      "deskripsi": "Mie kuning tebal dengan kuah kental berbumbu rempah kari pedas khas Aceh, dilengkapi irisan daging dan sayuran.",
+      "porsi": 2,
+      "waktu_menit": 35,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Pedas", "Berkuah", "Khas Indonesia"],
+      "bahan": [
+        { "nama": "Mie kuning/Mie lidi tebal", "takaran": "200 gram, rebus matang" },
+        { "nama": "Daging sapi/kambing", "takaran": "100 gram, potong kecil" },
+        { "nama": "Kol & Tauge", "takaran": "Secukupnya" },
+        { "nama": "Bumbu halus (cabai merah, bawang, kemiri, kapulaga, jintan, kari bubuk)", "takaran": "4 sdm" },
+        { "nama": "Kecap manis & Air kaldu", "takaran": "Secukupnya" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Tumis Bumbu & Daging",
+          "deskripsi": "Panaskan minyak, tumis bumbu halus bersama irisan bawang merah hingga wangi. Masukkan daging, masak hingga berubah warna."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Masak Kuah",
+          "deskripsi": "Tuangkan air kaldu, tambahkan kecap manis, garam, dan kaldu bubuk. Masak hingga daging empuk dan kuah sedikit menyusut."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Masukkan Mie & Sayuran",
+          "deskripsi": "Masukkan kol, tauge, dan mie kuning matang. Aduk sebentar hingga bumbu meresap ke dalam mie. Angkat dan sajikan dengan taburan bawang goreng dan emping."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 450,
+        "protein": "18g",
+        "lemak": "16g",
+        "karbohidrat": "58g",
+        "serat": "4g"
+      }
+    },
+    {
+      "id": 32,
+      "nama": "Telur Bumbu Bali",
+      "deskripsi": "Telur rebus yang digoreng berkulit, lalu dimasak dengan bumbu merah pekat yang manis, pedas, dan beraroma khas.",
+      "porsi": 4,
+      "waktu_menit": 30,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Tinggi Protein", "Khas Indonesia", "Murah"],
+      "bahan": [
+        { "nama": "Telur ayam", "takaran": "4 butir, rebus dan kupas" },
+        { "nama": "Bumbu halus (cabai merah, bawang, terasi, tomat)", "takaran": "4 sdm" },
+        { "nama": "Kecap manis", "takaran": "2 sdm" },
+        { "nama": "Daun jeruk", "takaran": "3 lembar, buang tulang daunnya" },
+        { "nama": "Gula merah muda", "takaran": "1 sdt" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Goreng Telur",
+          "deskripsi": "Goreng telur rebus dalam minyak panas hingga bagian luarnya berkulit kecokelatan. Angkat dan tiriskan."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Tumis Bumbu",
+          "deskripsi": "Tumis bumbu halus bersama daun jeruk hingga harum, matang, dan mengeluarkan minyak."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Resapkan Bumbu",
+          "deskripsi": "Masukkan telur goreng, tambahkan kecap manis, gula merah, garam, dan sedikit air. Masak dengan api kecil hingga bumbu mengental dan meresap ke dalam telur."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 180,
+        "protein": "12g",
+        "lemak": "12g",
+        "karbohidrat": "8g",
+        "serat": "1g"
+      }
+    },
+    {
+      "id": 33,
+      "nama": "Cumi Saus Tiram",
+      "deskripsi": "Potongan cumi segar yang ditumis cepat dengan bawang bombay dan saus tiram gurih manis.",
+      "porsi": 2,
+      "waktu_menit": 15,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Seafood", "Di bawah 20 Menit", "Praktis"],
+      "bahan": [
+        { "nama": "Cumi segar", "takaran": "250 gram, bersihkan tinta dan potong cincin" },
+        { "nama": "Bawang bombay", "takaran": "1/2 buah, iris memanjang" },
+        { "nama": "Bawang putih", "takaran": "3 siung, memarkan dan cincang" },
+        { "nama": "Saus tiram", "takaran": "3 sdm" },
+        { "nama": "Kecap manis & Lada putih", "takaran": "Secukupnya" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Tumis Bawang",
+          "deskripsi": "Panaskan sedikit minyak atau margarin, tumis bawang putih hingga harum, lalu masukkan bawang bombay, tumis hingga layu."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Masak Cumi",
+          "deskripsi": "Gunakan api besar, masukkan cumi cincin. Aduk cepat hingga cumi berubah warna menjadi putih dan sedikit menggulung."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Beri Saus",
+          "deskripsi": "Segera tambahkan saus tiram, kecap manis, lada, dan sedikit kaldu jamur. Aduk rata kurang lebih 1-2 menit agar cumi tidak alot. Angkat."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 210,
+        "protein": "20g",
+        "lemak": "8g",
+        "karbohidrat": "12g",
+        "serat": "1g"
+      }
+    },
+    {
+      "id": 34,
+      "nama": "Bubur Ayam Kuah Kuning",
+      "deskripsi": "Bubur nasi lembut dengan siraman kuah kaldu kuning yang gurih, disajikan dengan ayam suwir, kacang kedelai, dan kerupuk.",
+      "porsi": 4,
+      "waktu_menit": 60,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Sarapan", "Khas Indonesia", "Berkuah"],
+      "bahan": [
+        { "nama": "Beras", "takaran": "1 cup, cuci bersih" },
+        { "nama": "Dada ayam", "takaran": "250 gram, rebus untuk kaldu dan suwiran" },
+        { "nama": "Bumbu halus kuah (bawang, kunyit, kemiri, ketumbar)", "takaran": "3 sdm" },
+        { "nama": "Daun salam & Serai", "takaran": "2 lembar dan 1 batang" },
+        { "nama": "Pelengkap (kacang kedelai goreng, seledri, kerupuk, bawang goreng)", "takaran": "Secukupnya" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Masak Bubur",
+          "deskripsi": "Masak beras dengan air kaldu rebusan ayam (tambahkan air jika kurang), daun salam, dan garam. Masak sambil terus diaduk hingga beras hancur dan menjadi bubur kental."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Buat Kuah Kuning",
+          "deskripsi": "Tumis bumbu halus kuah bersama serai dan daun jeruk hingga harum. Masukkan sisa air kaldu ayam, didihkan, bumbui dengan garam dan merica. Goreng dada ayam rebus sebentar, lalu suwir-suwir."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Penyajian",
+          "deskripsi": "Tuang bubur ke mangkuk, siram dengan kuah kuning. Tata ayam suwir, kacang kedelai, seledri, dan bawang goreng di atasnya. Tambahkan kerupuk."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 320,
+        "protein": "18g",
+        "lemak": "10g",
+        "karbohidrat": "42g",
+        "serat": "2g"
+      }
+    },
+    {
+      "id": 35,
+      "nama": "Tahu Tek Surabaya",
+      "deskripsi": "Potongan tahu goreng, telur dadar, dan lontong yang disiram dengan saus bumbu kacang campur petis udang yang hitam pekat dan gurih.",
+      "porsi": 2,
+      "waktu_menit": 25,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Vegetarian", "Khas Indonesia", "Makan Malam"],
+      "bahan": [
+        { "nama": "Tahu putih", "takaran": "1 kotak besar, potong dadu" },
+        { "nama": "Telur ayam", "takaran": "2 butir, kocok lepas" },
+        { "nama": "Tauge", "takaran": "Secukupnya, seduh air panas" },
+        { "nama": "Bumbu ulek (kacang tanah goreng, bawang putih goreng, cabai)", "takaran": "3 sdm" },
+        { "nama": "Petis udang & Kecap manis", "takaran": "Masing-masing 2 sdm" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Goreng Tahu Telur",
+          "deskripsi": "Campur potongan tahu ke dalam kocokan telur yang sudah diberi sedikit garam. Dadar di wajan hingga matang kecokelatan. Potong-potong menggunakan gunting."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Ulek Bumbu Petis",
+          "deskripsi": "Ulek kacang tanah, bawang putih, dan cabai rawit hingga halus. Tambahkan petis udang, kecap manis, dan air matang secukupnya hingga menjadi saus kental."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Tata & Sajikan",
+          "deskripsi": "Letakkan potongan lontong (opsional), tahu telur, dan tauge di atas piring. Siram dengan bumbu petis secara merata. Taburi bawang goreng dan kerupuk."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 390,
+        "protein": "20g",
+        "lemak": "22g",
+        "karbohidrat": "28g",
+        "serat": "5g"
+      }
+    },
+    {
+      "id": 36,
+      "nama": "Ayam Rica-Rica Manado",
+      "deskripsi": "Potongan ayam yang dimasak dengan bumbu tumbuk kasar super pedas, kaya akan aroma daun pandan dan kemangi segar.",
+      "porsi": 4,
+      "waktu_menit": 40,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Pedas", "Tinggi Protein", "Khas Indonesia"],
+      "bahan": [
+        { "nama": "Ayam potong", "takaran": "500 gram, potong kecil-kecil, goreng setengah matang" },
+        { "nama": "Bumbu tumbuk kasar (cabai merah, rawit, bawang merah)", "takaran": "5 sdm" },
+        { "nama": "Daun pandan, daun jeruk, serai", "takaran": "Secukupnya" },
+        { "nama": "Daun kemangi", "takaran": "1 genggam" },
+        { "nama": "Jeruk nipis", "takaran": "1 buah" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Tumis Bumbu Rica",
+          "deskripsi": "Tumis bumbu tumbuk kasar bersama serai geprek, irisan daun pandan, dan daun jeruk hingga harum dan benar-benar matang agar tidak langu."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Ungkep Ayam",
+          "deskripsi": "Masukkan ayam goreng setengah matang. Tuang sedikit air, bumbui dengan garam, gula, dan perasan jeruk nipis. Masak hingga bumbu meresap dan air mengering."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Tambahkan Kemangi",
+          "deskripsi": "Matikan api, segera masukkan daun kemangi segar dan irisan tomat. Aduk rata hingga kemangi layu oleh panas sisa dari wajan."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 310,
+        "protein": "26g",
+        "lemak": "18g",
+        "karbohidrat": "10g",
+        "serat": "3g"
+      }
+    },
+    {
+      "id": 37,
+      "nama": "Sup Iga Sapi Kuah Bening",
+      "deskripsi": "Sup berkuah bening yang kaya akan sari kaldu tulang iga sapi, dilengkapi dengan wortel, kentang, dan taburan seledri segar.",
+      "porsi": 4,
+      "waktu_menit": 90,
+      "tingkat_kesulitan": "Sulit",
+      "tag": ["Berkuah", "Tinggi Protein", "Makan Malam"],
+      "bahan": [
+        { "nama": "Iga sapi", "takaran": "500 gram, cuci bersih" },
+        { "nama": "Wortel & Kentang", "takaran": "Masing-masing 2 buah, potong dadu besar" },
+        { "nama": "Bumbu rempah (kayu manis, cengkeh, pala bubuk)", "takaran": "Secukupnya" },
+        { "nama": "Bawang putih", "takaran": "5 siung, haluskan dan tumis" },
+        { "nama": "Daun bawang & Seledri", "takaran": "2 batang, potong kasar" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Rebus Iga & Buang Kotoran",
+          "deskripsi": "Rebus iga dalam air mendidih selama 10 menit, lalu buang air rebusan pertamanya agar kuah tidak amis dan bening. Rebus kembali dengan air baru hingga empuk."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Bumbui Kaldu",
+          "deskripsi": "Masukkan bumbu rempah utuh (cengkeh, kayu manis), pala bubuk, dan tumisan bawang putih ke dalam panci rebusan iga. Bumbui dengan garam dan kaldu sapi."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Masukkan Sayuran",
+          "deskripsi": "Setelah iga empuk, masukkan kentang dan wortel. Masak hingga sayuran matang. Sesaat sebelum diangkat, taburkan daun bawang, seledri, dan bawang goreng."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 380,
+        "protein": "28g",
+        "lemak": "24g",
+        "karbohidrat": "15g",
+        "serat": "3g"
+      }
+    },
+    {
+      "id": 38,
+      "nama": "Pempek Dos (Tanpa Ikan)",
+      "deskripsi": "Pempek kenyal dan renyah yang dibuat murni dari tepung tanpa campuran daging ikan, disajikan dengan kuah cuko asam pedas manis.",
+      "porsi": 4,
+      "waktu_menit": 45,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Camilan", "Gorengan", "Murah"],
+      "bahan": [
+        { "nama": "Tepung terigu", "takaran": "125 gram" },
+        { "nama": "Tepung sagu/tapioka", "takaran": "250 gram" },
+        { "nama": "Bawang putih haluskan & Garam", "takaran": "2 siung dan 1 sdt" },
+        { "nama": "Air mendidih", "takaran": "250 ml" },
+        { "nama": "Telur", "takaran": "1 butir (untuk isian kapal selam mini)" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Buat Biang",
+          "deskripsi": "Campurkan tepung terigu, bawang putih halus, kaldu bubuk, dan garam. Tuangkan air mendidih sedikit demi sedikit sambil diaduk dengan spatula kayu hingga menjadi adonan kental yang lengket. Biarkan agak dingin."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Uleni & Bentuk",
+          "deskripsi": "Tambahkan tepung sagu sedikit demi sedikit ke adonan biang. Uleni perlahan dengan tangan (jangan terlalu kuat agar tidak alot) hingga adonan bisa dibentuk. Bentuk lenjer (memanjang) atau isi dengan kocokan telur."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Rebus & Goreng",
+          "deskripsi": "Rebus pempek dalam air mendidih yang diberi sedikit minyak hingga mengapung. Tiriskan dan biarkan dingin, lalu goreng dalam minyak panas hingga luarnya garing."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 280,
+        "protein": "4g",
+        "lemak": "8g",
+        "karbohidrat": "48g",
+        "serat": "1g"
+      }
+    },
+    {
+      "id": 39,
+      "nama": "Sayur Asem Jakarta",
+      "deskripsi": "Sayur kuah bening kemerahan yang rasanya sangat segar, asam, dan sedikit pedas, berisi aneka sayuran lokal.",
+      "porsi": 4,
+      "waktu_menit": 30,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Sayuran", "Berkuah", "Rendah Lemak"],
+      "bahan": [
+        { "nama": "Sayuran asem (melinjo, nangka muda, labu siam, jagung, kacang panjang, daun melinjo)", "takaran": "1 paket lengkap" },
+        { "nama": "Asam jawa", "takaran": "2 sdm, larutkan dengan air hangat" },
+        { "nama": "Bumbu halus (cabai merah, bawang merah, terasi bakar, kemiri)", "takaran": "3 sdm" },
+        { "nama": "Lengkuas & Daun salam", "takaran": "1 ruas geprek dan 2 lembar" },
+        { "nama": "Gula merah muda", "takaran": "2 sdm" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Rebus Sayuran Keras",
+          "deskripsi": "Didihkan air dalam panci. Masukkan sayuran yang keras terlebih dahulu (melinjo, nangka muda, jagung manis) bersama daun salam dan lengkuas. Rebus hingga empuk."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Masukkan Bumbu",
+          "deskripsi": "Masukkan bumbu halus, air asam jawa, gula merah, dan garam. Aduk rata dan biarkan bumbu meresap ke dalam kuah."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Tambahkan Sayuran Daun",
+          "deskripsi": "Terakhir, masukkan labu siam, kacang panjang, dan daun melinjo. Masak sebentar saja (sekitar 3 menit) agar teksturnya tetap renyah. Angkat dan sajikan hangat."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 120,
+        "protein": "4g",
+        "lemak": "2g",
+        "karbohidrat": "22g",
+        "serat": "6g"
+      }
+    },
+    {
+      "id": 40,
+      "nama": "Tumis Pare Nenek Teri",
+      "deskripsi": "Tumisan sayur pare renyah yang diolah sedemikian rupa agar tidak terlalu pahit, dipadukan dengan teri jengki asin dan irisan cabai.",
+      "porsi": 3,
+      "waktu_menit": 25,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Sayuran", "Murah", "Makan Siang"],
+      "bahan": [
+        { "nama": "Pare (paria)", "takaran": "2 buah ukuran sedang, belah dan buang bijinya" },
+        { "nama": "Teri jengki atau teri medan", "takaran": "50 gram, goreng kering" },
+        { "nama": "Bawang merah & putih", "takaran": "Total 7 siung, iris tipis" },
+        { "nama": "Cabai rawit & Cabai merah iris", "takaran": "Sesuai selera" },
+        { "nama": "Garam kasar", "takaran": "1 sdm (untuk meremas pare)" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Kurangi Rasa Pahit",
+          "deskripsi": "Iris tipis pare. Taburi dengan garam kasar, lalu remas-remas pare dengan kuat hingga mengeluarkan air dan layu. Cuci bersih pare di bawah air mengalir, lalu peras hingga kering."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Tumis Bumbu",
+          "deskripsi": "Panaskan sedikit minyak, tumis irisan bawang merah dan bawang putih hingga harum. Masukkan irisan cabai, tumis sebentar."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Masak Pare & Teri",
+          "deskripsi": "Masukkan pare yang sudah diperas. Beri sedikit gula pasir dan kaldu jamur (hindari garam berlebih karena ada teri). Aduk cepat dengan api besar hingga pare matang namun tetap renyah. Matikan api, campurkan teri goreng."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 140,
+        "protein": "6g",
+        "lemak": "8g",
+        "karbohidrat": "12g",
+        "serat": "5g"
+      }
+    },
+    {
+      "id": 41,
+      "nama": "Bakmi Goreng Jawa",
+      "deskripsi": "Mie kuning basah yang ditumis dengan bumbu ulek kemiri beraroma gurih, lengkap dengan suwiran ayam, telur, dan kol.",
+      "porsi": 3,
+      "waktu_menit": 25,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Makan Malam", "Karbohidrat", "Khas Indonesia"],
+      "bahan": [
+        { "nama": "Mie basah / Mie urai kuning", "takaran": "300 gram, seduh air panas" },
+        { "nama": "Ayam rebus suwir", "takaran": "100 gram" },
+        { "nama": "Telur ayam", "takaran": "2 butir" },
+        { "nama": "Bumbu halus (bawang merah, putih, kemiri, ebi)", "takaran": "3 sdm" },
+        { "nama": "Kecap manis & Sawi hijau", "takaran": "Secukupnya" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Tumis Bumbu Dasar",
+          "deskripsi": "Panaskan minyak, tumis bumbu halus hingga sangat harum dan matang sempurna agar tidak langu kemiri."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Orak-Arik Telur & Sayur",
+          "deskripsi": "Sisihkan bumbu di tepi wajan, masukkan telur dan buat orak-arik. Tambahkan sawi hijau, kol iris, dan ayam suwir, aduk rata."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Masukkan Mie",
+          "deskripsi": "Masukkan mie kuning basah. Tuangkan kecap manis, garam, lada, dan sedikit kaldu. Aduk cepat di atas api besar hingga bumbu meresap dan mie beraroma 'smokey'. Sajikan."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 410,
+        "protein": "16g",
+        "lemak": "18g",
+        "karbohidrat": "45g",
+        "serat": "3g"
+      }
+    },
+    {
+      "id": 42,
+      "nama": "Nasi Goreng Kampung Teri",
+      "deskripsi": "Nasi goreng putih sederhana tanpa kecap manis, dengan sentuhan pedas cabai rawit merah dan gurihnya teri medan.",
+      "porsi": 2,
+      "waktu_menit": 15,
+      "tingkat_kesulitan": "Pemula",
+      "tag": ["Di bawah 20 Menit", "Sarapan", "Murah"],
+      "bahan": [
+        { "nama": "Nasi putih dingin", "takaran": "2 porsi" },
+        { "nama": "Teri medan", "takaran": "3 sdm, goreng kering" },
+        { "nama": "Telur ayam", "takaran": "1 butir" },
+        { "nama": "Bawang merah & putih", "takaran": "4 siung dan 2 siung, iris tipis" },
+        { "nama": "Cabai rawit merah", "takaran": "5 buah, iris tipis" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Goreng Telur",
+          "deskripsi": "Panaskan sedikit minyak, orak-arik telur hingga matang, lalu sisihkan di tepi wajan."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Tumis Bumbu Iris",
+          "deskripsi": "Tumis irisan bawang merah, bawang putih, dan cabai rawit hingga harum dan kecokelatan."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Campur Nasi & Teri",
+          "deskripsi": "Masukkan nasi putih. Besarkan api, aduk rata dengan bumbu dan telur. Beri garam dan kaldu bubuk. Sesaat sebelum diangkat, masukkan teri goreng agar tetap renyah."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 380,
+        "protein": "14g",
+        "lemak": "15g",
+        "karbohidrat": "48g",
+        "serat": "1g"
+      }
+    },
+    {
+      "id": 43,
+      "nama": "Telur Barendo Minang",
+      "deskripsi": "Telur dadar khas rumah makan Padang yang sangat renyah, berenda, dan gurih maksimal.",
+      "porsi": 2,
+      "waktu_menit": 10,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Di bawah 20 Menit", "Tinggi Protein", "Khas Indonesia"],
+      "bahan": [
+        { "nama": "Telur bebek/ayam", "takaran": "3 butir" },
+        { "nama": "Bawang merah", "takaran": "5 siung, iris tipis" },
+        { "nama": "Cabai merah keriting", "takaran": "3 buah, iris serong" },
+        { "nama": "Daun bawang", "takaran": "1 batang, iris halus" },
+        { "nama": "Minyak goreng", "takaran": "Sangat banyak (minimal 150 ml)" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Kocok Telur Berbuih",
+          "deskripsi": "Campurkan telur, bawang merah, cabai, daun bawang, garam, dan lada. Kocok kuat-kuat menggunakan garpu hingga adonan telur benar-benar berbuih banyak."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Goreng Bersarang",
+          "deskripsi": "Panaskan minyak yang banyak di wajan cekung hingga benar-benar panas dan berasap sedikit. Tuang adonan telur dari jarak agak tinggi agar telur langsung menyebar dan membentuk renda."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Balik dan Tiriskan",
+          "deskripsi": "Goreng hingga bagian bawah kokoh dan kecokelatan, balik dengan hati-hati. Masak hingga garing. Angkat dan tiriskan minyaknya dengan saringan kawat."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 320,
+        "protein": "16g",
+        "lemak": "26g",
+        "karbohidrat": "4g",
+        "serat": "1g"
+      }
+    },
+    {
+      "id": 44,
+      "nama": "Opor Ayam Kuning Susu",
+      "deskripsi": "Variasi opor ayam empuk berkuah kuning yang menggunakan susu evaporasi sebagai pengganti santan agar lebih ringan namun tetap gurih.",
+      "porsi": 5,
+      "waktu_menit": 50,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Tinggi Protein", "Berkuah", "Makan Siang"],
+      "bahan": [
+        { "nama": "Ayam potong", "takaran": "1 ekor, potong 10 bagian" },
+        { "nama": "Susu evaporasi", "takaran": "1 kaleng (380 ml)" },
+        { "nama": "Bumbu halus (bawang, kemiri, ketumbar, jintan, kunyit)", "takaran": "4 sdm" },
+        { "nama": "Serai, Lengkuas, Daun salam, Daun jeruk", "takaran": "Secukupnya" },
+        { "nama": "Garam & Gula", "takaran": "Secukupnya" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Tumis Rempah",
+          "deskripsi": "Tumis bumbu halus bersama daun salam, daun jeruk, serai, dan lengkuas hingga matang, harum, dan mengeluarkan minyak."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Ungkep Ayam",
+          "deskripsi": "Masukkan ayam potong, aduk hingga berlapis bumbu dan berubah warna. Tambahkan sedikit air, ungkep dengan api sedang hingga ayam setengah empuk."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Tuang Susu Evaporasi",
+          "deskripsi": "Masukkan susu evaporasi, garam, dan sedikit gula. Masak terus sambil sesekali diaduk perlahan hingga kuah agak menyusut dan ayam benar-benar empuk. Taburi bawang goreng sebelum disajikan."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 450,
+        "protein": "35g",
+        "lemak": "28g",
+        "karbohidrat": "12g",
+        "serat": "2g"
+      }
+    },
+    {
+      "id": 45,
+      "nama": "Bistik Daging Sapi Cincang",
+      "deskripsi": "Patties daging sapi cincang berbumbu lada pala yang empuk, disiram kuah bistik kental manis gurih ala rumahan tempo dulu.",
+      "porsi": 4,
+      "waktu_menit": 40,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Tinggi Protein", "Anak-anak", "Makan Malam"],
+      "bahan": [
+        { "nama": "Daging sapi cincang", "takaran": "300 gram" },
+        { "nama": "Telur ayam & Tepung roti", "takaran": "1 butir dan 3 sdm (untuk adonan daging)" },
+        { "nama": "Bawang bombay", "takaran": "1 buah, iris membulat" },
+        { "nama": "Kecap manis & Saus tomat", "takaran": "Masing-masing 3 sdm dan 1 sdm" },
+        { "nama": "Pala bubuk & Lada hitam", "takaran": "1/2 sdt" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Buat Daging Bistik",
+          "deskripsi": "Campurkan daging cincang, telur, tepung roti, garam, pala, dan lada. Uleni, lalu bentuk bulat pipih seperti patty burger. Goreng/panggang di teflon dengan sedikit margarin hingga matang. Sisihkan."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Buat Kuah Bistik",
+          "deskripsi": "Di teflon yang sama, tumis sisa margarin dengan separuh bawang bombay. Masukkan air kaldu/air biasa, kecap manis, saus tomat, garam, dan pala bubuk. Didihkan."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Sajikan Bersama",
+          "deskripsi": "Masukkan kembali daging bistik ke dalam kuah bersama sisa irisan bawang bombay. Masak sebentar hingga kuah mengental meresap. Sajikan dengan kentang dan buncis rebus."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 360,
+        "protein": "24g",
+        "lemak": "20g",
+        "karbohidrat": "18g",
+        "serat": "3g"
+      }
+    },
+    {
+      "id": 46,
+      "nama": "Tumis Bunga Pepaya Teri",
+      "deskripsi": "Hidangan eksotis bernuansa pedas gurih dengan hint pahit ringan dari bunga pepaya, ditambah teri goreng yang kriuk.",
+      "porsi": 3,
+      "waktu_menit": 25,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Sayuran", "Khas Indonesia", "Pedas"],
+      "bahan": [
+        { "nama": "Bunga pepaya", "takaran": "250 gram, petik dari batangnya" },
+        { "nama": "Daun jambu biji / Asam jawa", "takaran": "Secukupnya (untuk merebus bunga)" },
+        { "nama": "Teri jengki/medan", "takaran": "50 gram, goreng kering" },
+        { "nama": "Bawang merah & bawang putih", "takaran": "Total 8 siung, iris tipis" },
+        { "nama": "Cabai rawit merah", "takaran": "10 buah, iris serong" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Hilangkan Pahit",
+          "deskripsi": "Rebus bunga pepaya bersama daun jambu biji atau sedikit asam jawa dan garam hingga empuk. Ini bertujuan untuk mengurangi rasa pahit yang menyengat. Tiriskan, peras perlahan, dan buang daun jambunya."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Tumis Bumbu",
+          "deskripsi": "Panaskan minyak sisa menggoreng teri, tumis bawang merah, bawang putih, dan irisan cabai rawit hingga matang wangi."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Masak Bunga Pepaya",
+          "deskripsi": "Masukkan bunga pepaya rebus. Bumbui dengan garam, kaldu jamur, dan sedikit gula. Aduk cepat hingga rata, matikan api, campur dengan teri goreng. Siap disantap."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 130,
+        "protein": "8g",
+        "lemak": "7g",
+        "karbohidrat": "10g",
+        "serat": "4g"
+      }
+    },
+    {
+      "id": 47,
+      "nama": "Ikan Nila Asam Manis Goreng Tepung",
+      "deskripsi": "Fillet ikan nila berlapis tepung garing yang disiram saus asam manis segar berisi irisan nanas, wortel, dan bawang bombay.",
+      "porsi": 3,
+      "waktu_menit": 35,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Seafood", "Anak-anak", "Tinggi Protein"],
+      "bahan": [
+        { "nama": "Ikan nila fillet", "takaran": "300 gram, potong kotak" },
+        { "nama": "Tepung bumbu serbaguna", "takaran": "1 bungkus kecil" },
+        { "nama": "Saus tomat & Saus sambal", "takaran": "4 sdm dan 1 sdm" },
+        { "nama": "Wortel & Nanas", "takaran": "Secukupnya, potong korek api/dadu" },
+        { "nama": "Bawang bombay", "takaran": "1/2 buah, potong dadu" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Goreng Ikan Krispi",
+          "deskripsi": "Baluri potongan fillet ikan nila dengan adonan tepung basah, lalu gulingkan ke tepung kering. Goreng dalam minyak panas hingga kuning keemasan dan krispi. Sisihkan."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Buat Saus Asam Manis",
+          "deskripsi": "Tumis bawang bombay dan sedikit bawang putih cincang hingga harum. Masukkan wortel, air, saus tomat, saus sambal, cuka sedikit, dan gula. Masak hingga wortel empuk."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Penyajian",
+          "deskripsi": "Kentalkan saus dengan larutan maizena, lalu masukkan potongan nanas matikan api. Siram saus asam manis di atas ikan nila goreng krispi sesaat sebelum disajikan."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 380,
+        "protein": "26g",
+        "lemak": "14g",
+        "karbohidrat": "35g",
+        "serat": "3g"
+      }
+    },
+    {
+      "id": 48,
+      "nama": "Balado Terong Telur Puyuh",
+      "deskripsi": "Perpaduan pas antara terong ungu yang lembut dan telur puyuh gurih dalam balutan sambal balado merah yang pedas nikmat.",
+      "porsi": 3,
+      "waktu_menit": 25,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Pedas", "Murah", "Makan Siang"],
+      "bahan": [
+        { "nama": "Terong ungu", "takaran": "2 buah besar, belah dan potong memanjang" },
+        { "nama": "Telur puyuh", "takaran": "15 butir, rebus dan kupas kulitnya" },
+        { "nama": "Bumbu balado (cabai merah, bawang merah, tomat)", "takaran": "4 sdm, haluskan kasar" },
+        { "nama": "Daun jeruk", "takaran": "2 lembar" },
+        { "nama": "Garam & Kaldu jamur", "takaran": "Secukupnya" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Goreng Terong & Telur",
+          "deskripsi": "Goreng terong sebentar dalam minyak panas hingga layu, tiriskan. Goreng juga telur puyuh rebus sebentar saja hingga bagian luarnya agak berkulit kecokelatan."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Tumis Bumbu Balado",
+          "deskripsi": "Kurangi minyak di wajan, tumis bumbu balado tumbuk kasar bersama daun jeruk hingga bau langu cabai hilang dan minyaknya keluar."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Campur Rata",
+          "deskripsi": "Bumbui sambal dengan garam, sejumput gula pasir, dan kaldu jamur. Masukkan terong dan telur puyuh goreng, aduk rata perlahan agar terong tidak hancur. Angkat."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 210,
+        "protein": "9g",
+        "lemak": "15g",
+        "karbohidrat": "12g",
+        "serat": "5g"
+      }
+    },
+    {
+      "id": 49,
+      "nama": "Ayam Suwir Kemangi Bumbu Pedas",
+      "deskripsi": "Suwiran daging dada ayam yang bumbunya meresap sampai ke serat, pedas menggigit dengan keharuman daun kemangi yang kuat.",
+      "porsi": 4,
+      "waktu_menit": 30,
+      "tingkat_kesulitan": "Mudah",
+      "tag": ["Tinggi Protein", "Pedas", "Makan Malam"],
+      "bahan": [
+        { "nama": "Dada ayam", "takaran": "350 gram, rebus matang lalu suwir halus" },
+        { "nama": "Daun kemangi", "takaran": "2 genggam besar" },
+        { "nama": "Bumbu halus (cabai rawit, merah keriting, bawang, kencur)", "takaran": "4 sdm" },
+        { "nama": "Daun jeruk", "takaran": "4 lembar, iris halus" },
+        { "nama": "Air kaldu ayam", "takaran": "100 ml" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Tumis Bumbu Halus",
+          "deskripsi": "Panaskan sedikit minyak, tumis bumbu halus dan irisan daun jeruk hingga benar-benar wangi dan tidak pucat."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Masak Ayam Suwir",
+          "deskripsi": "Masukkan suwiran ayam, aduk rata dengan bumbu. Tuangkan sedikit air kaldu sisa rebusan ayam, tambahkan garam, gula merah sedikit, dan lada."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Campur Kemangi",
+          "deskripsi": "Masak terus hingga air kaldu menyusut dan bumbu meresap kering ke serat ayam. Matikan api, masukkan daun kemangi, aduk hingga kemangi layu."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 240,
+        "protein": "28g",
+        "lemak": "10g",
+        "karbohidrat": "8g",
+        "serat": "2g"
+      }
+    },
+    {
+      "id": 50,
+      "nama": "Nasi Bakar Cumi Asin Cabai Ijo",
+      "deskripsi": "Nasi gurih dibungkus daun pisang yang diisi dengan tumisan cumi asin pedas gurih berlimpah cabai hijau dan petai.",
+      "porsi": 3,
+      "waktu_menit": 45,
+      "tingkat_kesulitan": "Menengah",
+      "tag": ["Seafood", "Khas Indonesia", "Makan Siang"],
+      "bahan": [
+        { "nama": "Nasi putih gurih/uduk", "takaran": "3 porsi" },
+        { "nama": "Cumi asin", "takaran": "150 gram, rendam air hangat, potong" },
+        { "nama": "Cabai hijau besar & rawit", "takaran": "Secukupnya, iris serong" },
+        { "nama": "Petai", "takaran": "1 papan, kupas" },
+        { "nama": "Daun pisang", "takaran": "Secukupnya, lemaskan di atas kompor" }
+      ],
+      "langkah": [
+        {
+          "langkah_ke": 1,
+          "judul": "Tumis Cumi Asin",
+          "deskripsi": "Tumis irisan bawang merah, bawang putih, dan daun jeruk. Masukkan cumi asin, cabai hijau, dan petai. Beri sedikit gula (tanpa garam). Masak hingga cumi matang."
+        },
+        {
+          "langkah_ke": 2,
+          "judul": "Tata dan Bungkus",
+          "deskripsi": "Bentangkan daun pisang. Beri 1 porsi nasi putih, taruh 2-3 sendok tumisan cumi asin di bagian tengah. Gulung sambil dipadatkan, sematkan lidi di kedua ujungnya."
+        },
+        {
+          "langkah_ke": 3,
+          "judul": "Bakar & Sajikan",
+          "deskripsi": "Panggang bungkusan nasi di atas teflon atau alat bakar dengan api sedang. Balik perlahan hingga daun pisang terlihat kecokelatan merata dan wangi asapnya keluar."
+        }
+      ],
+      "nutrisi": {
+        "kalori": 420,
+        "protein": "18g",
+        "lemak": "12g",
+        "karbohidrat": "58g",
+        "serat": "4g"
+      }
+    }
+  ]
+}
