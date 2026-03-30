@@ -2,7 +2,6 @@ import json
 import os
 from backend.matcher import hitung_skor
 
-# Path ke resep.json disesuaikan dengan struktur folder
 DB_PATH = os.path.join(os.path.dirname(__file__), '..', 'database', 'resep.json')
 
 def load_database():
@@ -15,7 +14,7 @@ def load_database():
 
 def cari_resep(list_bahan_user, filter_waktu_cepat=False):
     """Fungsi utama untuk mencari dan mengurutkan resep."""
-    database_resep = load_database()
+    database_resep = load_database()['resep']
     hasil = []
 
     for resep in database_resep:
