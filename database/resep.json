@@ -1,2004 +1,1373 @@
 {
   "resep": [
-    {
-      "id": 1,
-      "nama": "Ayam Geprek Sambal Bawang",
-      "deskripsi": "Ayam krispi gurih yang dihancurkan bersama sambal bawang pedas nendang, cocok disantap dengan nasi hangat.",
-      "porsi": 2,
-      "waktu_menit": 30,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Tinggi Protein", "Pedas", "Makan Siang"],
-      "bahan": [
-        { "nama": "Ayam bagian paha/dada", "takaran": "2 potong" },
-        { "nama": "Tepung bumbu serbaguna", "takaran": "150 gram" },
-        { "nama": "Cabai rawit merah", "takaran": "15 buah" },
-        { "nama": "Bawang putih", "takaran": "3 siung" },
-        { "nama": "Minyak goreng panas", "takaran": "3 sdm" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Goreng Ayam",
-          "deskripsi": "Baluri ayam dengan adonan tepung basah, lalu gulingkan ke tepung kering sambil dicubit-cubit. Goreng dalam minyak panas hingga krispi dan matang. Tiriskan."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Buat Sambal",
-          "deskripsi": "Ulek kasar cabai rawit, bawang putih, garam, dan sedikit penyedap rasa."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Geprek & Sajikan",
-          "deskripsi": "Siram sambal ulek dengan minyak panas bekas menggoreng ayam. Letakkan ayam di atas cobek, lalu geprek bersama sambal hingga hancur dan tercampur."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 420,
-        "protein": "28g",
-        "lemak": "22g",
-        "karbohidrat": "25g",
-        "serat": "2g"
-      }
+  {
+    "id": 1,
+    "title": "Classic Indonesian Nasi Goreng",
+    "image": "path/to/image.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "calories": 450,
+    "nutrition": {
+      "proteins": "12g",
+      "fats": "18g",
+      "carbs": "60g",
+      "fiber": "3g"
     },
-    {
-      "id": 2,
-      "nama": "Sayur Sop Bakso Bening",
-      "deskripsi": "Sayur sop rumahan berkuah kaldu bening yang segar dengan isian sayuran dan bakso sapi kenyal.",
-      "porsi": 4,
-      "waktu_menit": 25,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Berkuah", "Sayuran", "Anak-anak"],
-      "bahan": [
-        { "nama": "Bakso sapi", "takaran": "10 butir, belah dua" },
-        { "nama": "Wortel", "takaran": "2 buah, potong bulat" },
-        { "nama": "Kentang", "takaran": "1 buah, potong dadu" },
-        { "nama": "Kol dan Buncis", "takaran": "Secukupnya, potong-potong" },
-        { "nama": "Bawang putih", "takaran": "3 siung, memarkan dan tumis sebentar" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Rebus Sayuran Keras",
-          "deskripsi": "Didihkan air dalam panci. Masukkan wortel dan kentang terlebih dahulu, rebus hingga setengah empuk."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Bumbui Kuah",
-          "deskripsi": "Masukkan tumisan bawang putih, bakso sapi, garam, lada bubuk, dan kaldu jamur ke dalam panci."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Masukkan Sayuran Daun",
-          "deskripsi": "Terakhir, masukkan kol, buncis, daun bawang, dan seledri. Masak sebentar hingga layu. Sajikan selagi hangat."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 180,
-        "protein": "10g",
-        "lemak": "6g",
-        "karbohidrat": "22g",
-        "serat": "4g"
-      }
+    "ingredients": [
+      {"name": "White Rice", "amount": "2 cups, day-old"},
+      {"name": "Egg", "amount": "1 large, beaten"},
+      {"name": "Kecap Manis (Sweet Soy Sauce)", "amount": "2 tablespoons"},
+      {"name": "Garlic", "amount": "2 cloves, minced"},
+      {"name": "Shallots", "amount": "3 small, thinly sliced"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Aromatics", "desc": "Heat oil in a wok or large skillet over medium-high heat. Sauté the garlic and shallots until fragrant and golden brown."},
+      {"step": 2, "title": "Scramble Egg", "desc": "Push the aromatics to the side of the pan. Pour in the beaten egg and scramble quickly until just set."},
+      {"step": 3, "title": "Fry Rice", "desc": "Add the cold cooked rice to the pan. Break up any clumps with a spatula and toss thoroughly with the egg and aromatics."},
+      {"step": 4, "title": "Season", "desc": "Drizzle the Kecap Manis over the rice. Season with a pinch of salt and white pepper. Stir-fry for 3-5 minutes until the rice is evenly coated and slightly caramelized."},
+      {"step": 5, "title": "Final Garnish", "desc": "Plate the rice and serve with sliced cucumber, tomato, and a fried egg on top if desired."}
+    ]
+  },
+  {
+    "id": 2,
+    "title": "One-Pot Creamy Garlic Pasta",
+    "image": "path/to/image.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "calories": 520,
+    "nutrition": {
+      "proteins": "15g",
+      "fats": "24g",
+      "carbs": "62g",
+      "fiber": "4g"
     },
-    {
-      "id": 3,
-      "nama": "Telur Dadar Khas Padang",
-      "deskripsi": "Telur dadar tebal, padat, dan gurih dengan irisan daun kunyit dan kelapa parut sangrai.",
-      "porsi": 3,
-      "waktu_menit": 15,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Di bawah 20 Menit", "Tinggi Protein", "Khas Indonesia"],
-      "bahan": [
-        { "nama": "Telur bebek/ayam", "takaran": "4 butir" },
-        { "nama": "Kelapa parut sangrai", "takaran": "2 sdm" },
-        { "nama": "Daun bawang", "takaran": "2 batang, iris halus" },
-        { "nama": "Tepung beras", "takaran": "1 sdm, larutkan sedikit air" },
-        { "nama": "Bumbu halus (bawang merah, cabai merah, kunyit)", "takaran": "2 sdm" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Campur Adonan",
-          "deskripsi": "Kocok telur bersama bumbu halus, kelapa sangrai, irisan daun bawang, larutan tepung beras, garam, dan lada hingga berbuih."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Masak Telur",
-          "deskripsi": "Panaskan minyak agak banyak di wajan cekung. Tuang adonan telur. Masak dengan api kecil agar matang hingga ke dalam."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Balik & Potong",
-          "deskripsi": "Balik telur dadar dengan hati-hati saat bagian bawah sudah kokoh dan kecokelatan. Angkat, tiriskan, lalu potong-potong sesuai selera."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 250,
-        "protein": "14g",
-        "lemak": "18g",
-        "karbohidrat": "8g",
-        "serat": "2g"
-      }
+    "ingredients": [
+      {"name": "Fettuccine", "amount": "8 oz"},
+      {"name": "Garlic", "amount": "4 cloves, minced"},
+      {"name": "Vegetable Broth", "amount": "2 cups"},
+      {"name": "Heavy Cream", "amount": "1 cup"},
+      {"name": "Parmesan Cheese", "amount": "1/2 cup, shredded"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Sauté Garlic", "desc": "In a large pot, melt butter over medium heat. Add minced garlic and cook for 1 minute until fragrant but not browned."},
+      {"step": 2, "title": "Simmer Liquids", "desc": "Pour in the vegetable broth, heavy cream, and the dry pasta. Bring the mixture to a gentle boil."},
+      {"step": 3, "title": "Cook Pasta", "desc": "Reduce heat to a simmer. Cook for 10-12 minutes, stirring occasionally to prevent the pasta from sticking, until the liquid has thickened into a sauce."},
+      {"step": 4, "title": "Finish with Cheese", "desc": "Remove from heat. Stir in the Parmesan cheese until melted and the sauce is velvety. Season with black pepper and parsley."}
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Indonesian Gado-Gado Salad",
+    "image": "path/to/image.jpg",
+    "time_minutes": 30,
+    "difficulty": "Intermediate",
+    "calories": 380,
+    "nutrition": {
+      "proteins": "14g",
+      "fats": "20g",
+      "carbs": "42g",
+      "fiber": "9g"
     },
-    {
-      "id": 4,
-      "nama": "Mie Goreng Tek-Tek",
-      "deskripsi": "Mie goreng ala abang gerobakan dengan aroma khas bumbu kemiri dan sayuran yang melimpah.",
-      "porsi": 2,
-      "waktu_menit": 20,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Makan Malam", "Karbohidrat", "Jajanan"],
-      "bahan": [
-        { "nama": "Mie telur kering", "takaran": "1 bungkus, rebus setengah matang" },
-        { "nama": "Telur ayam", "takaran": "1 butir" },
-        { "nama": "Sawi hijau dan Kol", "takaran": "Secukupnya, iris kasar" },
-        { "nama": "Kecap manis", "takaran": "3 sdm" },
-        { "nama": "Bumbu halus (bawang putih, kemiri, lada)", "takaran": "1 sdm" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Orak-Arik Telur",
-          "deskripsi": "Panaskan sedikit minyak, masukkan telur lalu buat orak-arik. Sisihkan di tepi wajan."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Tumis Bumbu & Sayuran",
-          "deskripsi": "Masukkan bumbu halus, tumis hingga harum. Tambahkan sawi dan kol, aduk rata hingga sayuran sedikit layu."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Campur Mie",
-          "deskripsi": "Masukkan mie rebus. Tambahkan kecap manis, garam, dan penyedap. Aduk cepat di atas api besar hingga warna merata dan harum berasap."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 380,
-        "protein": "12g",
-        "lemak": "14g",
-        "karbohidrat": "52g",
-        "serat": "3g"
-      }
+    "ingredients": [
+      {"name": "Tofu", "amount": "1 block, cubed and fried"},
+      {"name": "Potatoes", "amount": "2 medium, boiled and sliced"},
+      {"name": "Bean Sprouts", "amount": "1 cup, blanched"},
+      {"name": "Spinach", "amount": "1 bunch, steamed"},
+      {"name": "Peanut Sauce", "amount": "1/2 cup, prepared"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Prep Proteins", "desc": "Fry the cubed tofu until the edges are golden and crispy. Set aside on a paper towel to drain excess oil."},
+      {"step": 2, "title": "Blanch Veggies", "desc": "Quickly blanch the bean sprouts and spinach in boiling water for 1 minute, then immediately shock in cold water to keep them crisp."},
+      {"step": 3, "title": "Assemble Plate", "desc": "Arrange the boiled potatoes, fried tofu, and blanched vegetables on a large platter or in individual bowls."},
+      {"step": 4, "title": "Sauce Application", "desc": "Warm the peanut sauce slightly and pour generously over the vegetables. Serve with crackers (krupuk) and a hard-boiled egg."}
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Hearty Red Lentil Dahl",
+    "image": "path/to/image.jpg",
+    "time_minutes": 25,
+    "difficulty": "Beginner",
+    "calories": 310,
+    "nutrition": {
+      "proteins": "18g",
+      "fats": "8g",
+      "carbs": "48g",
+      "fiber": "15g"
     },
-    {
-      "id": 5,
-      "nama": "Capcay Seafood Kuah Kental",
-      "deskripsi": "Tumis sayuran campur dengan udang dan cumi, disajikan dengan kuah gurih yang kental.",
-      "porsi": 3,
-      "waktu_menit": 25,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Seafood", "Sayuran", "Sehat"],
-      "bahan": [
-        { "nama": "Udang dan Cumi", "takaran": "150 gram, bersihkan dan iris" },
-        { "nama": "Sayuran campur (brokoli, wortel, sawi, kembang kol)", "takaran": "300 gram" },
-        { "nama": "Bawang putih", "takaran": "3 siung, cincang halus" },
-        { "nama": "Saus tiram", "takaran": "2 sdm" },
-        { "nama": "Tepung maizena", "takaran": "1 sdm, larutkan dengan air" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Tumis Seafood",
-          "deskripsi": "Tumis bawang putih hingga wangi. Masukkan udang dan cumi, masak sebentar hingga berubah warna."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Masak Sayuran",
-          "deskripsi": "Masukkan sayuran bertekstur keras (wortel, kembang kol) dan sedikit air. Setelah setengah empuk, masukkan sayuran daun."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Kentalkan Kuah",
-          "deskripsi": "Tambahkan saus tiram, garam, dan lada. Tuang larutan maizena, aduk perlahan hingga kuah mengental dan meletup. Angkat."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 220,
-        "protein": "18g",
-        "lemak": "8g",
-        "karbohidrat": "20g",
-        "serat": "6g"
-      }
+    "ingredients": [
+      {"name": "Red Lentils", "amount": "1 cup, rinsed"},
+      {"name": "Turmeric", "amount": "1 teaspoon"},
+      {"name": "Canned Tomatoes", "amount": "1/2 cup, crushed"},
+      {"name": "Coconut Milk", "amount": "1/2 cup"},
+      {"name": "Spinach", "amount": "2 cups, fresh"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Boil Lentils", "desc": "Place rinsed lentils in a pot with 3 cups of water and turmeric. Bring to a boil, then simmer for 15 minutes until lentils are soft."},
+      {"step": 2, "title": "Add Base", "desc": "Stir in the crushed tomatoes and coconut milk. Let it simmer for another 5 minutes to allow flavors to meld."},
+      {"step": 3, "title": "Wilt Greens", "desc": "Fold in the fresh spinach and cook until just wilted. Season with salt and a squeeze of lime juice."},
+      {"step": 4, "title": "Serve", "desc": "Serve hot in a bowl, optionally topped with a dollop of yogurt or fresh cilantro alongside toasted bread."}
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Ayam Goreng Mentega (Butter Chicken)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 35,
+    "difficulty": "Intermediate",
+    "calories": 420,
+    "nutrition": {
+      "proteins": "28g",
+      "fats": "26g",
+      "carbs": "15g",
+      "fiber": "1g"
     },
-    {
-      "id": 6,
-      "nama": "Sosis Asam Manis Sayuran",
-      "deskripsi": "Lauk praktis sosis tumis berpadu nanas segar dan paprika dalam saus asam manis yang menggugah selera.",
-      "porsi": 2,
-      "waktu_menit": 15,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Di bawah 20 Menit", "Anak-anak", "Praktis"],
-      "bahan": [
-        { "nama": "Sosis ayam/sapi", "takaran": "5 buah, iris serong" },
-        { "nama": "Bawang bombay", "takaran": "1/2 buah, potong dadu" },
-        { "nama": "Paprika hijau & merah", "takaran": "Masing-masing 1/4 buah, iris kotak" },
-        { "nama": "Saus tomat", "takaran": "3 sdm" },
-        { "nama": "Nanas", "takaran": "50 gram, potong kecil" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Tumis Bumbu & Sosis",
-          "deskripsi": "Panaskan margarin, tumis bawang bombay hingga layu. Masukkan irisan sosis, masak hingga sosis mengembang."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Buat Saus",
-          "deskripsi": "Tambahkan saus tomat, sejumput gula pasir, merica, dan sedikit air. Aduk merata hingga saus berbuih."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Campur Sayur & Nanas",
-          "deskripsi": "Masukkan irisan paprika dan nanas. Aduk cepat selama 1 menit agar paprika tetap renyah. Angkat dan sajikan."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 310,
-        "protein": "12g",
-        "lemak": "18g",
-        "karbohidrat": "24g",
-        "serat": "3g"
-      }
+    "ingredients": [
+      {"name": "Chicken Thighs", "amount": "500g, bite-sized"},
+      {"name": "Margarine/Butter", "amount": "3 tablespoons"},
+      {"name": "Worcestershire Sauce", "amount": "2 tablespoons"},
+      {"name": "Onion", "amount": "1/2, sliced into wedges"},
+      {"name": "Lime juice", "amount": "1 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Marinate & Fry", "desc": "Marinate chicken with salt and lime. Fry in oil until golden and fully cooked, then set aside."},
+      {"step": 2, "title": "Sauté Aromatics", "desc": "In a clean pan, melt the butter. Sauté the onions until they soften and become translucent."},
+      {"step": 3, "title": "Make Sauce", "desc": "Add Worcestershire sauce, a tablespoon of sweet soy sauce, and a pinch of sugar. Stir until the sauce bubbles and thickens."},
+      {"step": 4, "title": "Toss Chicken", "desc": "Return the fried chicken to the pan. Toss quickly so every piece is coated in the glossy butter sauce and serve immediately."}
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Lemon Herb Sheet Pan Chicken",
+    "image": "path/to/image.jpg",
+    "time_minutes": 30,
+    "difficulty": "Beginner",
+    "calories": 360,
+    "nutrition": {
+      "proteins": "32g",
+      "fats": "18g",
+      "carbs": "12g",
+      "fiber": "4g"
     },
-    {
-      "id": 7,
-      "nama": "Udang Saus Padang",
-      "deskripsi": "Udang segar berlumur saus pedas, asam, manis yang legit khas hidangan laut Indonesia.",
-      "porsi": 2,
-      "waktu_menit": 30,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Seafood", "Pedas", "Makan Malam"],
-      "bahan": [
-        { "nama": "Udang segar", "takaran": "300 gram, belah punggung dan bersihkan" },
-        { "nama": "Jagung manis", "takaran": "1 buah, potong-potong dan rebus" },
-        { "nama": "Saus sambal & Saus tomat", "takaran": "Masing-masing 3 sdm" },
-        { "nama": "Telur ayam", "takaran": "1 butir, kocok lepas" },
-        { "nama": "Bumbu halus (bawang merah, bawang putih, cabai merah)", "takaran": "2 sdm" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Tumis Bumbu Dasar",
-          "deskripsi": "Tumis bumbu halus bersama daun jeruk dan jahe geprek hingga harum dan matang."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Masak Udang & Saus",
-          "deskripsi": "Masukkan udang, aduk hingga berubah warna. Tambahkan saus sambal, saus tomat, saus tiram, dan sedikit air. Beri garam dan gula."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Masukkan Jagung & Telur",
-          "deskripsi": "Masukkan jagung rebus. Terakhir, tuang telur kocok perlahan sambil diaduk memutar agar membentuk serabut kuah kental. Angkat."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 280,
-        "protein": "26g",
-        "lemak": "10g",
-        "karbohidrat": "22g",
-        "serat": "3g"
-      }
+    "ingredients": [
+      {"name": "Chicken Breast", "amount": "2 large, sliced"},
+      {"name": "Broccoli Florets", "amount": "2 cups"},
+      {"name": "Bell Peppers", "amount": "2 medium, sliced"},
+      {"name": "Olive Oil", "amount": "3 tablespoons"},
+      {"name": "Dried Oregano", "amount": "1 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Preheat", "desc": "Preheat your oven to 400°F (200°C) and line a large baking sheet with parchment paper for easy cleanup."},
+      {"step": 2, "title": "Seasoning", "desc": "Place chicken and vegetables on the sheet. Drizzle with olive oil, lemon juice, oregano, salt, and pepper. Toss with hands to coat."},
+      {"step": 3, "title": "Roast", "desc": "Spread everything in a single layer. Bake for 20-25 minutes until the chicken reaches an internal temperature of 165°F."},
+      {"step": 4, "title": "Rest & Serve", "desc": "Let the chicken rest for 5 minutes before serving to keep it juicy. Serve as is or over a bed of rice."}
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Telur Balado (Spicy Chili Eggs)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 25,
+    "difficulty": "Beginner",
+    "calories": 280,
+    "nutrition": {
+      "proteins": "13g",
+      "fats": "19g",
+      "carbs": "14g",
+      "fiber": "2g"
     },
-    {
-      "id": 8,
-      "nama": "Tumis Kangkung Belacan",
-      "deskripsi": "Tumisan sayur kangkung hijau cerah dengan aroma terasi udang yang menggugah selera.",
-      "porsi": 2,
-      "waktu_menit": 15,
-      "tingkat_kesulitan": "Pemula",
-      "tag": ["Di bawah 20 Menit", "Sayuran", "Murah"],
-      "bahan": [
-        { "nama": "Kangkung", "takaran": "1 ikat besar, petik daunnya" },
-        { "nama": "Bawang merah", "takaran": "4 siung, iris" },
-        { "nama": "Bawang putih", "takaran": "2 siung, iris" },
-        { "nama": "Cabai merah iris & Terasi bakar", "takaran": "Sesuai selera" },
-        { "nama": "Saus tiram", "takaran": "1 sdm" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Siapkan Bumbu Tumis",
-          "deskripsi": "Panaskan minyak, tumis bawang merah, bawang putih, cabai, dan terasi yang sudah dihancurkan hingga aromanya keluar."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Masak Kangkung",
-          "deskripsi": "Gunakan api besar, masukkan kangkung. Aduk cepat agar warna kangkung tetap hijau segar."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Beri Bumbu Terakhir",
-          "deskripsi": "Tuangkan saus tiram, sedikit garam, dan kaldu jamur. Tambahkan sedikit air panas jika suka berkuah. Masak 1 menit saja, lalu angkat."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 90,
-        "protein": "4g",
-        "lemak": "5g",
-        "karbohidrat": "8g",
-        "serat": "3g"
-      }
+    "ingredients": [
+      {"name": "Eggs", "amount": "4, hard-boiled and peeled"},
+      {"name": "Red Chilies", "amount": "5, deseeded and blended"},
+      {"name": "Tomato", "amount": "1 medium, chopped"},
+      {"name": "Garlic", "amount": "2 cloves, minced"},
+      {"name": "Sugar", "amount": "1 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Fry Eggs", "desc": "Deep fry or pan-fry the boiled eggs until a thin, golden, bubbly skin forms on the outside. Remove and drain."},
+      {"step": 2, "title": "Sauté Sambal", "desc": "In a pan with 2 tablespoons of oil, sauté the blended chilies, garlic, and chopped tomato until the oil starts to separate from the sauce."},
+      {"step": 3, "title": "Seasoning", "desc": "Add sugar and salt to the chili paste. The sugar helps balance the heat and gives the sauce a beautiful deep red color."},
+      {"step": 4, "title": "Combine", "desc": "Add the fried eggs into the chili sauce. Toss gently to coat and simmer for 2 minutes before serving."}
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Black Bean & Corn Tacos",
+    "image": "path/to/image.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "calories": 340,
+    "nutrition": {
+      "proteins": "12g",
+      "fats": "10g",
+      "carbs": "52g",
+      "fiber": "11g"
     },
-    {
-      "id": 9,
-      "nama": "Cumi Asin Cabe Ijo",
-      "deskripsi": "Potongan cumi asin kenyal berpadu dengan irisan cabai hijau besar dan tomat hijau yang segar.",
-      "porsi": 3,
-      "waktu_menit": 25,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Seafood", "Pedas", "Khas Indonesia"],
-      "bahan": [
-        { "nama": "Cumi asin", "takaran": "150 gram, rendam air panas, potong-potong" },
-        { "nama": "Cabai hijau besar", "takaran": "10 buah, iris serong" },
-        { "nama": "Tomat hijau", "takaran": "2 buah, potong dadu" },
-        { "nama": "Bawang merah & putih", "takaran": "Masing-masing 4 siung, iris tipis" },
-        { "nama": "Daun salam & Lengkuas", "takaran": "Secukupnya" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Goreng Cumi (Opsional)",
-          "deskripsi": "Goreng cumi asin sebentar dalam minyak panas agar sedikit renyah, lalu angkat dan tiriskan."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Tumis Bumbu Iris",
-          "deskripsi": "Gunakan sedikit minyak sisa menggoreng cumi, tumis bawang merah, bawang putih, daun salam, dan lengkuas hingga layu."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Campur Semua Bahan",
-          "deskripsi": "Masukkan cabai hijau, tomat hijau, dan cumi. Tambahkan sedikit gula pasir dan kaldu (hindari garam berlebih karena cumi sudah asin). Aduk rata."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 210,
-        "protein": "16g",
-        "lemak": "12g",
-        "karbohidrat": "10g",
-        "serat": "2g"
-      }
+    "ingredients": [
+      {"name": "Canned Black Beans", "amount": "1 can, rinsed"},
+      {"name": "Corn Kernels", "amount": "1 cup, frozen or canned"},
+      {"name": "Tortillas", "amount": "6 small, corn or flour"},
+      {"name": "Taco Seasoning", "amount": "1 tablespoon"},
+      {"name": "Avocado", "amount": "1, sliced"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Warm Filling", "desc": "In a skillet over medium heat, combine black beans, corn, and taco seasoning with a splash of water. Heat for 5 minutes."},
+      {"step": 2, "title": "Toast Tortillas", "desc": "In a separate dry pan, toast the tortillas for 30 seconds on each side until warm and slightly charred."},
+      {"step": 3, "title": "Assemble", "desc": "Fill each tortilla with the bean and corn mixture. Top with fresh avocado slices and a squeeze of lime."},
+      {"step": 4, "title": "Optional Garnish", "desc": "Add salsa or Greek yogurt (as a sour cream substitute) if available for extra flavor."}
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Mie Goreng (Indonesian Stir-Fry Noodles)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "calories": 490,
+    "nutrition": {
+      "proteins": "16g",
+      "fats": "22g",
+      "carbs": "58g",
+      "fiber": "4g"
     },
-    {
-      "id": 10,
-      "nama": "Fuyunghai Ayam Sayur",
-      "deskripsi": "Omelet tebal ala Chinese restoran dengan isian ayam dan sayur, disiram saus asam manis polong.",
-      "porsi": 2,
-      "waktu_menit": 30,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Tinggi Protein", "Chinese Food"],
-      "bahan": [
-        { "nama": "Telur ayam", "takaran": "3 butir" },
-        { "nama": "Daging ayam cincang", "takaran": "50 gram" },
-        { "nama": "Kol dan Wortel", "takaran": "Secukupnya, iris sehalus korek api" },
-        { "nama": "Tepung tapioka", "takaran": "1 sdm" },
-        { "nama": "Kacang polong & Saus tomat", "takaran": "Bahan untuk saus siraman" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Goreng Fuyunghai",
-          "deskripsi": "Kocok telur, ayam cincang, sayuran iris, tepung tapioka, lada, dan garam. Goreng adonan dalam minyak panas yang cukup banyak hingga mengembang dan kecokelatan di kedua sisi. Tiriskan."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Buat Saus Siram",
-          "deskripsi": "Tumis sedikit bawang bombay, masukkan saus tomat, air kaldu, sejumput gula pasir, dan cuka. Tambahkan kacang polong."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Penyajian",
-          "deskripsi": "Kentalkan saus dengan sedikit larutan maizena. Letakkan fuyunghai di atas piring, lalu siram dengan saus asam manis panas."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 360,
-        "protein": "18g",
-        "lemak": "24g",
-        "karbohidrat": "18g",
-        "serat": "3g"
-      }
+    "ingredients": [
+      {"name": "Egg Noodles", "amount": "200g, boiled and drained"},
+      {"name": "Cabbage", "amount": "1 cup, shredded"},
+      {"name": "Chicken Breast", "amount": "100g, thinly sliced"},
+      {"name": "Sweet Soy Sauce", "amount": "3 tablespoons"},
+      {"name": "Oyster Sauce", "amount": "1 tablespoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Cook Chicken", "desc": "Sauté chicken strips in a hot pan with oil until no longer pink. Add garlic and shallots for aroma."},
+      {"step": 2, "title": "Vegetables", "desc": "Toss in the shredded cabbage and any other greens. Stir-fry for 2 minutes until slightly softened but still crunchy."},
+      {"step": 3, "title": "Mix Noodles", "desc": "Add the pre-boiled noodles to the pan. Pour in the sweet soy sauce and oyster sauce."},
+      {"step": 4, "title": "Final Sear", "desc": "Stir-fry everything on high heat for 3 minutes to ensure the noodles are evenly coated and pick up a bit of smokiness from the pan."}
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Beef and Broccoli Stir-Fry",
+    "image": "path/to/image.jpg",
+    "time_minutes": 20,
+    "difficulty": "Intermediate",
+    "calories": 410,
+    "nutrition": {
+      "proteins": "30g",
+      "fats": "18g",
+      "carbs": "22g",
+      "fiber": "5g"
     },
-    {
-      "id": 11,
-      "nama": "Rendang Daging Sapi",
-      "deskripsi": "Daging sapi empuk yang dimasak perlahan dengan santan dan rempah-rempah pekat khas Minang hingga bumbu meresap sempurna.",
-      "porsi": 5,
-      "waktu_menit": 120,
-      "tingkat_kesulitan": "Sulit",
-      "tag": ["Tinggi Protein", "Khas Indonesia", "Makan Malam"],
-      "bahan": [
-        { "nama": "Daging sapi (bagian paha/gandik)", "takaran": "500 gram, potong kotak" },
-        { "nama": "Santan kental", "takaran": "500 ml dari 1 butir kelapa" },
-        { "nama": "Bumbu halus (cabai merah, bawang, jahe, lengkuas)", "takaran": "4 sdm" },
-        { "nama": "Daun kunyit & Daun jeruk", "takaran": "Masing-masing 2 lembar" },
-        { "nama": "Serai", "takaran": "2 batang, memarkan" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Masak Santan & Bumbu",
-          "deskripsi": "Rebus santan bersama bumbu halus, daun kunyit, daun jeruk, dan serai. Aduk perlahan agar santan tidak pecah hingga mendidih dan harum."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Masukkan Daging",
-          "deskripsi": "Setelah santan mendidih dan sedikit menyusut, masukkan potongan daging sapi. Masak dengan api sedang sambil sesekali diaduk."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Proses Karamelisasi",
-          "deskripsi": "Kecilkan api, masak terus hingga kuah santan mengering, mengeluarkan minyak, dan bumbu berubah warna menjadi cokelat gelap atau hitam."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 480,
-        "protein": "32g",
-        "lemak": "35g",
-        "karbohidrat": "10g",
-        "serat": "4g"
-      }
+    "ingredients": [
+      {"name": "Flank Steak", "amount": "300g, thinly sliced"},
+      {"name": "Broccoli", "amount": "2 cups, florets"},
+      {"name": "Soy Sauce", "amount": "1/4 cup"},
+      {"name": "Ginger", "amount": "1 teaspoon, grated"},
+      {"name": "Cornstarch", "amount": "1 tablespoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Marinate Beef", "desc": "Toss the sliced beef with a tablespoon of soy sauce and cornstarch. Let it sit for 10 minutes while you prep veggies."},
+      {"step": 2, "title": "Sear Beef", "desc": "Heat oil in a wok until very hot. Sear the beef in batches until browned on both sides, then remove from the pan."},
+      {"step": 3, "title": "Steam Broccoli", "desc": "Add broccoli and a splash of water to the pan. Cover for 2 minutes to steam-cook the broccoli until tender-crisp."},
+      {"step": 4, "title": "Thicken Sauce", "desc": "Add ginger, the remaining soy sauce, and a pinch of sugar. Return beef to the pan and toss until the sauce thickens and coats everything."}
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Bubur Ayam (Indonesian Chicken Porridge)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 45,
+    "difficulty": "Intermediate",
+    "calories": 320,
+    "nutrition": {
+      "proteins": "18g",
+      "fats": "8g",
+      "carbs": "44g",
+      "fiber": "2g"
     },
-    {
-      "id": 12,
-      "nama": "Soto Ayam Lamongan",
-      "deskripsi": "Soto ayam berkuah kuning gurih dengan taburan bubuk koya khas yang membuatnya semakin kental dan nikmat.",
-      "porsi": 4,
-      "waktu_menit": 45,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Berkuah", "Khas Indonesia", "Makan Siang"],
-      "bahan": [
-        { "nama": "Ayam kampung/pejantan", "takaran": "1/2 ekor" },
-        { "nama": "Bihun", "takaran": "1 keping, seduh air panas" },
-        { "nama": "Kol", "takaran": "Secukupnya, iris tipis" },
-        { "nama": "Bumbu halus (bawang, kunyit, kemiri, jahe)", "takaran": "3 sdm" },
-        { "nama": "Bubuk Koya (kerupuk udang & bawang putih goreng dihancurkan)", "takaran": "Secukupnya" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Buat Kaldu & Rebus Ayam",
-          "deskripsi": "Rebus ayam dengan air secukupnya hingga empuk. Angkat ayam, suwir-suwir dagingnya, dan saring air kaldunya."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Tumis Bumbu Kuah",
-          "deskripsi": "Tumis bumbu halus bersama daun jeruk dan serai hingga harum dan matang. Masukkan ke dalam air kaldu ayam, didihkan kembali. Beri garam dan merica."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Sajikan Soto",
-          "deskripsi": "Tata bihun, kol, dan ayam suwir di mangkuk. Siram dengan kuah soto panas, lalu taburi daun seledri, bawang goreng, dan bubuk koya."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 320,
-        "protein": "24g",
-        "lemak": "14g",
-        "karbohidrat": "22g",
-        "serat": "3g"
-      }
+    "ingredients": [
+      {"name": "White Rice", "amount": "1 cup, washed"},
+      {"name": "Chicken Stock", "amount": "6 cups"},
+      {"name": "Chicken Breast", "amount": "200g, boiled and shredded"},
+      {"name": "Fried Shallots", "amount": "2 tablespoons"},
+      {"name": "Cakwe (Chinese Crullers)", "amount": "1, sliced"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Cook Porridge", "desc": "Combine rice and chicken stock in a large pot. Bring to a boil, then reduce heat to low and simmer, stirring occasionally, for 30-40 minutes until creamy."},
+      {"step": 2, "title": "Prep Toppings", "desc": "While the porridge cooks, shred the boiled chicken and slice the cakwe and spring onions into thin rings."},
+      {"step": 3, "title": "Adjust Consistency", "desc": "If the porridge becomes too thick, add a splash more stock or water. Season with salt and white pepper to taste."},
+      {"step": 4, "title": "Plating", "desc": "Ladle the hot porridge into a bowl. Top with shredded chicken, cakwe, fried shallots, and a drizzle of sweet soy sauce."}
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Greek Chickpea Salad",
+    "image": "path/to/image.jpg",
+    "time_minutes": 10,
+    "difficulty": "Beginner",
+    "calories": 290,
+    "nutrition": {
+      "proteins": "9g",
+      "fats": "14g",
+      "carbs": "32g",
+      "fiber": "10g"
     },
-    {
-      "id": 13,
-      "nama": "Pecel Lele Goreng Krispi",
-      "deskripsi": "Ikan lele segar yang digoreng hingga garing beralaskan sambal terasi khas warung tenda dan lalapan.",
-      "porsi": 2,
-      "waktu_menit": 25,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Tinggi Protein", "Pedas", "Murah"],
-      "bahan": [
-        { "nama": "Ikan lele", "takaran": "4 ekor, bersihkan dan kerat tubuhnya" },
-        { "nama": "Bumbu marinasi instan (kunyit ketumbar)", "takaran": "1 sdm" },
-        { "nama": "Jeruk nipis", "takaran": "1 buah" },
-        { "nama": "Tomat merah & Cabai (untuk sambal)", "takaran": "Sesuai selera" },
-        { "nama": "Terasi bakar", "takaran": "1 sdt" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Marinasi Lele",
-          "deskripsi": "Lumuri lele dengan perasan jeruk nipis dan bumbu marinasi. Diamkan 10 menit agar bau amis hilang dan bumbu meresap."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Goreng Kering",
-          "deskripsi": "Goreng lele dalam minyak panas dan banyak (deep fry) hingga bagian luar garing dan dalamnya matang. Tiriskan."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Ulek Sambal",
-          "deskripsi": "Goreng cabai, bawang merah, bawang putih, dan tomat hingga layu. Ulek kasar bersama terasi bakar, garam, dan gula merah. Sajikan bersama lele."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 350,
-        "protein": "28g",
-        "lemak": "22g",
-        "karbohidrat": "8g",
-        "serat": "2g"
-      }
+    "ingredients": [
+      {"name": "Canned Chickpeas", "amount": "1 can, drained and rinsed"},
+      {"name": "Cucumber", "amount": "1 large, diced"},
+      {"name": "Cherry Tomatoes", "amount": "1 cup, halved"},
+      {"name": "Feta Cheese", "amount": "1/4 cup, crumbled"},
+      {"name": "Lemon Vinaigrette", "amount": "3 tablespoons"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Vegetable Prep", "desc": "Wash and dice the cucumber and tomatoes into bite-sized pieces. Place them in a large mixing bowl."},
+      {"step": 2, "title": "Combine", "desc": "Add the rinsed chickpeas and crumbled feta cheese to the bowl with the vegetables."},
+      {"step": 3, "title": "Dress Salad", "desc": "Pour the lemon vinaigrette (or a mix of olive oil and lemon juice) over the salad and toss gently to coat."},
+      {"step": 4, "title": "Serve", "desc": "Season with dried oregano and black pepper. Serve immediately or let it chill in the fridge for 30 minutes for better flavor."}
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Soto Ayam (Yellow Chicken Soup)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 50,
+    "difficulty": "Intermediate",
+    "calories": 310,
+    "nutrition": {
+      "proteins": "24g",
+      "fats": "12g",
+      "carbs": "26g",
+      "fiber": "3g"
     },
-    {
-      "id": 14,
-      "nama": "Tongseng Daging Sapi",
-      "deskripsi": "Hidangan daging sapi berkuah santan kental yang manis gurih dengan isian kol renyah dan cabai rawit utuh.",
-      "porsi": 3,
-      "waktu_menit": 40,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Berkuah", "Pedas", "Makan Malam"],
-      "bahan": [
-        { "nama": "Daging sapi tetelan/has", "takaran": "300 gram, iris kecil" },
-        { "nama": "Kol", "takaran": "100 gram, potong kasar" },
-        { "nama": "Santan encer", "takaran": "400 ml" },
-        { "nama": "Kecap manis", "takaran": "3 sdm" },
-        { "nama": "Cabai rawit merah utuh", "takaran": "10 buah" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Tumis Bumbu & Daging",
-          "deskripsi": "Tumis bumbu gulai/bumbu halus merah dengan serai dan daun jeruk. Masukkan irisan daging, aduk hingga daging berubah warna."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Masak Kuah Santan",
-          "deskripsi": "Tuangkan santan, masak dengan api kecil hingga daging empuk. Masukkan kecap manis, garam, dan merica."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Tambahkan Sayuran",
-          "deskripsi": "Sesaat sebelum diangkat, masukkan potongan kol, irisan tomat, dan cabai rawit utuh. Aduk sebentar hingga sayur sedikit layu, lalu sajikan."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 410,
-        "protein": "25g",
-        "lemak": "26g",
-        "karbohidrat": "18g",
-        "serat": "3g"
-      }
+    "ingredients": [
+      {"name": "Chicken Thighs", "amount": "2 pieces, bone-in"},
+      {"name": "Turmeric Powder", "amount": "1 teaspoon"},
+      {"name": "Lemongrass", "amount": "1 stalk, bruised"},
+      {"name": "Rice Vermicelli", "amount": "50g, soaked in hot water"},
+      {"name": "Cabbage", "amount": "1/2 cup, shredded"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Make Broth", "desc": "Boil chicken thighs in 5 cups of water with lemongrass, turmeric, and ginger. Simmer for 30 minutes until chicken is tender."},
+      {"step": 2, "title": "Shred Chicken", "desc": "Remove chicken from the broth, let it cool slightly, and shred the meat. Discard the bones."},
+      {"step": 3, "title": "Season Soup", "desc": "Taste the broth and season generously with salt, sugar, and white pepper. Keep the broth simmering on low."},
+      {"step": 4, "title": "Assemble", "desc": "Place a portion of vermicelli and cabbage in a bowl. Add the shredded chicken and pour the hot yellow broth over it."},
+      {"step": 5, "title": "Garnish", "desc": "Serve with a squeeze of lime, fresh celery, and a hard-boiled egg for an authentic Indonesian experience."}
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Spicy Tuna Mayo Onigiri",
+    "image": "path/to/image.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "calories": 340,
+    "nutrition": {
+      "proteins": "14g",
+      "fats": "11g",
+      "carbs": "45g",
+      "fiber": "1g"
     },
-    {
-      "id": 15,
-      "nama": "Ikan Gurame Bakar Kecap",
-      "deskripsi": "Ikan gurame utuh yang dibakar dengan olesan bumbu kecap manis legit, menghasilkan kulit karamel yang menggugah selera.",
-      "porsi": 3,
-      "waktu_menit": 40,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Seafood", "Khas Indonesia", "Rendah Lemak"],
-      "bahan": [
-        { "nama": "Ikan Gurame", "takaran": "1 ekor (500-600 gram), bersihkan" },
-        { "nama": "Kecap manis", "takaran": "5 sdm" },
-        { "nama": "Jeruk nipis", "takaran": "1 buah" },
-        { "nama": "Margarin", "takaran": "1 sdm, untuk olesan" },
-        { "nama": "Bumbu oles (bawang putih, ketumbar, kunyit dihaluskan)", "takaran": "2 sdm" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Siapkan Ikan",
-          "deskripsi": "Kerat-kerat badan ikan gurame, lumuri dengan air perasan jeruk nipis dan sedikit garam. Diamkan selama 15 menit."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Racik Bumbu Oles",
-          "deskripsi": "Campurkan bumbu halus, kecap manis, dan margarin cair. Aduk rata hingga menjadi saus kental."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Bakar Ikan",
-          "deskripsi": "Bakar ikan di atas pemanggang sambil dibolak-balik. Olesi dengan bumbu kecap secara merata dan berulang hingga ikan matang sempurna dan terkaramelisasi."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 290,
-        "protein": "34g",
-        "lemak": "8g",
-        "karbohidrat": "18g",
-        "serat": "1g"
-      }
+    "ingredients": [
+      {"name": "Sushi Rice", "amount": "2 cups, cooked and warm"},
+      {"name": "Canned Tuna", "amount": "1 small can, drained"},
+      {"name": "Japanese Mayo", "amount": "2 tablespoons"},
+      {"name": "Sriracha", "amount": "1 teaspoon"},
+      {"name": "Nori (Seaweed)", "amount": "2 sheets, cut into strips"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Tuna Filling", "desc": "In a small bowl, mix the drained tuna with mayo and sriracha until well combined. Adjust spice to your preference."},
+      {"step": 2, "title": "Prep Hands", "desc": "Wet your hands with water and a pinch of salt to prevent the rice from sticking to your skin."},
+      {"step": 3, "title": "Shape Rice", "desc": "Place a handful of warm rice in your palm. Make a small indentation in the center and add a teaspoon of the tuna mixture."},
+      {"step": 4, "title": "Fold & Press", "desc": "Cover the filling with more rice and press firmly into a triangle or ball shape. Ensure the filling is completely enclosed."},
+      {"step": 5, "title": "Wrap", "desc": "Wrap a strip of nori around the bottom of the rice ball. Repeat for the remaining rice and filling."}
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Indonesian Capcay (Stir-fry Veggies)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "calories": 210,
+    "nutrition": {
+      "proteins": "10g",
+      "fats": "7g",
+      "carbs": "28g",
+      "fiber": "6g"
     },
-    {
-      "id": 16,
-      "nama": "Martabak Telur Kulit Lumpia",
-      "deskripsi": "Camilan gurih renyah berisi campuran telur, daging cincang, dan daun bawang yang dibalut kulit lumpia instan.",
-      "porsi": 2,
-      "waktu_menit": 20,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Camilan", "Di bawah 20 Menit", "Anak-anak"],
-      "bahan": [
-        { "nama": "Kulit lumpia siap pakai", "takaran": "10 lembar" },
-        { "nama": "Telur ayam/bebek", "takaran": "2 butir" },
-        { "nama": "Daun bawang", "takaran": "3 batang, iris halus" },
-        { "nama": "Daging ayam/sapi cincang", "takaran": "50 gram, tumis matang" },
-        { "nama": "Bumbu kari bubuk", "takaran": "1 sdt" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Buat Isian",
-          "deskripsi": "Kocok telur bersama daun bawang, daging cincang, bubuk kari, garam, dan lada. Aduk rata."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Isi dan Lipat",
-          "deskripsi": "Ambil selembar kulit lumpia, tuang 1 sendok makan isian di tengahnya. Lipat rapi seperti amplop kotak."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Goreng Crispy",
-          "deskripsi": "Segera goreng dalam minyak panas (api sedang) agar isian tidak bocor. Goreng hingga kuning kecokelatan dan garing. Tiriskan."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 250,
-        "protein": "12g",
-        "lemak": "14g",
-        "karbohidrat": "18g",
-        "serat": "2g"
-      }
+    "ingredients": [
+      {"name": "Broccoli & Cauliflower", "amount": "2 cups, florets"},
+      {"name": "Carrots", "amount": "1, thinly sliced"},
+      {"name": "Fish Balls or Meatballs", "amount": "5 pieces, halved"},
+      {"name": "Oyster Sauce", "amount": "2 tablespoons"},
+      {"name": "Cornstarch", "amount": "1 teaspoon, mixed with water"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Sauté Garlic", "desc": "Heat oil in a pan and sauté minced garlic until golden. Add the meatballs and cook for 2 minutes."},
+      {"step": 2, "title": "Hard Veggies", "desc": "Add the carrots and a splash of water. Cook for 3 minutes until they start to soften."},
+      {"step": 3, "title": "Green Veggies", "desc": "Add the broccoli and cauliflower. Stir-fry for another 3 minutes on medium-high heat."},
+      {"step": 4, "title": "Season & Thicken", "desc": "Pour in the oyster sauce and salt. Stir in the cornstarch slurry and cook until the sauce thickens into a glossy glaze."}
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Sheet Pan Sausage and Peppers",
+    "image": "path/to/image.jpg",
+    "time_minutes": 35,
+    "difficulty": "Beginner",
+    "calories": 480,
+    "nutrition": {
+      "proteins": "22g",
+      "fats": "34g",
+      "carbs": "18g",
+      "fiber": "4g"
     },
-    {
-      "id": 17,
-      "nama": "Sayur Lodeh Sunda",
-      "deskripsi": "Sayur campur khas Sunda berkuah santan ringan yang menyegarkan dengan isian labu siam, jagung, dan kacang panjang.",
-      "porsi": 4,
-      "waktu_menit": 30,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Sayuran", "Berkuah", "Vegetarian"],
-      "bahan": [
-        { "nama": "Labu siam", "takaran": "1 buah, potong korek api" },
-        { "nama": "Kacang panjang", "takaran": "1 ikat, potong-potong" },
-        { "nama": "Jagung manis", "takaran": "1 buah, potong melingkar" },
-        { "nama": "Santan encer", "takaran": "500 ml" },
-        { "nama": "Bumbu halus (bawang merah, kemiri, ketumbar)", "takaran": "2 sdm" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Didihkan Kuah",
-          "deskripsi": "Rebus santan bersama bumbu halus, lengkuas geprek, dan daun salam sambil diaduk pelan agar tidak pecah."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Masak Sayuran Keras",
-          "deskripsi": "Masukkan jagung dan melinjo (opsional). Masak hingga jagung empuk dan matang."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Masukkan Sayuran Lunak",
-          "deskripsi": "Tambahkan labu siam dan kacang panjang. Beri garam dan gula merah secukupnya. Masak sebentar agar sayuran tetap renyah, lalu angkat."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 180,
-        "protein": "4g",
-        "lemak": "10g",
-        "karbohidrat": "20g",
-        "serat": "5g"
-      }
+    "ingredients": [
+      {"name": "Italian Sausages", "amount": "4 links, sliced"},
+      {"name": "Bell Peppers", "amount": "2 large, sliced into strips"},
+      {"name": "Red Onion", "amount": "1, cut into wedges"},
+      {"name": "Olive Oil", "amount": "2 tablespoons"},
+      {"name": "Dried Thyme", "amount": "1 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Oven Prep", "desc": "Preheat your oven to 400°F (200°C). Grease a large baking sheet or line it with foil."},
+      {"step": 2, "title": "Toss Ingredients", "desc": "Place the sliced sausages, peppers, and onions on the sheet. Drizzle with olive oil and sprinkle with thyme, salt, and pepper."},
+      {"step": 3, "title": "Roast", "desc": "Bake for 25-30 minutes, tossing halfway through, until the sausages are browned and the vegetables are tender and slightly charred."},
+      {"step": 4, "title": "Final Touch", "desc": "Drizzle with a bit of balsamic vinegar or serve in toasted hoagie rolls for a complete meal."}
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Pempek Dos (Vegetarian Fish Cakes)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 45,
+    "difficulty": "Intermediate",
+    "calories": 290,
+    "nutrition": {
+      "proteins": "6g",
+      "fats": "9g",
+      "carbs": "46g",
+      "fiber": "1g"
     },
-    {
-      "id": 18,
-      "nama": "Ayam Bakar Bumbu Rujak",
-      "deskripsi": "Ayam bakar empuk dengan lumuran bumbu merah yang kaya rempah, pedas, manis, dan sedikit asam.",
-      "porsi": 4,
-      "waktu_menit": 50,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Tinggi Protein", "Pedas Manis", "Makan Malam"],
-      "bahan": [
-        { "nama": "Ayam potong", "takaran": "1/2 ekor, potong 4 bagian" },
-        { "nama": "Santan kental", "takaran": "200 ml" },
-        { "nama": "Air asam jawa", "takaran": "2 sdm" },
-        { "nama": "Gula merah muda", "takaran": "1 sdm, sisir" },
-        { "nama": "Bumbu halus (cabai merah besar, bawang, kemiri bakar)", "takaran": "4 sdm" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Tumis Bumbu Ungkep",
-          "deskripsi": "Tumis bumbu halus bersama serai dan daun jeruk. Tuangkan santan, air asam jawa, dan gula merah. Aduk rata."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Ungkep Ayam",
-          "deskripsi": "Masukkan potongan ayam. Masak dengan api kecil hingga ayam empuk dan kuah menyusut menjadi bumbu kental."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Bakar Ayam",
-          "deskripsi": "Panggang ayam di atas bara api atau teflon, sambil diolesi sisa bumbu ungkepan hingga permukaannya agak kecokelatan dan harum."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 380,
-        "protein": "30g",
-        "lemak": "22g",
-        "karbohidrat": "15g",
-        "serat": "2g"
-      }
+    "ingredients": [
+      {"name": "Wheat Flour", "amount": "125g"},
+      {"name": "Tapioca Flour", "amount": "200g"},
+      {"name": "Garlic", "amount": "2 cloves, mashed"},
+      {"name": "Egg", "amount": "1, for the dough"},
+      {"name": "Cuka Sauce", "amount": "1/2 cup, for dipping"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Make Starter", "desc": "Mix wheat flour, garlic, salt, and 250ml water in a pot. Cook over low heat while stirring until it becomes a thick paste. Let it cool."},
+      {"step": 2, "title": "Knead Dough", "desc": "Add the egg to the paste and mix well. Gradually add tapioca flour while kneading gently until the dough is no longer sticky."},
+      {"step": 3, "title": "Shape & Boil", "desc": "Shape the dough into small logs or discs. Boil in water until they float to the surface, then drain."},
+      {"step": 4, "title": "Fry", "desc": "Once cooled, deep fry the boiled dough until the exterior is golden and crispy."},
+      {"step": 5, "title": "Serve", "desc": "Serve with 'Cuka' (spicy vinegar sauce), diced cucumber, and yellow noodles."}
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Quick Creamy Mushroom Risotto",
+    "image": "path/to/image.jpg",
+    "time_minutes": 30,
+    "difficulty": "Intermediate",
+    "calories": 420,
+    "nutrition": {
+      "proteins": "12g",
+      "fats": "16g",
+      "carbs": "55g",
+      "fiber": "3g"
     },
-    {
-      "id": 19,
-      "nama": "Semur Tahu Telur Puyuh",
-      "deskripsi": "Lauk manis gurih bernuansa kecap dengan isian tahu lembut dan telur puyuh utuh, sangat disukai anak-anak.",
-      "porsi": 3,
-      "waktu_menit": 30,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Murah", "Anak-anak", "Tinggi Protein"],
-      "bahan": [
-        { "nama": "Tahu putih", "takaran": "1 buah besar, potong dadu, goreng setengah matang" },
-        { "nama": "Telur puyuh", "takaran": "15 butir, rebus dan kupas" },
-        { "nama": "Kecap manis", "takaran": "4 sdm" },
-        { "nama": "Bumbu halus (bawang merah, bawang putih, kemiri, pala bubuk)", "takaran": "2 sdm" },
-        { "nama": "Tomat merah", "takaran": "1 buah, potong-potong" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Tumis Bumbu Halus",
-          "deskripsi": "Panaskan sedikit minyak, tumis bumbu halus, lengkuas, dan daun salam hingga harum."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Tuang Kecap & Air",
-          "deskripsi": "Tambahkan kecap manis dan air secukupnya. Biarkan hingga mendidih."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Masak Isian",
-          "deskripsi": "Masukkan tahu goreng, telur puyuh, dan potongan tomat. Beri garam dan sedikit lada. Masak hingga kuah meresap dan sedikit mengental."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 260,
-        "protein": "16g",
-        "lemak": "14g",
-        "karbohidrat": "18g",
-        "serat": "2g"
-      }
+    "ingredients": [
+      {"name": "Arborio Rice", "amount": "1 cup"},
+      {"name": "Mushrooms", "amount": "200g, sliced"},
+      {"name": "Vegetable Stock", "amount": "3-4 cups, warm"},
+      {"name": "Onion", "amount": "1/2, finely chopped"},
+      {"name": "Parmesan Cheese", "amount": "1/3 cup"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Sauté Veggies", "desc": "Sauté onions and mushrooms in butter until the mushrooms are browned and the onions are translucent."},
+      {"step": 2, "title": "Toast Rice", "desc": "Add the dry Arborio rice to the pan. Stir for 2 minutes until the edges of the grains become slightly translucent."},
+      {"step": 3, "title": "Add Stock", "desc": "Add warm stock one ladle at a time. Stir constantly and wait until the liquid is absorbed before adding the next ladle."},
+      {"step": 4, "title": "Final Texture", "desc": "Repeat until the rice is tender but firm (al dente). This usually takes about 18-20 minutes."},
+      {"step": 5, "title": "Creamy Finish", "desc": "Remove from heat. Stir in the Parmesan and a knob of butter to create a creamy, rich sauce."}
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Bakwan Jagung (Corn Fritters)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "calories": 250,
+    "nutrition": {
+      "proteins": "5g",
+      "fats": "12g",
+      "carbs": "32g",
+      "fiber": "4g"
     },
-    {
-      "id": 20,
-      "nama": "Oseng Mercon Tetelan",
-      "deskripsi": "Tumisan daging tetelan sapi super pedas yang meledak di mulut, cocok buat penggemar rempah dan cabai.",
-      "porsi": 2,
-      "waktu_menit": 45,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Pedas", "Khas Indonesia", "Makan Malam"],
-      "bahan": [
-        { "nama": "Tetelan daging sapi", "takaran": "250 gram, rebus hingga empuk, iris" },
-        { "nama": "Cabai rawit merah", "takaran": "30 buah (sesuaikan selera), ulek kasar" },
-        { "nama": "Bawang merah & bawang putih", "takaran": "Total 8 siung, iris tipis" },
-        { "nama": "Lengkuas & Jahe", "takaran": "Masing-masing 1 cm, geprek" },
-        { "nama": "Gula merah muda", "takaran": "1 sdt" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Tumis Bumbu Pedas",
-          "deskripsi": "Tumis bawang merah dan bawang putih iris hingga harum. Masukkan cabai rawit ulek, lengkuas, jahe, dan daun salam."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Masak Tetelan",
-          "deskripsi": "Masukkan irisan daging tetelan sapi ke dalam tumisan bumbu pedas. Aduk rata."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Resapkan Bumbu",
-          "deskripsi": "Tuangkan sedikit air kaldu sisa rebusan sapi. Tambahkan gula merah, garam, dan kaldu sapi bubuk. Masak hingga air menyusut dan bumbu meresap sempurna."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 330,
-        "protein": "22g",
-        "lemak": "24g",
-        "karbohidrat": "8g",
-        "serat": "3g"
-      }
+    "ingredients": [
+      {"name": "Sweet Corn", "amount": "2 cobs, kernels removed"},
+      {"name": "Wheat Flour", "amount": "1/2 cup"},
+      {"name": "Rice Flour", "amount": "2 tablespoons"},
+      {"name": "Spring Onion", "amount": "1 stalk, sliced"},
+      {"name": "Turmeric Powder", "amount": "1/2 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Mix Batter", "desc": "In a bowl, combine corn kernels, flours, spring onion, turmeric, salt, and a splash of water to make a thick batter."},
+      {"step": 2, "title": "Heat Oil", "desc": "Heat about 1/2 inch of oil in a skillet over medium heat until a drop of batter sizzles immediately."},
+      {"step": 3, "title": "Fry", "desc": "Drop tablespoons of the batter into the hot oil, flattening them slightly with the back of the spoon."},
+      {"step": 4, "title": "Golden Brown", "desc": "Fry for 3-4 minutes per side until they are crispy and golden brown. Drain on paper towels and serve warm."}
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Chicken Pesto Pasta",
+    "image": "path/to/image.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "calories": 510,
+    "nutrition": {
+      "proteins": "28g",
+      "fats": "24g",
+      "carbs": "48g",
+      "fiber": "3g"
     },
-    {
-      "id": 21,
-      "nama": "Nasi Liwet Sunda Teri",
-      "deskripsi": "Nasi gurih yang dimasak langsung bersama rempah aromatik, petai, dan teri medan goreng yang asin renyah.",
-      "porsi": 4,
-      "waktu_menit": 45,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Khas Indonesia", "Karbohidrat", "Makan Siang"],
-      "bahan": [
-        { "nama": "Beras", "takaran": "3 cup, cuci bersih" },
-        { "nama": "Teri Medan", "takaran": "50 gram, goreng kering" },
-        { "nama": "Bawang merah & putih", "takaran": "Total 8 siung, iris tipis" },
-        { "nama": "Serai & Daun salam", "takaran": "2 batang memarkan, 3 lembar daun" },
-        { "nama": "Petai kupas", "takaran": "1 papan" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Tumis Rempah",
-          "deskripsi": "Panaskan sedikit minyak, tumis irisan bawang, serai, daun salam, dan cabai rawit utuh hingga harum dan layu."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Masak Beras",
-          "deskripsi": "Masukkan beras ke dalam rice cooker. Tuangkan air secukupnya seperti memasak nasi biasa. Masukkan tumisan bumbu, garam, dan kaldu bubuk. Aduk rata, lalu tekan tombol 'Cook'."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Beri Topping",
-          "deskripsi": "Setelah nasi matang (ceklek), buka rice cooker, taburkan teri goreng dan petai di atasnya. Tutup kembali selama 10 menit agar aroma menyatu sebelum diaduk dan disajikan."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 320,
-        "protein": "8g",
-        "lemak": "6g",
-        "karbohidrat": "55g",
-        "serat": "2g"
-      }
+    "ingredients": [
+      {"name": "Penne Pasta", "amount": "200g"},
+      {"name": "Basil Pesto", "amount": "3 tablespoons, jarred"},
+      {"name": "Chicken Breast", "amount": "150g, cubed"},
+      {"name": "Cherry Tomatoes", "amount": "1/2 cup, halved"},
+      {"name": "Parmesan", "amount": "Optional garnish"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Boil Pasta", "desc": "Cook the penne in salted boiling water according to the package instructions. Reserve a small splash of pasta water."},
+      {"step": 2, "title": "Cook Chicken", "desc": "While pasta boils, sauté the chicken cubes in a pan with olive oil until fully cooked and slightly browned."},
+      {"step": 3, "title": "Combine", "desc": "Drain the pasta and return it to the pot. Add the cooked chicken, pesto sauce, and cherry tomatoes."},
+      {"step": 4, "title": "Final Mix", "desc": "Toss everything together over low heat. If the sauce is too thick, add the reserved pasta water to loosen it. Serve with parmesan."}
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Soto Betawi (Jakarta Beef Soup)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 50,
+    "difficulty": "Intermediate",
+    "calories": 410,
+    "nutrition": {
+      "proteins": "26g",
+      "fats": "28g",
+      "carbs": "14g",
+      "fiber": "2g"
     },
-    {
-      "id": 22,
-      "nama": "Mie Kuah Susu Keju",
-      "deskripsi": "Kreasi mie instan dengan kuah susu yang creamy, gurih, dan diperkaya dengan keju lumer. Cepat dan bikin nagih!",
-      "porsi": 1,
-      "waktu_menit": 10,
-      "tingkat_kesulitan": "Pemula",
-      "tag": ["Di bawah 20 Menit", "Camilan", "Anak-anak"],
-      "bahan": [
-        { "nama": "Mie instan rasa ayam bawang", "takaran": "1 bungkus" },
-        { "nama": "Susu cair full cream", "takaran": "250 ml" },
-        { "nama": "Keju cheddar parut", "takaran": "2 sdm" },
-        { "nama": "Telur ayam", "takaran": "1 butir" },
-        { "nama": "Cabai bubuk (opsional)", "takaran": "Sesuai selera" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Rebus Mie Setengah Matang",
-          "deskripsi": "Rebus mie dalam air mendidih selama 1 menit saja agar tidak terlalu lembek. Tiriskan dan buang air rebusannya."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Masak Kuah Susu",
-          "deskripsi": "Tuang susu cair ke dalam panci, panaskan dengan api kecil. Masukkan telur utuh, diamkan sebentar hingga telur setengah matang."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Campur Semua Bahan",
-          "deskripsi": "Masukkan mie, bumbu instan, dan keju parut ke dalam rebusan susu. Aduk rata hingga kuah mengental dan keju meleleh. Angkat segera."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 450,
-        "protein": "18g",
-        "lemak": "20g",
-        "karbohidrat": "48g",
-        "serat": "2g"
-      }
+    "ingredients": [
+      {"name": "Beef Brisket", "amount": "300g, cubed"},
+      {"name": "Coconut Milk", "amount": "200ml"},
+      {"name": "Evaporated Milk", "amount": "100ml"},
+      {"name": "Lemongrass", "amount": "1 stalk, bruised"},
+      {"name": "Emping (Melinjo Crackers)", "amount": "1 handful"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Parboil Beef", "desc": "Boil beef cubes in water for 10 minutes to remove impurities. Drain and replace with 4 cups of fresh water, then simmer until tender."},
+      {"step": 2, "title": "Sauté Spices", "desc": "In a separate pan, sauté a paste of garlic, shallots, and ginger with lemongrass and bay leaves until the oil separates and smells fragrant."},
+      {"step": 3, "title": "Combine", "desc": "Add the sautéed spices into the beef pot. Pour in the coconut milk and evaporated milk while stirring constantly to prevent the milk from curdling."},
+      {"step": 4, "title": "Simmer", "desc": "Let the soup simmer on low heat for 10-15 minutes so the beef absorbs the creamy flavors. Season with salt, sugar, and white pepper."},
+      {"step": 5, "title": "Serve", "desc": "Garnish with fried shallots, sliced tomatoes, and lime juice. Serve with hot rice and crispy emping crackers."}
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Honey Garlic Salmon & Broccoli",
+    "image": "path/to/image.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "calories": 480,
+    "nutrition": {
+      "proteins": "34g",
+      "fats": "22g",
+      "carbs": "36g",
+      "fiber": "5g"
     },
-    {
-      "id": 23,
-      "nama": "Ayam Woku Belanga",
-      "deskripsi": "Ayam berkuah nyak-nyek khas Manado yang super pedas dan sarat akan aroma kemangi, pandan, serta daun jeruk.",
-      "porsi": 4,
-      "waktu_menit": 40,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Pedas", "Tinggi Protein", "Khas Indonesia"],
-      "bahan": [
-        { "nama": "Ayam potong", "takaran": "500 gram, potong agak kecil" },
-        { "nama": "Daun kemangi", "takaran": "2 genggam besar" },
-        { "nama": "Daun pandan & Daun kunyit", "takaran": "Masing-masing 1 lembar, iris kasar" },
-        { "nama": "Daun jeruk & Serai", "takaran": "Secukupnya" },
-        { "nama": "Bumbu halus (cabai, bawang, jahe, kunyit, kemiri)", "takaran": "4 sdm" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Tumis Bumbu Aromatik",
-          "deskripsi": "Tumis bumbu halus bersama serai, daun jeruk, irisan daun pandan, dan daun kunyit hingga wangi dan matang."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Masak Ayam",
-          "deskripsi": "Masukkan potongan ayam, aduk hingga berubah warna. Tuangkan air secukupnya, tambahkan garam dan sedikit gula. Ungkep hingga ayam empuk dan air menyusut."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Masukkan Kemangi",
-          "deskripsi": "Terakhir, masukkan tomat iris, daun bawang, dan daun kemangi. Aduk sebentar saja hingga kemangi layu, lalu angkat."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 280,
-        "protein": "26g",
-        "lemak": "16g",
-        "karbohidrat": "8g",
-        "serat": "2g"
-      }
+    "ingredients": [
+      {"name": "Salmon Fillet", "amount": "150g"},
+      {"name": "Broccoli", "amount": "1 cup, florets"},
+      {"name": "Honey", "amount": "2 tablespoons"},
+      {"name": "Soy Sauce", "amount": "1 tablespoon"},
+      {"name": "Garlic", "amount": "2 cloves, minced"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Make Glaze", "desc": "In a small bowl, whisk together honey, soy sauce, lemon juice, and minced garlic."},
+      {"step": 2, "title": "Sear Salmon", "desc": "Heat oil in a pan over medium-high heat. Place salmon skin-side down and sear for 4 minutes until crispy. Flip and cook for 2 more minutes."},
+      {"step": 3, "title": "Glaze & Veggies", "desc": "Add the broccoli florets to the pan. Pour the honey mixture over the salmon and broccoli."},
+      {"step": 4, "title": "Reduce Sauce", "desc": "Simmer for 2-3 minutes until the sauce thickens into a sticky glaze and the broccoli is tender-crisp. Serve over steamed rice."}
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Ayam Geprek (Smashed Fried Chicken)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 30,
+    "difficulty": "Intermediate",
+    "calories": 540,
+    "nutrition": {
+      "proteins": "29g",
+      "fats": "32g",
+      "carbs": "35g",
+      "fiber": "2g"
     },
-    {
-      "id": 24,
-      "nama": "Tahu Walik Krispi Ayam",
-      "deskripsi": "Tahu pong yang dibalik bagian dalamnya, diisi dengan adonan aci dan ayam cincang, lalu digoreng hingga renyah.",
-      "porsi": 4,
-      "waktu_menit": 35,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Camilan", "Tinggi Protein", "Gorengan"],
-      "bahan": [
-        { "nama": "Tahu pong/cokelat", "takaran": "10 buah, belah dua segitiga" },
-        { "nama": "Daging ayam fillet", "takaran": "150 gram, haluskan" },
-        { "nama": "Tepung tapioka & terigu", "takaran": "5 sdm tapioka, 2 sdm terigu" },
-        { "nama": "Bawang putih & Daun bawang", "takaran": "3 siung haluskan, 2 batang iris" },
-        { "nama": "Air es", "takaran": "50 ml" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Balik Tahu",
-          "deskripsi": "Keluarkan sedikit isi putih tahu pong, lalu balik kulitnya hingga bagian dalam berada di luar. Sisihkan."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Buat Isian",
-          "deskripsi": "Campur ayam halus, tepung tapioka, terigu, bawang putih, daun bawang, garam, lada, kaldu jamur, dan sisa isian putih tahu. Tambahkan air es sedikit demi sedikit hingga adonan bisa dibentuk."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Isi & Goreng",
-          "deskripsi": "Masukkan adonan ke dalam cekungan tahu yang sudah dibalik. Goreng dalam minyak agak banyak dengan api sedang hingga kecokelatan dan garing merata."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 190,
-        "protein": "10g",
-        "lemak": "8g",
-        "karbohidrat": "20g",
-        "serat": "1g"
-      }
+    "ingredients": [
+      {"name": "Chicken Breast", "amount": "150g, breaded & fried"},
+      {"name": "Bird's Eye Chilies", "amount": "5-10 pieces"},
+      {"name": "Garlic", "amount": "2 cloves"},
+      {"name": "Hot Oil", "amount": "2 tablespoons"},
+      {"name": "Salt & Sugar", "amount": "to taste"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Prepare Chicken", "desc": "Use a pre-breaded frozen chicken cutlet or fry a fresh one until golden and extra crunchy. This 'crunch' is vital for the geprek texture."},
+      {"step": 2, "title": "Grind Sambal", "desc": "Using a mortar and pestle (cobek), grind raw chilies, garlic, salt, and sugar into a coarse paste."},
+      {"step": 3, "title": "Sizzle", "desc": "Carefully pour 2 tablespoons of smoking hot oil over the chili paste. It should sizzle and release a spicy aroma immediately."},
+      {"step": 4, "title": "The Smash", "desc": "Place the hot fried chicken on top of the sambal and smash it (geprek) with the pestle until the meat is shredded and coated in chili."},
+      {"step": 5, "title": "Serve", "desc": "Serve immediately with a mound of warm white rice and a few slices of fresh cucumber to cool the heat."}
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Tomato and Pepper Shakshuka",
+    "image": "path/to/image.jpg",
+    "time_minutes": 25,
+    "difficulty": "Beginner",
+    "calories": 280,
+    "nutrition": {
+      "proteins": "14g",
+      "fats": "16g",
+      "carbs": "22g",
+      "fiber": "6g"
     },
-    {
-      "id": 25,
-      "nama": "Spaghetti Aglio Olio Tuna",
-      "deskripsi": "Pasta klasik Italia yang dimasak dengan bawang putih, minyak zaitun, cabai pedas, dan tambahan suwiran ikan tuna.",
-      "porsi": 2,
-      "waktu_menit": 20,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Di bawah 20 Menit", "Makan Malam", "Seafood"],
-      "bahan": [
-        { "nama": "Spaghetti", "takaran": "200 gram" },
-        { "nama": "Tuna kaleng (in oil/water)", "takaran": "1 kaleng kecil, tiriskan" },
-        { "nama": "Bawang putih", "takaran": "5 siung, iris tipis" },
-        { "nama": "Cabai rawit / Chili flakes", "takaran": "Sesuai selera" },
-        { "nama": "Minyak zaitun (Olive oil)", "takaran": "3 sdm" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Rebus Pasta",
-          "deskripsi": "Rebus air yang banyak, tambahkan garam. Masukkan spaghetti dan rebus hingga 'al dente'. Sisihkan sedikit air rebusan pasta, lalu tiriskan spaghetti."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Tumis Bumbu & Tuna",
-          "deskripsi": "Panaskan minyak zaitun dengan api kecil. Masukkan bawang putih dan cabai, tumis perlahan agar minyak beraroma tanpa membuat bawang gosong. Masukkan suwiran tuna, aduk sebentar."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Campur Pasta",
-          "deskripsi": "Masukkan spaghetti ke dalam wajan. Tambahkan sedikit air rebusan pasta, garam, lada hitam, dan peterseli cincang. Aduk cepat hingga merata. Angkat."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 420,
-        "protein": "22g",
-        "lemak": "18g",
-        "karbohidrat": "45g",
-        "serat": "3g"
-      }
+    "ingredients": [
+      {"name": "Eggs", "amount": "3 large"},
+      {"name": "Canned Tomatoes", "amount": "1 can, crushed"},
+      {"name": "Bell Pepper", "amount": "1, diced"},
+      {"name": "Onion", "amount": "1/2, diced"},
+      {"name": "Cumin", "amount": "1 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Sauté Base", "desc": "Heat oil in a skillet. Sauté onions and bell peppers for 5 minutes until soft and slightly browned."},
+      {"step": 2, "title": "Simmer Sauce", "desc": "Stir in the crushed tomatoes, cumin, paprika, and a pinch of chili flakes. Let the sauce simmer and thicken for 10 minutes."},
+      {"step": 3, "title": "Poach Eggs", "desc": "Use a spoon to make three small wells in the sauce. Gently crack an egg into each well."},
+      {"step": 4, "title": "Cover & Cook", "desc": "Cover the pan with a lid and cook for 5-8 minutes until the egg whites are set but the yolks are still runny."},
+      {"step": 5, "title": "Garnish", "desc": "Sprinkle with fresh parsley or feta cheese. Serve straight from the pan with crusty bread for dipping."}
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Sayur Asem (Tamarind Soup)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 35,
+    "difficulty": "Beginner",
+    "calories": 160,
+    "nutrition": {
+      "proteins": "4g",
+      "fats": "2g",
+      "carbs": "34g",
+      "fiber": "7g"
     },
-    {
-      "id": 26,
-      "nama": "Telur Ceplok Balado Pedas Manis",
-      "deskripsi": "Lauk harian praktis berupa telur mata sapi yang disiram bumbu balado merah merona, pedas, manis, dan legit.",
-      "porsi": 4,
-      "waktu_menit": 20,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Di bawah 20 Menit", "Murah", "Tinggi Protein"],
-      "bahan": [
-        { "nama": "Telur ayam", "takaran": "4 butir" },
-        { "nama": "Daun jeruk", "takaran": "2 lembar, sobek pinggirnya" },
-        { "nama": "Bumbu halus (cabai merah besar, keriting, tomat)", "takaran": "3 sdm" },
-        { "nama": "Bawang merah & putih", "takaran": "4 siung dan 2 siung, haluskan bersama cabai" },
-        { "nama": "Gula merah / Gula pasir", "takaran": "1 sdm" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Goreng Telur",
-          "deskripsi": "Goreng telur satu per satu menjadi telur mata sapi (ceplok). Tingkat kematangan kuning telur bisa disesuaikan selera. Sisihkan."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Tumis Balado",
-          "deskripsi": "Panaskan sedikit minyak, tumis bumbu halus dan daun jeruk hingga bumbu benar-benar matang, harum, dan minyaknya keluar."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Masukkan Telur",
-          "deskripsi": "Bumbui dengan garam, kaldu bubuk, dan gula. Beri sedikit air jika terlalu kering. Masukkan telur ceplok, aduk perlahan agar bumbu melumuri telur merata."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 180,
-        "protein": "12g",
-        "lemak": "14g",
-        "karbohidrat": "6g",
-        "serat": "1g"
-      }
+    "ingredients": [
+      {"name": "Chayote (Labu Siam)", "amount": "1, cubed"},
+      {"name": "Sweet Corn", "amount": "1, cut into rounds"},
+      {"name": "Long Beans", "amount": "1 bunch, cut into 2-inch pieces"},
+      {"name": "Tamarind Paste", "amount": "2 tablespoons"},
+      {"name": "Raw Peanuts", "amount": "1/4 cup"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Boil Water", "desc": "Bring 6 cups of water to a boil in a large pot. Add tamarind paste, galangal, and bay leaves for the soup base."},
+      {"step": 2, "title": "Cook Hard Veggies", "desc": "Add the raw peanuts and corn rounds first, as they take the longest to cook. Boil for about 10 minutes."},
+      {"step": 3, "title": "Add Soft Veggies", "desc": "Stir in the chayote and long beans. Season with salt and a generous amount of sugar to get that classic sweet-and-sour balance."},
+      {"step": 4, "title": "Final Simmer", "desc": "Cook for another 10 minutes until all vegetables are tender. Serve warm or at room temperature alongside fried fish or tempeh."}
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Korean Beef Bibimbap Bowl",
+    "image": "path/to/image.jpg",
+    "time_minutes": 25,
+    "difficulty": "Intermediate",
+    "calories": 530,
+    "nutrition": {
+      "proteins": "24g",
+      "fats": "18g",
+      "carbs": "68g",
+      "fiber": "6g"
     },
-    {
-      "id": 27,
-      "nama": "Orak Arik Buncis Telur",
-      "deskripsi": "Tumisan sayur kilat berbahan dasar buncis renyah dan telur yang diorak-arik, cocok untuk sarapan atau bekal.",
-      "porsi": 2,
-      "waktu_menit": 15,
-      "tingkat_kesulitan": "Pemula",
-      "tag": ["Di bawah 20 Menit", "Sayuran", "Anak-anak"],
-      "bahan": [
-        { "nama": "Buncis muda", "takaran": "150 gram, iris serong tipis" },
-        { "nama": "Telur ayam", "takaran": "2 butir, kocok lepas" },
-        { "nama": "Bawang putih", "takaran": "3 siung, cincang halus" },
-        { "nama": "Bawang merah", "takaran": "2 siung, iris tipis" },
-        { "nama": "Lada putih bubuk", "takaran": "1/2 sdt" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Orak-Arik Telur",
-          "deskripsi": "Panaskan minyak, tuang telur kocok. Buat orak-arik kasar, angkat dan sisihkan sebentar agar tidak terlalu kering."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Tumis Sayuran",
-          "deskripsi": "Di wajan yang sama, tambah sedikit minyak. Tumis bawang putih dan merah hingga wangi. Masukkan irisan buncis, aduk rata."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Campur & Bumbui",
-          "deskripsi": "Tambahkan sedikit air, biarkan buncis setengah empuk namun tetap renyah. Masukkan kembali telur orak-arik. Beri garam, lada, dan kaldu jamur. Aduk merata lalu sajikan."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 150,
-        "protein": "10g",
-        "lemak": "10g",
-        "karbohidrat": "8g",
-        "serat": "3g"
-      }
+    "ingredients": [
+      {"name": "Ground Beef", "amount": "150g"},
+      {"name": "Spinach", "amount": "1 cup, blanched"},
+      {"name": "Carrots", "amount": "1, julienned"},
+      {"name": "Gochujang (Chili Paste)", "amount": "1 tablespoon"},
+      {"name": "Egg", "amount": "1, sunny-side up"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Brown Beef", "desc": "Sauté ground beef with a little soy sauce and sesame oil until browned and fully cooked. Set aside."},
+      {"step": 2, "title": "Veggies Prep", "desc": "Briefly sauté the carrots and mushrooms separately with a pinch of salt. Blanch the spinach and squeeze out excess water."},
+      {"step": 3, "title": "Bibimbap Sauce", "desc": "Mix gochujang with a teaspoon of sugar, sesame oil, and a splash of water to create a smooth, pourable sauce."},
+      {"step": 4, "title": "Assemble", "desc": "Place a scoop of rice in a bowl. Arrange the beef and vegetables in neat piles on top. Place the fried egg in the center."},
+      {"step": 5, "title": "Mix & Eat", "desc": "Drizzle the sauce over everything. Mix thoroughly before eating so every grain of rice is coated in the spicy sauce."}
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Tahu Tempe Bacem (Sweet Braised Tofu)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 45,
+    "difficulty": "Beginner",
+    "calories": 310,
+    "nutrition": {
+      "proteins": "22g",
+      "fats": "14g",
+      "carbs": "28g",
+      "fiber": "5g"
     },
-    {
-      "id": 28,
-      "nama": "Soto Daging Madura",
-      "deskripsi": "Soto daging sapi berkuah keruh kecokelatan dengan rasa kaldu pekat yang gurih, disajikan dengan irisan telur rebus dan seledri.",
-      "porsi": 4,
-      "waktu_menit": 60,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Berkuah", "Khas Indonesia", "Makan Malam"],
-      "bahan": [
-        { "nama": "Daging sapi (sandung lamur)", "takaran": "400 gram" },
-        { "nama": "Beras/Nasi putih", "takaran": "Untuk penyajian" },
-        { "nama": "Bumbu halus (bawang, jahe, kunyit, ketumbar, merica)", "takaran": "4 sdm" },
-        { "nama": "Serai, Daun jeruk, Lengkuas geprek", "takaran": "Secukupnya" },
-        { "nama": "Telur rebus & Jeruk nipis", "takaran": "Bahan pelengkap" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Rebus Daging",
-          "deskripsi": "Rebus daging sapi dalam air mendidih hingga setengah empuk. Buang buih kotoran di permukaannya. Angkat daging, potong dadu, lalu masukkan kembali ke kaldu."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Tumis Bumbu Soto",
-          "deskripsi": "Tumis bumbu halus bersama serai, daun jeruk, dan lengkuas hingga matang dan harum. Tuang tumisan bumbu ini ke dalam panci rebusan daging."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Masak Kuah Berkaldu",
-          "deskripsi": "Masak kuah dengan api kecil hingga daging benar-benar empuk dan bumbu meresap. Bumbui dengan garam dan sedikit gula. Sajikan di mangkuk dengan pelengkap."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 310,
-        "protein": "26g",
-        "lemak": "18g",
-        "karbohidrat": "10g",
-        "serat": "1g"
-      }
+    "ingredients": [
+      {"name": "Tempeh", "amount": "1 block, sliced"},
+      {"name": "Tofu", "amount": "4 pieces, firm"},
+      {"name": "Coconut Water", "amount": "500ml"},
+      {"name": "Palm Sugar", "amount": "50g, crushed"},
+      {"name": "Coriander Powder", "amount": "1 tablespoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Layer the Pot", "desc": "Arrange the tofu and tempeh slices in a wide pot so they don't overlap too much."},
+      {"step": 2, "title": "Add Braising Liquid", "desc": "Pour in the coconut water. Add palm sugar, coriander powder, garlic, and bay leaves. The liquid should almost cover the tofu."},
+      {"step": 3, "title": "Slow Simmer", "desc": "Cook on medium-low heat until the liquid has completely evaporated and the tofu/tempeh has turned a deep brown color."},
+      {"step": 4, "title": "Quick Fry", "desc": "Heat a small amount of oil and briefly fry the braised pieces for 1 minute per side to caramelize the sugars. Serve with chili sauce."}
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Spinach and Feta Omelet",
+    "image": "path/to/image.jpg",
+    "time_minutes": 10,
+    "difficulty": "Beginner",
+    "calories": 240,
+    "nutrition": {
+      "proteins": "16g",
+      "fats": "18g",
+      "carbs": "4g",
+      "fiber": "1g"
     },
-    {
-      "id": 29,
-      "nama": "Terong Balado Teri Jengki",
-      "deskripsi": "Terong ungu goreng yang dilumuri bumbu balado pedas dan ikan teri jengki yang asin gurih.",
-      "porsi": 3,
-      "waktu_menit": 25,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Pedas", "Sayuran", "Murah"],
-      "bahan": [
-        { "nama": "Terong ungu", "takaran": "2 buah besar, potong-potong" },
-        { "nama": "Teri jengki/teri medan", "takaran": "50 gram, cuci bersih" },
-        { "nama": "Bumbu tumbuk kasar (cabai merah, bawang merah, tomat)", "takaran": "4 sdm" },
-        { "nama": "Garam & Gula", "takaran": "Secukupnya" },
-        { "nama": "Minyak goreng", "takaran": "Secukupnya" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Goreng Terong & Teri",
-          "deskripsi": "Goreng terong ungu sebentar saja hingga agak layu, angkat dan tiriskan. Goreng ikan teri hingga kering dan renyah, sisihkan."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Tumis Sambal",
-          "deskripsi": "Tumis bumbu tumbuk kasar dengan sisa minyak secukupnya. Masak dengan api sedang hingga bau langu cabai hilang dan sambal matang kemerahan."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Campur Bersama",
-          "deskripsi": "Bumbui sambal dengan sedikit garam (karena teri sudah asin) dan gula. Matikan api. Masukkan terong dan teri goreng, aduk rata perlahan. Siap dihidangkan."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 220,
-        "protein": "8g",
-        "lemak": "16g",
-        "karbohidrat": "14g",
-        "serat": "4g"
-      }
+    "ingredients": [
+      {"name": "Eggs", "amount": "2 large"},
+      {"name": "Fresh Spinach", "amount": "1 cup"},
+      {"name": "Feta Cheese", "amount": "2 tablespoons, crumbled"},
+      {"name": "Butter", "amount": "1 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Wilt Spinach", "desc": "Melt butter in a small pan. Add spinach and cook for 1 minute until just wilted. Remove and set aside."},
+      {"step": 2, "title": "Whisk Eggs", "desc": "Beat the eggs with a pinch of salt and pepper until very bubbly."},
+      {"step": 3, "title": "Cook Eggs", "desc": "Pour eggs into the hot pan. Let them sit for 30 seconds, then gently lift the edges to let the raw egg flow underneath."},
+      {"step": 4, "title": "Fill & Fold", "desc": "When the top is almost set, add the spinach and feta to one half. Fold the other half over and cook for 30 more seconds."}
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Quick Beef Rendang (Student Version)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 60,
+    "difficulty": "Intermediate",
+    "calories": 450,
+    "nutrition": {
+      "proteins": "32g",
+      "fats": "30g",
+      "carbs": "12g",
+      "fiber": "3g"
     },
-    {
-      "id": 30,
-      "nama": "Nasi Bakar Ayam Kemangi",
-      "deskripsi": "Nasi gurih berbumbu yang dibungkus daun pisang, diisi ayam suwir kemangi pedas, lalu dibakar untuk mengeluarkan aroma asap.",
-      "porsi": 3,
-      "waktu_menit": 45,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Khas Indonesia", "Makan Siang", "Tinggi Protein"],
-      "bahan": [
-        { "nama": "Nasi putih", "takaran": "3 porsi" },
-        { "nama": "Ayam suwir matang", "takaran": "150 gram" },
-        { "nama": "Daun kemangi", "takaran": "1 genggam besar" },
-        { "nama": "Daun pisang", "takaran": "Secukupnya, layukan" },
-        { "nama": "Bumbu halus isian (cabai merah, bawang, kunyit)", "takaran": "2 sdm" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Buat Isian Ayam",
-          "deskripsi": "Tumis bumbu halus bersama serai dan daun jeruk hingga harum. Masukkan ayam suwir, tambahkan sedikit air, garam, dan gula. Masak hingga meresap. Matikan api, masukkan kemangi, aduk rata."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Bungkus Nasi",
-          "deskripsi": "Ambil 2 lembar daun pisang. Taruh satu porsi nasi putih di atasnya, pipihkan. Beri isian ayam kemangi di tengahnya. Gulung padat menyerupai lontong, sematkan lidi di kedua ujungnya."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Bakar Nasi",
-          "deskripsi": "Bakar bungkusan nasi di atas teflon atau pemanggang hingga daun pisang layu, kecokelatan, dan beraroma wangi asap. Sajikan selagi hangat."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 390,
-        "protein": "18g",
-        "lemak": "10g",
-        "karbohidrat": "55g",
-        "serat": "2g"
-      }
+    "ingredients": [
+      {"name": "Beef Stew Meat", "amount": "300g, small cubes"},
+      {"name": "Rendang Paste", "amount": "3 tablespoons, store-bought"},
+      {"name": "Coconut Milk", "amount": "400ml"},
+      {"name": "Toasted Coconut (Kerisik)", "amount": "2 tablespoons"},
+      {"name": "Kaffir Lime Leaves", "amount": "2 leaves"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Sauté Paste", "desc": "In a heavy-bottomed pot, sauté the rendang paste until it darkens and becomes very fragrant."},
+      {"step": 2, "title": "Sear Beef", "desc": "Add the beef cubes and cook until they are browned on all sides and coated in the paste."},
+      {"step": 3, "title": "Simmer", "desc": "Pour in the coconut milk and add the lime leaves. Bring to a boil, then reduce heat to very low."},
+      {"step": 4, "title": "Reduce Sauce", "desc": "Simmer uncovered, stirring occasionally, until the liquid reduces and the oil starts to separate from the sauce (about 45 mins)."},
+      {"step": 5, "title": "The Finish", "desc": "Stir in the toasted coconut (kerisik) to thicken and darken the sauce. Cook until the beef is tender and the sauce is thick and dark brown."}
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Coconut Chickpea Curry",
+    "image": "path/to/image.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "calories": 340,
+    "nutrition": {
+      "proteins": "12g",
+      "fats": "16g",
+      "carbs": "42g",
+      "fiber": "11g"
     },
-    {
-      "id": 31,
-      "nama": "Mie Aceh Kuah Pedas",
-      "deskripsi": "Mie kuning tebal dengan kuah kental berbumbu rempah kari pedas khas Aceh, dilengkapi irisan daging dan sayuran.",
-      "porsi": 2,
-      "waktu_menit": 35,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Pedas", "Berkuah", "Khas Indonesia"],
-      "bahan": [
-        { "nama": "Mie kuning/Mie lidi tebal", "takaran": "200 gram, rebus matang" },
-        { "nama": "Daging sapi/kambing", "takaran": "100 gram, potong kecil" },
-        { "nama": "Kol & Tauge", "takaran": "Secukupnya" },
-        { "nama": "Bumbu halus (cabai merah, bawang, kemiri, kapulaga, jintan, kari bubuk)", "takaran": "4 sdm" },
-        { "nama": "Kecap manis & Air kaldu", "takaran": "Secukupnya" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Tumis Bumbu & Daging",
-          "deskripsi": "Panaskan minyak, tumis bumbu halus bersama irisan bawang merah hingga wangi. Masukkan daging, masak hingga berubah warna."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Masak Kuah",
-          "deskripsi": "Tuangkan air kaldu, tambahkan kecap manis, garam, dan kaldu bubuk. Masak hingga daging empuk dan kuah sedikit menyusut."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Masukkan Mie & Sayuran",
-          "deskripsi": "Masukkan kol, tauge, dan mie kuning matang. Aduk sebentar hingga bumbu meresap ke dalam mie. Angkat dan sajikan dengan taburan bawang goreng dan emping."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 450,
-        "protein": "18g",
-        "lemak": "16g",
-        "karbohidrat": "58g",
-        "serat": "4g"
-      }
+    "ingredients": [
+      {"name": "Canned Chickpeas", "amount": "1 can, rinsed"},
+      {"name": "Coconut Milk", "amount": "1/2 cup"},
+      {"name": "Curry Powder", "amount": "1 tablespoon"},
+      {"name": "Onion", "amount": "1/2, chopped"},
+      {"name": "Fresh Cilantro", "amount": "for garnish"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Sauté Aromatics", "desc": "Sauté chopped onion and garlic in oil until softened. Stir in the curry powder and cook for 30 seconds to toast the spices."},
+      {"step": 2, "title": "Add Base", "desc": "Add the chickpeas and coconut milk. If you like it saucier, add a splash of vegetable broth or water."},
+      {"step": 3, "title": "Simmer", "desc": "Let the curry bubble gently for 10 minutes so the chickpeas absorb the flavors. Season with salt and a squeeze of lime."},
+      {"step": 4, "title": "Serve", "desc": "Serve over rice or with toasted flatbread. Garnish generously with fresh cilantro."}
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Perkedel Kentang (Potato Fritters)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 35,
+    "difficulty": "Intermediate",
+    "calories": 180,
+    "nutrition": {
+      "proteins": "4g",
+      "fats": "8g",
+      "carbs": "24g",
+      "fiber": "3g"
     },
-    {
-      "id": 32,
-      "nama": "Telur Bumbu Bali",
-      "deskripsi": "Telur rebus yang digoreng berkulit, lalu dimasak dengan bumbu merah pekat yang manis, pedas, dan beraroma khas.",
-      "porsi": 4,
-      "waktu_menit": 30,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Tinggi Protein", "Khas Indonesia", "Murah"],
-      "bahan": [
-        { "nama": "Telur ayam", "takaran": "4 butir, rebus dan kupas" },
-        { "nama": "Bumbu halus (cabai merah, bawang, terasi, tomat)", "takaran": "4 sdm" },
-        { "nama": "Kecap manis", "takaran": "2 sdm" },
-        { "nama": "Daun jeruk", "takaran": "3 lembar, buang tulang daunnya" },
-        { "nama": "Gula merah muda", "takaran": "1 sdt" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Goreng Telur",
-          "deskripsi": "Goreng telur rebus dalam minyak panas hingga bagian luarnya berkulit kecokelatan. Angkat dan tiriskan."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Tumis Bumbu",
-          "deskripsi": "Tumis bumbu halus bersama daun jeruk hingga harum, matang, dan mengeluarkan minyak."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Resapkan Bumbu",
-          "deskripsi": "Masukkan telur goreng, tambahkan kecap manis, gula merah, garam, dan sedikit air. Masak dengan api kecil hingga bumbu mengental dan meresap ke dalam telur."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 180,
-        "protein": "12g",
-        "lemak": "12g",
-        "karbohidrat": "8g",
-        "serat": "1g"
-      }
+    "ingredients": [
+      {"name": "Potatoes", "amount": "500g, peeled and cubed"},
+      {"name": "Fried Shallots", "amount": "2 tablespoons"},
+      {"name": "Celery", "amount": "1 stalk, finely chopped"},
+      {"name": "Egg", "amount": "1, beaten"},
+      {"name": "Nutmeg", "amount": "1/4 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Fry Potatoes", "desc": "Fry the cubed potatoes in oil until soft and golden. This method prevents the perkedel from being too watery compared to boiling."},
+      {"step": 2, "title": "Mash", "desc": "While still hot, mash the fried potatoes in a bowl until smooth. Add salt, pepper, nutmeg, celery, and fried shallots."},
+      {"step": 3, "title": "Shape", "desc": "Take a tablespoon of the mixture and shape it into a smooth, slightly flattened ball. Repeat until all mixture is used."},
+      {"step": 4, "title": "Coating", "desc": "Dip each potato ball into the beaten egg, ensuring it is fully coated. This creates the signature golden 'lace' when fried."},
+      {"step": 5, "title": "Final Fry", "desc": "Fry the patties in hot oil over medium heat until the egg coating is crispy and deep golden brown. Serve as a side dish."}
+    ]
+  },
+  {
+    "id": 32,
+    "title": "One-Pan Lemon Garlic Shrimp",
+    "image": "path/to/image.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "calories": 240,
+    "nutrition": {
+      "proteins": "22g",
+      "fats": "14g",
+      "carbs": "5g",
+      "fiber": "1g"
     },
-    {
-      "id": 33,
-      "nama": "Cumi Saus Tiram",
-      "deskripsi": "Potongan cumi segar yang ditumis cepat dengan bawang bombay dan saus tiram gurih manis.",
-      "porsi": 2,
-      "waktu_menit": 15,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Seafood", "Di bawah 20 Menit", "Praktis"],
-      "bahan": [
-        { "nama": "Cumi segar", "takaran": "250 gram, bersihkan tinta dan potong cincin" },
-        { "nama": "Bawang bombay", "takaran": "1/2 buah, iris memanjang" },
-        { "nama": "Bawang putih", "takaran": "3 siung, memarkan dan cincang" },
-        { "nama": "Saus tiram", "takaran": "3 sdm" },
-        { "nama": "Kecap manis & Lada putih", "takaran": "Secukupnya" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Tumis Bawang",
-          "deskripsi": "Panaskan sedikit minyak atau margarin, tumis bawang putih hingga harum, lalu masukkan bawang bombay, tumis hingga layu."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Masak Cumi",
-          "deskripsi": "Gunakan api besar, masukkan cumi cincin. Aduk cepat hingga cumi berubah warna menjadi putih dan sedikit menggulung."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Beri Saus",
-          "deskripsi": "Segera tambahkan saus tiram, kecap manis, lada, dan sedikit kaldu jamur. Aduk rata kurang lebih 1-2 menit agar cumi tidak alot. Angkat."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 210,
-        "protein": "20g",
-        "lemak": "8g",
-        "karbohidrat": "12g",
-        "serat": "1g"
-      }
+    "ingredients": [
+      {"name": "Shrimp", "amount": "250g, peeled and deveined"},
+      {"name": "Garlic", "amount": "3 cloves, minced"},
+      {"name": "Butter", "amount": "2 tablespoons"},
+      {"name": "Lemon Juice", "amount": "1 tablespoon"},
+      {"name": "Red Chili Flakes", "amount": "1/2 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Melt Butter", "desc": "In a large skillet, melt the butter over medium-high heat until it starts to bubble."},
+      {"step": 2, "title": "Sauté Garlic", "desc": "Add minced garlic and chili flakes. Cook for 1 minute until the garlic is fragrant but not burnt."},
+      {"step": 3, "title": "Sear Shrimp", "desc": "Add the shrimp to the pan in a single layer. Cook for 2 minutes per side until they turn pink and opaque."},
+      {"step": 4, "title": "Deglaze", "desc": "Stir in the lemon juice and a pinch of salt. Toss everything together to coat the shrimp in the garlic butter sauce and serve hot."}
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Tumis Kangkung Belacan",
+    "image": "path/to/image.jpg",
+    "time_minutes": 10,
+    "difficulty": "Beginner",
+    "calories": 140,
+    "nutrition": {
+      "proteins": "5g",
+      "fats": "9g",
+      "carbs": "11g",
+      "fiber": "4g"
     },
-    {
-      "id": 34,
-      "nama": "Bubur Ayam Kuah Kuning",
-      "deskripsi": "Bubur nasi lembut dengan siraman kuah kaldu kuning yang gurih, disajikan dengan ayam suwir, kacang kedelai, dan kerupuk.",
-      "porsi": 4,
-      "waktu_menit": 60,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Sarapan", "Khas Indonesia", "Berkuah"],
-      "bahan": [
-        { "nama": "Beras", "takaran": "1 cup, cuci bersih" },
-        { "nama": "Dada ayam", "takaran": "250 gram, rebus untuk kaldu dan suwiran" },
-        { "nama": "Bumbu halus kuah (bawang, kunyit, kemiri, ketumbar)", "takaran": "3 sdm" },
-        { "nama": "Daun salam & Serai", "takaran": "2 lembar dan 1 batang" },
-        { "nama": "Pelengkap (kacang kedelai goreng, seledri, kerupuk, bawang goreng)", "takaran": "Secukupnya" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Masak Bubur",
-          "deskripsi": "Masak beras dengan air kaldu rebusan ayam (tambahkan air jika kurang), daun salam, dan garam. Masak sambil terus diaduk hingga beras hancur dan menjadi bubur kental."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Buat Kuah Kuning",
-          "deskripsi": "Tumis bumbu halus kuah bersama serai dan daun jeruk hingga harum. Masukkan sisa air kaldu ayam, didihkan, bumbui dengan garam dan merica. Goreng dada ayam rebus sebentar, lalu suwir-suwir."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Penyajian",
-          "deskripsi": "Tuang bubur ke mangkuk, siram dengan kuah kuning. Tata ayam suwir, kacang kedelai, seledri, dan bawang goreng di atasnya. Tambahkan kerupuk."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 320,
-        "protein": "18g",
-        "lemak": "10g",
-        "karbohidrat": "42g",
-        "serat": "2g"
-      }
+    "ingredients": [
+      {"name": "Water Spinach (Kangkung)", "amount": "1 bunch"},
+      {"name": "Shrimp Paste (Belacan)", "amount": "1 teaspoon"},
+      {"name": "Red Chili", "amount": "2, sliced"},
+      {"name": "Garlic", "amount": "2 cloves, minced"},
+      {"name": "Oyster Sauce", "amount": "1 tablespoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Prepare Greens", "desc": "Wash the kangkung thoroughly. Separate the tougher stems from the tender leaves and cut into 3-inch lengths."},
+      {"step": 2, "title": "Toast Paste", "desc": "Sauté garlic and shrimp paste in oil until the paste is fragrant and broken down. Add the sliced chilies."},
+      {"step": 3, "title": "Stir-Fry", "desc": "Add the stems first and stir-fry for 1 minute. Then add the leaves and oyster sauce. Cook on high heat for 2 more minutes."},
+      {"step": 4, "title": "Season", "desc": "Add a splash of water if it's too dry. Season with salt and sugar to taste, then serve immediately while the greens are vibrant."}
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Chicken Teriyaki Rice Bowl",
+    "image": "path/to/image.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "calories": 460,
+    "nutrition": {
+      "proteins": "30g",
+      "fats": "10g",
+      "carbs": "62g",
+      "fiber": "2g"
     },
-    {
-      "id": 35,
-      "nama": "Tahu Tek Surabaya",
-      "deskripsi": "Potongan tahu goreng, telur dadar, dan lontong yang disiram dengan saus bumbu kacang campur petis udang yang hitam pekat dan gurih.",
-      "porsi": 2,
-      "waktu_menit": 25,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Vegetarian", "Khas Indonesia", "Makan Malam"],
-      "bahan": [
-        { "nama": "Tahu putih", "takaran": "1 kotak besar, potong dadu" },
-        { "nama": "Telur ayam", "takaran": "2 butir, kocok lepas" },
-        { "nama": "Tauge", "takaran": "Secukupnya, seduh air panas" },
-        { "nama": "Bumbu ulek (kacang tanah goreng, bawang putih goreng, cabai)", "takaran": "3 sdm" },
-        { "nama": "Petis udang & Kecap manis", "takaran": "Masing-masing 2 sdm" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Goreng Tahu Telur",
-          "deskripsi": "Campur potongan tahu ke dalam kocokan telur yang sudah diberi sedikit garam. Dadar di wajan hingga matang kecokelatan. Potong-potong menggunakan gunting."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Ulek Bumbu Petis",
-          "deskripsi": "Ulek kacang tanah, bawang putih, dan cabai rawit hingga halus. Tambahkan petis udang, kecap manis, dan air matang secukupnya hingga menjadi saus kental."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Tata & Sajikan",
-          "deskripsi": "Letakkan potongan lontong (opsional), tahu telur, dan tauge di atas piring. Siram dengan bumbu petis secara merata. Taburi bawang goreng dan kerupuk."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 390,
-        "protein": "20g",
-        "lemak": "22g",
-        "karbohidrat": "28g",
-        "serat": "5g"
-      }
+    "ingredients": [
+      {"name": "Chicken Thigh", "amount": "200g, cubed"},
+      {"name": "Soy Sauce", "amount": "3 tablespoons"},
+      {"name": "Honey", "amount": "2 tablespoons"},
+      {"name": "Ginger", "amount": "1 teaspoon, grated"},
+      {"name": "Broccoli", "amount": "1 cup, steamed"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Make Sauce", "desc": "Mix soy sauce, honey, and grated ginger in a small bowl until the honey is fully dissolved."},
+      {"step": 2, "title": "Cook Chicken", "desc": "Sauté chicken cubes in a pan over medium heat until they are golden brown and fully cooked through."},
+      {"step": 3, "title": "Glaze", "desc": "Pour the sauce over the chicken. Simmer for 3-5 minutes until the sauce reduces into a thick, shiny glaze."},
+      {"step": 4, "title": "Assemble", "desc": "Serve the glazed chicken over a bowl of steamed white rice. Add the steamed broccoli on the side for a balanced meal."}
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Bakso Ayam (Chicken Meatball Soup)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 40,
+    "difficulty": "Intermediate",
+    "calories": 310,
+    "nutrition": {
+      "proteins": "24g",
+      "fats": "12g",
+      "carbs": "28g",
+      "fiber": "2g"
     },
-    {
-      "id": 36,
-      "nama": "Ayam Rica-Rica Manado",
-      "deskripsi": "Potongan ayam yang dimasak dengan bumbu tumbuk kasar super pedas, kaya akan aroma daun pandan dan kemangi segar.",
-      "porsi": 4,
-      "waktu_menit": 40,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Pedas", "Tinggi Protein", "Khas Indonesia"],
-      "bahan": [
-        { "nama": "Ayam potong", "takaran": "500 gram, potong kecil-kecil, goreng setengah matang" },
-        { "nama": "Bumbu tumbuk kasar (cabai merah, rawit, bawang merah)", "takaran": "5 sdm" },
-        { "nama": "Daun pandan, daun jeruk, serai", "takaran": "Secukupnya" },
-        { "nama": "Daun kemangi", "takaran": "1 genggam" },
-        { "nama": "Jeruk nipis", "takaran": "1 buah" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Tumis Bumbu Rica",
-          "deskripsi": "Tumis bumbu tumbuk kasar bersama serai geprek, irisan daun pandan, dan daun jeruk hingga harum dan benar-benar matang agar tidak langu."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Ungkep Ayam",
-          "deskripsi": "Masukkan ayam goreng setengah matang. Tuang sedikit air, bumbui dengan garam, gula, dan perasan jeruk nipis. Masak hingga bumbu meresap dan air mengering."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Tambahkan Kemangi",
-          "deskripsi": "Matikan api, segera masukkan daun kemangi segar dan irisan tomat. Aduk rata hingga kemangi layu oleh panas sisa dari wajan."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 310,
-        "protein": "26g",
-        "lemak": "18g",
-        "karbohidrat": "10g",
-        "serat": "3g"
-      }
+    "ingredients": [
+      {"name": "Ground Chicken", "amount": "250g"},
+      {"name": "Tapioca Flour", "amount": "4 tablespoons"},
+      {"name": "Garlic Powder", "amount": "1 teaspoon"},
+      {"name": "Beef or Chicken Broth", "amount": "4 cups"},
+      {"name": "Celery", "amount": "1 stalk, sliced"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Mix Meatballs", "desc": "Combine ground chicken, tapioca flour, garlic powder, salt, and pepper. Knead until the mixture is sticky and well-blended."},
+      {"step": 2, "title": "Shape & Boil", "desc": "Bring a pot of water to a simmer. Shape the mixture into small balls and drop them into the water. Remove once they float."},
+      {"step": 3, "title": "Prepare Broth", "desc": "In a separate pot, heat the broth with minced garlic and celery. Season with salt and a pinch of sugar."},
+      {"step": 4, "title": "Serve", "desc": "Place the meatballs in a bowl. Pour the hot broth over them and garnish with fried shallots and sambal if desired."}
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Mediterranean Hummus Wrap",
+    "image": "path/to/image.jpg",
+    "time_minutes": 10,
+    "difficulty": "Beginner",
+    "calories": 320,
+    "nutrition": {
+      "proteins": "11g",
+      "fats": "15g",
+      "carbs": "38g",
+      "fiber": "9g"
     },
-    {
-      "id": 37,
-      "nama": "Sup Iga Sapi Kuah Bening",
-      "deskripsi": "Sup berkuah bening yang kaya akan sari kaldu tulang iga sapi, dilengkapi dengan wortel, kentang, dan taburan seledri segar.",
-      "porsi": 4,
-      "waktu_menit": 90,
-      "tingkat_kesulitan": "Sulit",
-      "tag": ["Berkuah", "Tinggi Protein", "Makan Malam"],
-      "bahan": [
-        { "nama": "Iga sapi", "takaran": "500 gram, cuci bersih" },
-        { "nama": "Wortel & Kentang", "takaran": "Masing-masing 2 buah, potong dadu besar" },
-        { "nama": "Bumbu rempah (kayu manis, cengkeh, pala bubuk)", "takaran": "Secukupnya" },
-        { "nama": "Bawang putih", "takaran": "5 siung, haluskan dan tumis" },
-        { "nama": "Daun bawang & Seledri", "takaran": "2 batang, potong kasar" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Rebus Iga & Buang Kotoran",
-          "deskripsi": "Rebus iga dalam air mendidih selama 10 menit, lalu buang air rebusan pertamanya agar kuah tidak amis dan bening. Rebus kembali dengan air baru hingga empuk."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Bumbui Kaldu",
-          "deskripsi": "Masukkan bumbu rempah utuh (cengkeh, kayu manis), pala bubuk, dan tumisan bawang putih ke dalam panci rebusan iga. Bumbui dengan garam dan kaldu sapi."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Masukkan Sayuran",
-          "deskripsi": "Setelah iga empuk, masukkan kentang dan wortel. Masak hingga sayuran matang. Sesaat sebelum diangkat, taburkan daun bawang, seledri, dan bawang goreng."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 380,
-        "protein": "28g",
-        "lemak": "24g",
-        "karbohidrat": "15g",
-        "serat": "3g"
-      }
+    "ingredients": [
+      {"name": "Tortilla", "amount": "1 large"},
+      {"name": "Hummus", "amount": "3 tablespoons"},
+      {"name": "Cucumber", "amount": "1/2, sliced"},
+      {"name": "Cherry Tomatoes", "amount": "5, halved"},
+      {"name": "Feta Cheese", "amount": "1 tablespoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Spread", "desc": "Lay the tortilla flat and spread the hummus evenly across the center, leaving room at the edges."},
+      {"step": 2, "title": "Layer", "desc": "Place the cucumber slices, tomatoes, and crumbled feta on top of the hummus layer."},
+      {"step": 3, "title": "Fold", "desc": "Fold in the sides of the tortilla and roll it up tightly to enclose the filling."},
+      {"step": 4, "title": "Optional Toast", "desc": "Briefly toast the wrap in a dry pan for 1 minute per side until golden and slightly crunchy."}
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Orak Arik Telur Sayur",
+    "image": "path/to/image.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "calories": 210,
+    "nutrition": {
+      "proteins": "14g",
+      "fats": "12g",
+      "carbs": "10g",
+      "fiber": "3g"
     },
-    {
-      "id": 38,
-      "nama": "Pempek Dos (Tanpa Ikan)",
-      "deskripsi": "Pempek kenyal dan renyah yang dibuat murni dari tepung tanpa campuran daging ikan, disajikan dengan kuah cuko asam pedas manis.",
-      "porsi": 4,
-      "waktu_menit": 45,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Camilan", "Gorengan", "Murah"],
-      "bahan": [
-        { "nama": "Tepung terigu", "takaran": "125 gram" },
-        { "nama": "Tepung sagu/tapioka", "takaran": "250 gram" },
-        { "nama": "Bawang putih haluskan & Garam", "takaran": "2 siung dan 1 sdt" },
-        { "nama": "Air mendidih", "takaran": "250 ml" },
-        { "nama": "Telur", "takaran": "1 butir (untuk isian kapal selam mini)" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Buat Biang",
-          "deskripsi": "Campurkan tepung terigu, bawang putih halus, kaldu bubuk, dan garam. Tuangkan air mendidih sedikit demi sedikit sambil diaduk dengan spatula kayu hingga menjadi adonan kental yang lengket. Biarkan agak dingin."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Uleni & Bentuk",
-          "deskripsi": "Tambahkan tepung sagu sedikit demi sedikit ke adonan biang. Uleni perlahan dengan tangan (jangan terlalu kuat agar tidak alot) hingga adonan bisa dibentuk. Bentuk lenjer (memanjang) atau isi dengan kocokan telur."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Rebus & Goreng",
-          "deskripsi": "Rebus pempek dalam air mendidih yang diberi sedikit minyak hingga mengapung. Tiriskan dan biarkan dingin, lalu goreng dalam minyak panas hingga luarnya garing."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 280,
-        "protein": "4g",
-        "lemak": "8g",
-        "karbohidrat": "48g",
-        "serat": "1g"
-      }
+    "ingredients": [
+      {"name": "Eggs", "amount": "2 large"},
+      {"name": "Cabbage", "amount": "1 cup, shredded"},
+      {"name": "Carrot", "amount": "1, julienned"},
+      {"name": "Garlic", "amount": "2 cloves, minced"},
+      {"name": "White Pepper", "amount": "1/2 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Sauté Veggies", "desc": "Heat oil and sauté garlic until fragrant. Add carrots and cabbage, stir-frying until they soften slightly."},
+      {"step": 2, "title": "Scramble", "desc": "Push the vegetables to the side of the pan. Crack the eggs into the empty space and scramble until mostly set."},
+      {"step": 3, "title": "Mix", "desc": "Toss the eggs and vegetables together. Season with salt, sugar, and white pepper."},
+      {"step": 4, "title": "Finish", "desc": "Cook for 1 more minute until the eggs are fully done and the flavors are well combined. Perfect for breakfast or a light lunch."}
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Spicy Peanut Soba Noodles",
+    "image": "path/to/image.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "calories": 390,
+    "nutrition": {
+      "proteins": "13g",
+      "fats": "18g",
+      "carbs": "51g",
+      "fiber": "5g"
     },
-    {
-      "id": 39,
-      "nama": "Sayur Asem Jakarta",
-      "deskripsi": "Sayur kuah bening kemerahan yang rasanya sangat segar, asam, dan sedikit pedas, berisi aneka sayuran lokal.",
-      "porsi": 4,
-      "waktu_menit": 30,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Sayuran", "Berkuah", "Rendah Lemak"],
-      "bahan": [
-        { "nama": "Sayuran asem (melinjo, nangka muda, labu siam, jagung, kacang panjang, daun melinjo)", "takaran": "1 paket lengkap" },
-        { "nama": "Asam jawa", "takaran": "2 sdm, larutkan dengan air hangat" },
-        { "nama": "Bumbu halus (cabai merah, bawang merah, terasi bakar, kemiri)", "takaran": "3 sdm" },
-        { "nama": "Lengkuas & Daun salam", "takaran": "1 ruas geprek dan 2 lembar" },
-        { "nama": "Gula merah muda", "takaran": "2 sdm" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Rebus Sayuran Keras",
-          "deskripsi": "Didihkan air dalam panci. Masukkan sayuran yang keras terlebih dahulu (melinjo, nangka muda, jagung manis) bersama daun salam dan lengkuas. Rebus hingga empuk."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Masukkan Bumbu",
-          "deskripsi": "Masukkan bumbu halus, air asam jawa, gula merah, dan garam. Aduk rata dan biarkan bumbu meresap ke dalam kuah."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Tambahkan Sayuran Daun",
-          "deskripsi": "Terakhir, masukkan labu siam, kacang panjang, dan daun melinjo. Masak sebentar saja (sekitar 3 menit) agar teksturnya tetap renyah. Angkat dan sajikan hangat."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 120,
-        "protein": "4g",
-        "lemak": "2g",
-        "karbohidrat": "22g",
-        "serat": "6g"
-      }
+    "ingredients": [
+      {"name": "Soba Noodles", "amount": "100g, dry"},
+      {"name": "Peanut Butter", "amount": "2 tablespoons"},
+      {"name": "Soy Sauce", "amount": "1 tablespoon"},
+      {"name": "Lime Juice", "amount": "1 teaspoon"},
+      {"name": "Chili Oil", "amount": "1 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Cook Noodles", "desc": "Boil soba noodles for 4-5 minutes. Drain and rinse under cold water to stop the cooking and remove excess starch."},
+      {"step": 2, "title": "Whisk Sauce", "desc": "In a bowl, combine peanut butter, soy sauce, lime juice, chili oil, and a tablespoon of hot water. Whisk until smooth."},
+      {"step": 3, "title": "Combine", "desc": "Toss the cold noodles with the peanut sauce until every strand is thoroughly coated."},
+      {"step": 4, "title": "Garnish", "desc": "Top with crushed peanuts or sliced green onions for extra crunch and flavor."}
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Ayam Kecap (Soy Sauce Chicken)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 30,
+    "difficulty": "Intermediate",
+    "calories": 420,
+    "nutrition": {
+      "proteins": "28g",
+      "fats": "20g",
+      "carbs": "34g",
+      "fiber": "1g"
     },
-    {
-      "id": 40,
-      "nama": "Tumis Pare Nenek Teri",
-      "deskripsi": "Tumisan sayur pare renyah yang diolah sedemikian rupa agar tidak terlalu pahit, dipadukan dengan teri jengki asin dan irisan cabai.",
-      "porsi": 3,
-      "waktu_menit": 25,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Sayuran", "Murah", "Makan Siang"],
-      "bahan": [
-        { "nama": "Pare (paria)", "takaran": "2 buah ukuran sedang, belah dan buang bijinya" },
-        { "nama": "Teri jengki atau teri medan", "takaran": "50 gram, goreng kering" },
-        { "nama": "Bawang merah & putih", "takaran": "Total 7 siung, iris tipis" },
-        { "nama": "Cabai rawit & Cabai merah iris", "takaran": "Sesuai selera" },
-        { "nama": "Garam kasar", "takaran": "1 sdm (untuk meremas pare)" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Kurangi Rasa Pahit",
-          "deskripsi": "Iris tipis pare. Taburi dengan garam kasar, lalu remas-remas pare dengan kuat hingga mengeluarkan air dan layu. Cuci bersih pare di bawah air mengalir, lalu peras hingga kering."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Tumis Bumbu",
-          "deskripsi": "Panaskan sedikit minyak, tumis irisan bawang merah dan bawang putih hingga harum. Masukkan irisan cabai, tumis sebentar."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Masak Pare & Teri",
-          "deskripsi": "Masukkan pare yang sudah diperas. Beri sedikit gula pasir dan kaldu jamur (hindari garam berlebih karena ada teri). Aduk cepat dengan api besar hingga pare matang namun tetap renyah. Matikan api, campurkan teri goreng."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 140,
-        "protein": "6g",
-        "lemak": "8g",
-        "karbohidrat": "12g",
-        "serat": "5g"
-      }
+    "ingredients": [
+      {"name": "Chicken Drumsticks", "amount": "4 pieces"},
+      {"name": "Sweet Soy Sauce", "amount": "4 tablespoons"},
+      {"name": "Ginger", "amount": "2cm, bruised"},
+      {"name": "Garlic", "amount": "3 cloves, minced"},
+      {"name": "Onion", "amount": "1/2, sliced"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Initial Fry", "desc": "Lightly fry the chicken drumsticks in oil until the skin is golden but the meat is not fully cooked. Set aside."},
+      {"step": 2, "title": "Aromatics", "desc": "Sauté the garlic, ginger, and onion in the same pan until the onion becomes translucent and fragrant."},
+      {"step": 3, "title": "Simmer", "desc": "Return the chicken to the pan. Add sweet soy sauce and 1/2 cup of water. Cover and simmer on low heat for 15 minutes."},
+      {"step": 4, "title": "Glaze", "desc": "Remove the lid and increase the heat. Cook until the liquid reduces into a thick, dark, savory syrup that coats the chicken."}
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Cheesy Beef Quesadillas",
+    "image": "path/to/image.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "calories": 510,
+    "nutrition": {
+      "proteins": "29g",
+      "fats": "28g",
+      "carbs": "36g",
+      "fiber": "4g"
     },
-    {
-      "id": 41,
-      "nama": "Bakmi Goreng Jawa",
-      "deskripsi": "Mie kuning basah yang ditumis dengan bumbu ulek kemiri beraroma gurih, lengkap dengan suwiran ayam, telur, dan kol.",
-      "porsi": 3,
-      "waktu_menit": 25,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Makan Malam", "Karbohidrat", "Khas Indonesia"],
-      "bahan": [
-        { "nama": "Mie basah / Mie urai kuning", "takaran": "300 gram, seduh air panas" },
-        { "nama": "Ayam rebus suwir", "takaran": "100 gram" },
-        { "nama": "Telur ayam", "takaran": "2 butir" },
-        { "nama": "Bumbu halus (bawang merah, putih, kemiri, ebi)", "takaran": "3 sdm" },
-        { "nama": "Kecap manis & Sawi hijau", "takaran": "Secukupnya" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Tumis Bumbu Dasar",
-          "deskripsi": "Panaskan minyak, tumis bumbu halus hingga sangat harum dan matang sempurna agar tidak langu kemiri."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Orak-Arik Telur & Sayur",
-          "deskripsi": "Sisihkan bumbu di tepi wajan, masukkan telur dan buat orak-arik. Tambahkan sawi hijau, kol iris, dan ayam suwir, aduk rata."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Masukkan Mie",
-          "deskripsi": "Masukkan mie kuning basah. Tuangkan kecap manis, garam, lada, dan sedikit kaldu. Aduk cepat di atas api besar hingga bumbu meresap dan mie beraroma 'smokey'. Sajikan."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 410,
-        "protein": "16g",
-        "lemak": "18g",
-        "karbohidrat": "45g",
-        "serat": "3g"
-      }
+    "ingredients": [
+      {"name": "Ground Beef", "amount": "150g"},
+      {"name": "Tortilla", "amount": "2 medium"},
+      {"name": "Cheddar Cheese", "amount": "1/2 cup, shredded"},
+      {"name": "Onion", "amount": "1/4, diced"},
+      {"name": "Taco Seasoning", "amount": "1 tablespoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Cook Beef", "desc": "Brown the ground beef and onion in a skillet. Stir in the taco seasoning and a splash of water, then remove from the pan."},
+      {"step": 2, "title": "Assemble", "desc": "Place one tortilla in the skillet. Sprinkle half the cheese, then the beef mixture, and top with the remaining cheese and second tortilla."},
+      {"step": 3, "title": "Grill", "desc": "Cook over medium heat for 3 minutes per side until the tortilla is golden brown and the cheese has completely melted."},
+      {"step": 4, "title": "Slice", "desc": "Slide onto a cutting board and let it rest for 1 minute before slicing into wedges. Serve with sour cream or salsa."}
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Telur Dadar Padang (Thick Minang Omelet)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "calories": 310,
+    "nutrition": {
+      "proteins": "14g",
+      "fats": "24g",
+      "carbs": "8g",
+      "fiber": "1g"
     },
-    {
-      "id": 42,
-      "nama": "Nasi Goreng Kampung Teri",
-      "deskripsi": "Nasi goreng putih sederhana tanpa kecap manis, dengan sentuhan pedas cabai rawit merah dan gurihnya teri medan.",
-      "porsi": 2,
-      "waktu_menit": 15,
-      "tingkat_kesulitan": "Pemula",
-      "tag": ["Di bawah 20 Menit", "Sarapan", "Murah"],
-      "bahan": [
-        { "nama": "Nasi putih dingin", "takaran": "2 porsi" },
-        { "nama": "Teri medan", "takaran": "3 sdm, goreng kering" },
-        { "nama": "Telur ayam", "takaran": "1 butir" },
-        { "nama": "Bawang merah & putih", "takaran": "4 siung dan 2 siung, iris tipis" },
-        { "nama": "Cabai rawit merah", "takaran": "5 buah, iris tipis" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Goreng Telur",
-          "deskripsi": "Panaskan sedikit minyak, orak-arik telur hingga matang, lalu sisihkan di tepi wajan."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Tumis Bumbu Iris",
-          "deskripsi": "Tumis irisan bawang merah, bawang putih, dan cabai rawit hingga harum dan kecokelatan."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Campur Nasi & Teri",
-          "deskripsi": "Masukkan nasi putih. Besarkan api, aduk rata dengan bumbu dan telur. Beri garam dan kaldu bubuk. Sesaat sebelum diangkat, masukkan teri goreng agar tetap renyah."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 380,
-        "protein": "14g",
-        "lemak": "15g",
-        "karbohidrat": "48g",
-        "serat": "1g"
-      }
+    "ingredients": [
+      {"name": "Eggs", "amount": "3 large"},
+      {"name": "Rice Flour", "amount": "2 tablespoons"},
+      {"name": "Red Chili", "amount": "2, finely chopped"},
+      {"name": "Scallions", "amount": "2 stalks, sliced"},
+      {"name": "Celery", "amount": "1 stalk, minced"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Whisk Base", "desc": "In a bowl, whisk the eggs thoroughly. Sift in the rice flour and whisk again until no lumps remain; the flour is key to the omelet's thickness."},
+      {"step": 2, "title": "Add Aromatics", "desc": "Stir in the chopped chilies, scallions, celery, salt, and a pinch of coriander powder. Ensure the vegetables are evenly distributed."},
+      {"step": 3, "title": "Heat Pan", "desc": "Heat a generous amount of oil in a small, deep skillet over medium-low heat. The oil must be hot enough to make the edges crisp immediately."},
+      {"step": 4, "title": "Slow Fry", "desc": "Pour in the egg mixture. Cook on low heat so the center sets without burning the bottom. Use a spatula to gently lift the edges."},
+      {"step": 5, "title": "The Flip", "desc": "Once the top is mostly set, carefully flip the omelet. Cook for another 3 minutes until both sides are deep golden brown and crispy."}
+    ]
+  },
+  {
+    "id": 42,
+    "title": "One-Pan Creamy Gnocchi with Spinach",
+    "image": "path/to/image.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "calories": 420,
+    "nutrition": {
+      "proteins": "10g",
+      "fats": "22g",
+      "carbs": "48g",
+      "fiber": "4g"
     },
-    {
-      "id": 43,
-      "nama": "Telur Barendo Minang",
-      "deskripsi": "Telur dadar khas rumah makan Padang yang sangat renyah, berenda, dan gurih maksimal.",
-      "porsi": 2,
-      "waktu_menit": 10,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Di bawah 20 Menit", "Tinggi Protein", "Khas Indonesia"],
-      "bahan": [
-        { "nama": "Telur bebek/ayam", "takaran": "3 butir" },
-        { "nama": "Bawang merah", "takaran": "5 siung, iris tipis" },
-        { "nama": "Cabai merah keriting", "takaran": "3 buah, iris serong" },
-        { "nama": "Daun bawang", "takaran": "1 batang, iris halus" },
-        { "nama": "Minyak goreng", "takaran": "Sangat banyak (minimal 150 ml)" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Kocok Telur Berbuih",
-          "deskripsi": "Campurkan telur, bawang merah, cabai, daun bawang, garam, dan lada. Kocok kuat-kuat menggunakan garpu hingga adonan telur benar-benar berbuih banyak."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Goreng Bersarang",
-          "deskripsi": "Panaskan minyak yang banyak di wajan cekung hingga benar-benar panas dan berasap sedikit. Tuang adonan telur dari jarak agak tinggi agar telur langsung menyebar dan membentuk renda."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Balik dan Tiriskan",
-          "deskripsi": "Goreng hingga bagian bawah kokoh dan kecokelatan, balik dengan hati-hati. Masak hingga garing. Angkat dan tiriskan minyaknya dengan saringan kawat."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 320,
-        "protein": "16g",
-        "lemak": "26g",
-        "karbohidrat": "4g",
-        "serat": "1g"
-      }
+    "ingredients": [
+      {"name": "Store-bought Gnocchi", "amount": "400g"},
+      {"name": "Heavy Cream", "amount": "1/2 cup"},
+      {"name": "Fresh Spinach", "amount": "2 cups"},
+      {"name": "Garlic", "amount": "2 cloves, minced"},
+      {"name": "Parmesan Cheese", "amount": "1/4 cup, grated"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Sauté Garlic", "desc": "Heat butter in a large pan over medium heat. Sauté the minced garlic for about 1 minute until fragrant."},
+      {"step": 2, "title": "Simmer Gnocchi", "desc": "Add the heavy cream and 1/4 cup of water to the pan. Bring to a gentle simmer, then add the dry gnocchi directly into the liquid."},
+      {"step": 3, "title": "Cook through", "desc": "Cover and cook for 5-7 minutes. The gnocchi will absorb the cream and become tender. Stir occasionally to prevent sticking."},
+      {"step": 4, "title": "Wilt Greens", "desc": "Stir in the fresh spinach and parmesan cheese. Heat until the spinach has completely wilted into the sauce."},
+      {"step": 5, "title": "Season", "desc": "Adjust seasoning with salt and plenty of cracked black pepper. Serve immediately while the sauce is velvety."}
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Sayur Lodeh (Vegetable Coconut Soup)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 35,
+    "difficulty": "Intermediate",
+    "calories": 240,
+    "nutrition": {
+      "proteins": "6g",
+      "fats": "16g",
+      "carbs": "22g",
+      "fiber": "6g"
     },
-    {
-      "id": 44,
-      "nama": "Opor Ayam Kuning Susu",
-      "deskripsi": "Variasi opor ayam empuk berkuah kuning yang menggunakan susu evaporasi sebagai pengganti santan agar lebih ringan namun tetap gurih.",
-      "porsi": 5,
-      "waktu_menit": 50,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Tinggi Protein", "Berkuah", "Makan Siang"],
-      "bahan": [
-        { "nama": "Ayam potong", "takaran": "1 ekor, potong 10 bagian" },
-        { "nama": "Susu evaporasi", "takaran": "1 kaleng (380 ml)" },
-        { "nama": "Bumbu halus (bawang, kemiri, ketumbar, jintan, kunyit)", "takaran": "4 sdm" },
-        { "nama": "Serai, Lengkuas, Daun salam, Daun jeruk", "takaran": "Secukupnya" },
-        { "nama": "Garam & Gula", "takaran": "Secukupnya" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Tumis Rempah",
-          "deskripsi": "Tumis bumbu halus bersama daun salam, daun jeruk, serai, dan lengkuas hingga matang, harum, dan mengeluarkan minyak."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Ungkep Ayam",
-          "deskripsi": "Masukkan ayam potong, aduk hingga berlapis bumbu dan berubah warna. Tambahkan sedikit air, ungkep dengan api sedang hingga ayam setengah empuk."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Tuang Susu Evaporasi",
-          "deskripsi": "Masukkan susu evaporasi, garam, dan sedikit gula. Masak terus sambil sesekali diaduk perlahan hingga kuah agak menyusut dan ayam benar-benar empuk. Taburi bawang goreng sebelum disajikan."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 450,
-        "protein": "35g",
-        "lemak": "28g",
-        "karbohidrat": "12g",
-        "serat": "2g"
-      }
+    "ingredients": [
+      {"name": "Chayote", "amount": "1, cubed"},
+      {"name": "Long Beans", "amount": "5-6, cut into pieces"},
+      {"name": "Eggplant", "amount": "1 small, cubed"},
+      {"name": "Coconut Milk", "amount": "400ml"},
+      {"name": "Tempeh", "amount": "1/2 block, cubed"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Prepare Base", "desc": "Boil 2 cups of water with bay leaves, galangal, and a paste made of garlic, shallots, and candlenuts (or macadamias)."},
+      {"step": 2, "title": "Hard Veggies", "desc": "Add the chayote and tempeh cubes to the boiling water. Cook for 10 minutes until the chayote begins to soften."},
+      {"step": 3, "title": "Coconut Milk", "desc": "Pour in the coconut milk slowly. Keep the heat on medium and stir continuously so the coconut milk doesn't break/separate."},
+      {"step": 4, "title": "Soft Veggies", "desc": "Add the long beans and eggplant. Simmer for another 10 minutes until all vegetables are tender but not mushy."},
+      {"step": 5, "title": "Final Season", "desc": "Add salt and a teaspoon of sugar. The soup should be creamy, savory, and slightly sweet. Serve with warm rice."}
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Garlic Butter Steak Bites",
+    "image": "path/to/image.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "calories": 380,
+    "nutrition": {
+      "proteins": "32g",
+      "fats": "26g",
+      "carbs": "2g",
+      "fiber": "0g"
     },
-    {
-      "id": 45,
-      "nama": "Bistik Daging Sapi Cincang",
-      "deskripsi": "Patties daging sapi cincang berbumbu lada pala yang empuk, disiram kuah bistik kental manis gurih ala rumahan tempo dulu.",
-      "porsi": 4,
-      "waktu_menit": 40,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Tinggi Protein", "Anak-anak", "Makan Malam"],
-      "bahan": [
-        { "nama": "Daging sapi cincang", "takaran": "300 gram" },
-        { "nama": "Telur ayam & Tepung roti", "takaran": "1 butir dan 3 sdm (untuk adonan daging)" },
-        { "nama": "Bawang bombay", "takaran": "1 buah, iris membulat" },
-        { "nama": "Kecap manis & Saus tomat", "takaran": "Masing-masing 3 sdm dan 1 sdm" },
-        { "nama": "Pala bubuk & Lada hitam", "takaran": "1/2 sdt" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Buat Daging Bistik",
-          "deskripsi": "Campurkan daging cincang, telur, tepung roti, garam, pala, dan lada. Uleni, lalu bentuk bulat pipih seperti patty burger. Goreng/panggang di teflon dengan sedikit margarin hingga matang. Sisihkan."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Buat Kuah Bistik",
-          "deskripsi": "Di teflon yang sama, tumis sisa margarin dengan separuh bawang bombay. Masukkan air kaldu/air biasa, kecap manis, saus tomat, garam, dan pala bubuk. Didihkan."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Sajikan Bersama",
-          "deskripsi": "Masukkan kembali daging bistik ke dalam kuah bersama sisa irisan bawang bombay. Masak sebentar hingga kuah mengental meresap. Sajikan dengan kentang dan buncis rebus."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 360,
-        "protein": "24g",
-        "lemak": "20g",
-        "karbohidrat": "18g",
-        "serat": "3g"
-      }
+    "ingredients": [
+      {"name": "Sirloin or Ribeye", "amount": "300g, cubed"},
+      {"name": "Butter", "amount": "2 tablespoons"},
+      {"name": "Garlic", "amount": "4 cloves, minced"},
+      {"name": "Dried Parsley", "amount": "1 teaspoon"},
+      {"name": "Olive Oil", "amount": "1 tablespoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "High Heat Sear", "desc": "Heat olive oil in a skillet over high heat until smoking slightly. Pat the steak bites dry with a paper towel and season with salt."},
+      {"step": 2, "title": "Brown Beef", "desc": "Add steak bites to the pan in a single layer. Sear for 2 minutes without moving them to get a crust, then flip and sear for 1 more minute."},
+      {"step": 3, "title": "Butter Bath", "desc": "Reduce heat to medium. Add the butter, minced garlic, and parsley to the pan."},
+      {"step": 4, "title": "Baste", "desc": "Toss the steak bites in the melting garlic butter for 1-2 minutes until the garlic is golden. Remove from heat immediately to avoid overcooking."},
+      {"step": 5, "title": "Rest", "desc": "Let the meat rest in the pan for 2 minutes before serving to ensure the juices redistribute."}
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Ayam Bakar Teflon (Pan-Grilled Soy Chicken)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 40,
+    "difficulty": "Intermediate",
+    "calories": 410,
+    "nutrition": {
+      "proteins": "30g",
+      "fats": "18g",
+      "carbs": "32g",
+      "fiber": "1g"
     },
-    {
-      "id": 46,
-      "nama": "Tumis Bunga Pepaya Teri",
-      "deskripsi": "Hidangan eksotis bernuansa pedas gurih dengan hint pahit ringan dari bunga pepaya, ditambah teri goreng yang kriuk.",
-      "porsi": 3,
-      "waktu_menit": 25,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Sayuran", "Khas Indonesia", "Pedas"],
-      "bahan": [
-        { "nama": "Bunga pepaya", "takaran": "250 gram, petik dari batangnya" },
-        { "nama": "Daun jambu biji / Asam jawa", "takaran": "Secukupnya (untuk merebus bunga)" },
-        { "nama": "Teri jengki/medan", "takaran": "50 gram, goreng kering" },
-        { "nama": "Bawang merah & bawang putih", "takaran": "Total 8 siung, iris tipis" },
-        { "nama": "Cabai rawit merah", "takaran": "10 buah, iris serong" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Hilangkan Pahit",
-          "deskripsi": "Rebus bunga pepaya bersama daun jambu biji atau sedikit asam jawa dan garam hingga empuk. Ini bertujuan untuk mengurangi rasa pahit yang menyengat. Tiriskan, peras perlahan, dan buang daun jambunya."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Tumis Bumbu",
-          "deskripsi": "Panaskan minyak sisa menggoreng teri, tumis bawang merah, bawang putih, dan irisan cabai rawit hingga matang wangi."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Masak Bunga Pepaya",
-          "deskripsi": "Masukkan bunga pepaya rebus. Bumbui dengan garam, kaldu jamur, dan sedikit gula. Aduk cepat hingga rata, matikan api, campur dengan teri goreng. Siap disantap."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 130,
-        "protein": "8g",
-        "lemak": "7g",
-        "karbohidrat": "10g",
-        "serat": "4g"
-      }
+    "ingredients": [
+      {"name": "Chicken Thighs", "amount": "2 pieces, bone-in"},
+      {"name": "Kecap Manis", "amount": "4 tablespoons"},
+      {"name": "Lime Juice", "amount": "1 tablespoon"},
+      {"name": "Garlic", "amount": "3 cloves, minced"},
+      {"name": "Coriander Powder", "amount": "1 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Braise (Ungkep)", "desc": "In a pot, combine chicken with garlic, coriander, salt, and enough water to half-cover the meat. Simmer until the water is almost gone."},
+      {"step": 2, "title": "Make Baste", "desc": "Mix the Kecap Manis with lime juice and a tablespoon of the remaining braising liquid or oil."},
+      {"step": 3, "title": "Prep Pan", "desc": "Heat a non-stick (Teflon) pan over medium-high heat. You don't need much oil as the chicken skin will release its own."},
+      {"step": 4, "title": "Grill", "desc": "Place the chicken on the pan. Brush generously with the soy sauce mixture. Flip every 2 minutes, reapplying the sauce each time."},
+      {"step": 5, "title": "Caramelize", "desc": "Continue grilling until the chicken has dark, charred, caramelized patches and the sauce has thickened into a sticky glaze."}
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Chickpea 'Tuna' Salad Sandwich",
+    "image": "path/to/image.jpg",
+    "time_minutes": 10,
+    "difficulty": "Beginner",
+    "calories": 350,
+    "nutrition": {
+      "proteins": "12g",
+      "fats": "14g",
+      "carbs": "45g",
+      "fiber": "11g"
     },
-    {
-      "id": 47,
-      "nama": "Ikan Nila Asam Manis Goreng Tepung",
-      "deskripsi": "Fillet ikan nila berlapis tepung garing yang disiram saus asam manis segar berisi irisan nanas, wortel, dan bawang bombay.",
-      "porsi": 3,
-      "waktu_menit": 35,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Seafood", "Anak-anak", "Tinggi Protein"],
-      "bahan": [
-        { "nama": "Ikan nila fillet", "takaran": "300 gram, potong kotak" },
-        { "nama": "Tepung bumbu serbaguna", "takaran": "1 bungkus kecil" },
-        { "nama": "Saus tomat & Saus sambal", "takaran": "4 sdm dan 1 sdm" },
-        { "nama": "Wortel & Nanas", "takaran": "Secukupnya, potong korek api/dadu" },
-        { "nama": "Bawang bombay", "takaran": "1/2 buah, potong dadu" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Goreng Ikan Krispi",
-          "deskripsi": "Baluri potongan fillet ikan nila dengan adonan tepung basah, lalu gulingkan ke tepung kering. Goreng dalam minyak panas hingga kuning keemasan dan krispi. Sisihkan."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Buat Saus Asam Manis",
-          "deskripsi": "Tumis bawang bombay dan sedikit bawang putih cincang hingga harum. Masukkan wortel, air, saus tomat, saus sambal, cuka sedikit, dan gula. Masak hingga wortel empuk."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Penyajian",
-          "deskripsi": "Kentalkan saus dengan larutan maizena, lalu masukkan potongan nanas matikan api. Siram saus asam manis di atas ikan nila goreng krispi sesaat sebelum disajikan."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 380,
-        "protein": "26g",
-        "lemak": "14g",
-        "karbohidrat": "35g",
-        "serat": "3g"
-      }
+    "ingredients": [
+      {"name": "Canned Chickpeas", "amount": "1 can, drained"},
+      {"name": "Vegan Mayo or Greek Yogurt", "amount": "3 tablespoons"},
+      {"name": "Red Onion", "amount": "2 tablespoons, finely diced"},
+      {"name": "Dijon Mustard", "amount": "1 teaspoon"},
+      {"name": "Whole Wheat Bread", "amount": "2 slices"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Mash Chickpeas", "desc": "Place drained chickpeas in a bowl and mash them with a fork until they reach a flaky, tuna-like consistency."},
+      {"step": 2, "title": "Mix Filling", "desc": "Add the mayo, onion, mustard, salt, and pepper. For extra flavor, add a squeeze of lemon or chopped pickles."},
+      {"step": 3, "title": "Toast Bread", "desc": "Lightly toast your bread slices until golden brown."},
+      {"step": 4, "title": "Assemble", "desc": "Spread the chickpea mixture thickly onto one slice of bread. Top with lettuce or spinach if desired, then close the sandwich."}
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Bihun Goreng (Indonesian Fried Vermicelli)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "calories": 380,
+    "nutrition": {
+      "proteins": "12g",
+      "fats": "14g",
+      "carbs": "52g",
+      "fiber": "3g"
     },
-    {
-      "id": 48,
-      "nama": "Balado Terong Telur Puyuh",
-      "deskripsi": "Perpaduan pas antara terong ungu yang lembut dan telur puyuh gurih dalam balutan sambal balado merah yang pedas nikmat.",
-      "porsi": 3,
-      "waktu_menit": 25,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Pedas", "Murah", "Makan Siang"],
-      "bahan": [
-        { "nama": "Terong ungu", "takaran": "2 buah besar, belah dan potong memanjang" },
-        { "nama": "Telur puyuh", "takaran": "15 butir, rebus dan kupas kulitnya" },
-        { "nama": "Bumbu balado (cabai merah, bawang merah, tomat)", "takaran": "4 sdm, haluskan kasar" },
-        { "nama": "Daun jeruk", "takaran": "2 lembar" },
-        { "nama": "Garam & Kaldu jamur", "takaran": "Secukupnya" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Goreng Terong & Telur",
-          "deskripsi": "Goreng terong sebentar dalam minyak panas hingga layu, tiriskan. Goreng juga telur puyuh rebus sebentar saja hingga bagian luarnya agak berkulit kecokelatan."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Tumis Bumbu Balado",
-          "deskripsi": "Kurangi minyak di wajan, tumis bumbu balado tumbuk kasar bersama daun jeruk hingga bau langu cabai hilang dan minyaknya keluar."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Campur Rata",
-          "deskripsi": "Bumbui sambal dengan garam, sejumput gula pasir, dan kaldu jamur. Masukkan terong dan telur puyuh goreng, aduk rata perlahan agar terong tidak hancur. Angkat."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 210,
-        "protein": "9g",
-        "lemak": "15g",
-        "karbohidrat": "12g",
-        "serat": "5g"
-      }
+    "ingredients": [
+      {"name": "Rice Vermicelli", "amount": "150g, soaked in warm water"},
+      {"name": "Cabbage", "amount": "1 cup, shredded"},
+      {"name": "Carrot", "amount": "1, julienned"},
+      {"name": "Egg", "amount": "1, scrambled"},
+      {"name": "Sweet Soy Sauce", "amount": "2 tablespoons"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Noodle Prep", "desc": "Ensure the vermicelli is soft but still has a 'bite' (al dente). Drain thoroughly and toss with 1 tablespoon of oil to prevent clumping."},
+      {"step": 2, "title": "Sauté Aromatics", "desc": "Sauté minced garlic and white pepper in a wok until fragrant. Add the julienned carrots and shredded cabbage."},
+      {"step": 3, "title": "Add Protein", "desc": "Push veggies aside and scramble the egg in the center of the pan. Mix everything together once the egg is set."},
+      {"step": 4, "title": "Combine", "desc": "Add the noodles and sweet soy sauce. Stir-fry vigorously on high heat for 3-4 minutes so the noodles absorb the sauce evenly."},
+      {"step": 5, "title": "Garnish", "desc": "Serve with a side of pickled cucumber (acar) and a sprinkle of crispy fried shallots."}
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Easy Baked Ziti",
+    "image": "path/to/image.jpg",
+    "time_minutes": 40,
+    "difficulty": "Intermediate",
+    "calories": 520,
+    "nutrition": {
+      "proteins": "24g",
+      "fats": "22g",
+      "carbs": "56g",
+      "fiber": "4g"
     },
-    {
-      "id": 49,
-      "nama": "Ayam Suwir Kemangi Bumbu Pedas",
-      "deskripsi": "Suwiran daging dada ayam yang bumbunya meresap sampai ke serat, pedas menggigit dengan keharuman daun kemangi yang kuat.",
-      "porsi": 4,
-      "waktu_menit": 30,
-      "tingkat_kesulitan": "Mudah",
-      "tag": ["Tinggi Protein", "Pedas", "Makan Malam"],
-      "bahan": [
-        { "nama": "Dada ayam", "takaran": "350 gram, rebus matang lalu suwir halus" },
-        { "nama": "Daun kemangi", "takaran": "2 genggam besar" },
-        { "nama": "Bumbu halus (cabai rawit, merah keriting, bawang, kencur)", "takaran": "4 sdm" },
-        { "nama": "Daun jeruk", "takaran": "4 lembar, iris halus" },
-        { "nama": "Air kaldu ayam", "takaran": "100 ml" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Tumis Bumbu Halus",
-          "deskripsi": "Panaskan sedikit minyak, tumis bumbu halus dan irisan daun jeruk hingga benar-benar wangi dan tidak pucat."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Masak Ayam Suwir",
-          "deskripsi": "Masukkan suwiran ayam, aduk rata dengan bumbu. Tuangkan sedikit air kaldu sisa rebusan ayam, tambahkan garam, gula merah sedikit, dan lada."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Campur Kemangi",
-          "deskripsi": "Masak terus hingga air kaldu menyusut dan bumbu meresap kering ke serat ayam. Matikan api, masukkan daun kemangi, aduk hingga kemangi layu."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 240,
-        "protein": "28g",
-        "lemak": "10g",
-        "karbohidrat": "8g",
-        "serat": "2g"
-      }
+    "ingredients": [
+      {"name": "Ziti or Penne Pasta", "amount": "250g"},
+      {"name": "Marinara Sauce", "amount": "1.5 cups"},
+      {"name": "Ricotta Cheese", "amount": "1/2 cup"},
+      {"name": "Mozzarella Cheese", "amount": "1 cup, shredded"},
+      {"name": "Ground Beef", "amount": "150g"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Boil Pasta", "desc": "Cook pasta in salted water for 2 minutes less than the package instructions. It will finish cooking in the oven."},
+      {"step": 2, "title": "Brown Meat", "desc": "In a pan, brown the ground beef. Drain excess fat and stir in the marinara sauce. Simmer for 5 minutes."},
+      {"step": 3, "title": "Mix", "desc": "In a large bowl, toss the cooked pasta with the meat sauce and the ricotta cheese until well combined."},
+      {"step": 4, "title": "Layer", "desc": "Transfer the mixture to a baking dish. Top generously with shredded mozzarella and a sprinkle of dried oregano."},
+      {"step": 5, "title": "Bake", "desc": "Bake at 375°F (190°C) for 20 minutes until the cheese is bubbly and starting to brown on top."}
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Martabak Mie (Instant Noodle Pancake)",
+    "image": "path/to/image.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "calories": 340,
+    "nutrition": {
+      "proteins": "14g",
+      "fats": "18g",
+      "carbs": "28g",
+      "fiber": "2g"
     },
-    {
-      "id": 50,
-      "nama": "Nasi Bakar Cumi Asin Cabai Ijo",
-      "deskripsi": "Nasi gurih dibungkus daun pisang yang diisi dengan tumisan cumi asin pedas gurih berlimpah cabai hijau dan petai.",
-      "porsi": 3,
-      "waktu_menit": 45,
-      "tingkat_kesulitan": "Menengah",
-      "tag": ["Seafood", "Khas Indonesia", "Makan Siang"],
-      "bahan": [
-        { "nama": "Nasi putih gurih/uduk", "takaran": "3 porsi" },
-        { "nama": "Cumi asin", "takaran": "150 gram, rendam air hangat, potong" },
-        { "nama": "Cabai hijau besar & rawit", "takaran": "Secukupnya, iris serong" },
-        { "nama": "Petai", "takaran": "1 papan, kupas" },
-        { "nama": "Daun pisang", "takaran": "Secukupnya, lemaskan di atas kompor" }
-      ],
-      "langkah": [
-        {
-          "langkah_ke": 1,
-          "judul": "Tumis Cumi Asin",
-          "deskripsi": "Tumis irisan bawang merah, bawang putih, dan daun jeruk. Masukkan cumi asin, cabai hijau, dan petai. Beri sedikit gula (tanpa garam). Masak hingga cumi matang."
-        },
-        {
-          "langkah_ke": 2,
-          "judul": "Tata dan Bungkus",
-          "deskripsi": "Bentangkan daun pisang. Beri 1 porsi nasi putih, taruh 2-3 sendok tumisan cumi asin di bagian tengah. Gulung sambil dipadatkan, sematkan lidi di kedua ujungnya."
-        },
-        {
-          "langkah_ke": 3,
-          "judul": "Bakar & Sajikan",
-          "deskripsi": "Panggang bungkusan nasi di atas teflon atau alat bakar dengan api sedang. Balik perlahan hingga daun pisang terlihat kecokelatan merata dan wangi asapnya keluar."
-        }
-      ],
-      "nutrisi": {
-        "kalori": 420,
-        "protein": "18g",
-        "lemak": "12g",
-        "karbohidrat": "58g",
-        "serat": "4g"
-      }
-    }
+    "ingredients": [
+      {"name": "Instant Noodles", "amount": "1 pack, any flavor"},
+      {"name": "Eggs", "amount": "2 large"},
+      {"name": "Spring Onion", "amount": "2 stalks, sliced"},
+      {"name": "Sausage", "amount": "1, thinly sliced"},
+      {"name": "Bird's Eye Chili", "amount": "1, optional"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Boil Noodles", "desc": "Cook the instant noodles in boiling water until soft. Drain and set aside in a bowl."},
+      {"step": 2, "title": "Mix Batter", "desc": "Add the noodle seasoning packets, eggs, sliced spring onions, sausage, and chili to the noodles. Mix until well incorporated."},
+      {"step": 3, "title": "Fry", "desc": "Heat a tablespoon of oil in a small pan. Pour the noodle mixture in and spread it out evenly to form a circle."},
+      {"step": 4, "title": "Flip", "desc": "Cook for 4-5 minutes on medium-low heat. Once the bottom is crispy, flip carefully and cook the other side for 3 minutes."},
+      {"step": 5, "title": "Serve", "desc": "Cut into wedges like a pizza and serve with chili sauce or ketchup. A classic Indonesian student comfort food!"}
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Mushroom and Spinach Quesadilla",
+    "image": "path/to/image.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "calories": 310,
+    "nutrition": {
+      "proteins": "12g",
+      "fats": "16g",
+      "carbs": "30g",
+      "fiber": "4g"
+    },
+    "ingredients": [
+      {"name": "Tortilla", "amount": "2 small"},
+      {"name": "Button Mushrooms", "amount": "1 cup, sliced"},
+      {"name": "Fresh Spinach", "amount": "1 cup"},
+      {"name": "Monterey Jack Cheese", "amount": "1/2 cup, shredded"},
+      {"name": "Onion", "amount": "1/4, sliced"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Sauté Filling", "desc": "Sauté onions and mushrooms in a pan until the mushrooms have released their moisture and are browned."},
+      {"step": 2, "title": "Wilt Spinach", "desc": "Add the spinach to the pan and cook for 1 minute until wilted. Season with salt and garlic powder, then remove from pan."},
+      {"step": 3, "title": "Assemble", "desc": "Clean the pan and place one tortilla in it. Sprinkle half the cheese, then the mushroom-spinach mix, and the rest of the cheese."},
+      {"step": 4, "title": "Grill", "desc": "Top with the second tortilla. Cook for 2-3 minutes per side over medium heat until the tortilla is crisp and the cheese is melted."},
+      {"step": 5, "title": "Slice", "desc": "Remove from heat, let it sit for 30 seconds so the cheese sets, then slice into quarters."}
+    ]
+  }
   ]
 }
