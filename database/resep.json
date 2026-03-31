@@ -3,7 +3,7 @@
   {
     "id": 1,
     "title": "Classic Indonesian Nasi Goreng",
-    "image": "path/to/image.jpg",
+    "image": "images/id-1.jpg",
     "time_minutes": 15,
     "difficulty": "Beginner",
     "calories": 450,
@@ -31,7 +31,7 @@
   {
     "id": 2,
     "title": "One-Pot Creamy Garlic Pasta",
-    "image": "path/to/image.jpg",
+    "image": "images/id-2.jpg",
     "time_minutes": 20,
     "difficulty": "Beginner",
     "calories": 520,
@@ -58,7 +58,7 @@
   {
     "id": 3,
     "title": "Indonesian Gado-Gado Salad",
-    "image": "path/to/image.jpg",
+    "image": "images/id-3.jpg",
     "time_minutes": 30,
     "difficulty": "Intermediate",
     "calories": 380,
@@ -85,7 +85,7 @@
   {
     "id": 4,
     "title": "Hearty Red Lentil Dahl",
-    "image": "path/to/image.jpg",
+    "image": "images/id-4.jpg",
     "time_minutes": 25,
     "difficulty": "Beginner",
     "calories": 310,
@@ -112,7 +112,7 @@
   {
     "id": 5,
     "title": "Ayam Goreng Mentega (Butter Chicken)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-5.jpg",
     "time_minutes": 35,
     "difficulty": "Intermediate",
     "calories": 420,
@@ -139,7 +139,7 @@
   {
     "id": 6,
     "title": "Lemon Herb Sheet Pan Chicken",
-    "image": "path/to/image.jpg",
+    "image": "images/id-6.jpg",
     "time_minutes": 30,
     "difficulty": "Beginner",
     "calories": 360,
@@ -166,7 +166,7 @@
   {
     "id": 7,
     "title": "Telur Balado (Spicy Chili Eggs)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-7.jpg",
     "time_minutes": 25,
     "difficulty": "Beginner",
     "calories": 280,
@@ -193,7 +193,7 @@
   {
     "id": 8,
     "title": "Black Bean & Corn Tacos",
-    "image": "path/to/image.jpg",
+    "image": "images/id-8.jpg",
     "time_minutes": 15,
     "difficulty": "Beginner",
     "calories": 340,
@@ -220,7 +220,7 @@
   {
     "id": 9,
     "title": "Mie Goreng (Indonesian Stir-Fry Noodles)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-9.jpg",
     "time_minutes": 20,
     "difficulty": "Beginner",
     "calories": 490,
@@ -247,7 +247,7 @@
   {
     "id": 10,
     "title": "Beef and Broccoli Stir-Fry",
-    "image": "path/to/image.jpg",
+    "image": "images/id-10.jpg",
     "time_minutes": 20,
     "difficulty": "Intermediate",
     "calories": 410,
@@ -274,7 +274,7 @@
   {
     "id": 11,
     "title": "Bubur Ayam (Indonesian Chicken Porridge)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-11.jpg",
     "time_minutes": 45,
     "difficulty": "Intermediate",
     "calories": 320,
@@ -301,7 +301,7 @@
   {
     "id": 12,
     "title": "Greek Chickpea Salad",
-    "image": "path/to/image.jpg",
+    "image": "images/id-12.jpg",
     "time_minutes": 10,
     "difficulty": "Beginner",
     "calories": 290,
@@ -328,7 +328,7 @@
   {
     "id": 13,
     "title": "Soto Ayam (Yellow Chicken Soup)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-13.jpg",
     "time_minutes": 50,
     "difficulty": "Intermediate",
     "calories": 310,
@@ -356,7 +356,7 @@
   {
     "id": 14,
     "title": "Spicy Tuna Mayo Onigiri",
-    "image": "path/to/image.jpg",
+    "image": "images/id-14.jpg",
     "time_minutes": 20,
     "difficulty": "Beginner",
     "calories": 340,
@@ -384,7 +384,7 @@
   {
     "id": 15,
     "title": "Indonesian Capcay (Stir-fry Veggies)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-15.png",
     "time_minutes": 20,
     "difficulty": "Beginner",
     "calories": 210,
@@ -411,7 +411,7 @@
   {
     "id": 16,
     "title": "Sheet Pan Sausage and Peppers",
-    "image": "path/to/image.jpg",
+    "image": "images/id-16.jpg",
     "time_minutes": 35,
     "difficulty": "Beginner",
     "calories": 480,
@@ -438,7 +438,7 @@
   {
     "id": 17,
     "title": "Pempek Dos (Vegetarian Fish Cakes)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-17.jpg",
     "time_minutes": 45,
     "difficulty": "Intermediate",
     "calories": 290,
@@ -466,7 +466,7 @@
   {
     "id": 18,
     "title": "Quick Creamy Mushroom Risotto",
-    "image": "path/to/image.jpg",
+    "image": "images/id-18.jpg",
     "time_minutes": 30,
     "difficulty": "Intermediate",
     "calories": 420,
@@ -494,7 +494,7 @@
   {
     "id": 19,
     "title": "Bakwan Jagung (Corn Fritters)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-19.jpg",
     "time_minutes": 20,
     "difficulty": "Beginner",
     "calories": 250,
@@ -521,7 +521,7 @@
   {
     "id": 20,
     "title": "Chicken Pesto Pasta",
-    "image": "path/to/image.jpg",
+    "image": "images/id-20.jpg",
     "time_minutes": 15,
     "difficulty": "Beginner",
     "calories": 510,
@@ -548,7 +548,7 @@
   {
     "id": 21,
     "title": "Soto Betawi (Jakarta Beef Soup)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-21.jpg",
     "time_minutes": 50,
     "difficulty": "Intermediate",
     "calories": 410,
@@ -576,7 +576,7 @@
   {
     "id": 22,
     "title": "Honey Garlic Salmon & Broccoli",
-    "image": "path/to/image.jpg",
+    "image": "images/id-22.jpg",
     "time_minutes": 20,
     "difficulty": "Beginner",
     "calories": 480,
@@ -603,7 +603,7 @@
   {
     "id": 23,
     "title": "Ayam Geprek (Smashed Fried Chicken)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-23.jpg",
     "time_minutes": 30,
     "difficulty": "Intermediate",
     "calories": 540,
@@ -631,7 +631,7 @@
   {
     "id": 24,
     "title": "Tomato and Pepper Shakshuka",
-    "image": "path/to/image.jpg",
+    "image": "images/id-24.jpg",
     "time_minutes": 25,
     "difficulty": "Beginner",
     "calories": 280,
@@ -659,7 +659,7 @@
   {
     "id": 25,
     "title": "Sayur Asem (Tamarind Soup)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-25.jpg",
     "time_minutes": 35,
     "difficulty": "Beginner",
     "calories": 160,
@@ -686,7 +686,7 @@
   {
     "id": 26,
     "title": "Korean Beef Bibimbap Bowl",
-    "image": "path/to/image.jpg",
+    "image": "images/id-26.jpg",
     "time_minutes": 25,
     "difficulty": "Intermediate",
     "calories": 530,
@@ -714,7 +714,7 @@
   {
     "id": 27,
     "title": "Tahu Tempe Bacem (Sweet Braised Tofu)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-27.jpg",
     "time_minutes": 45,
     "difficulty": "Beginner",
     "calories": 310,
@@ -741,7 +741,7 @@
   {
     "id": 28,
     "title": "Spinach and Feta Omelet",
-    "image": "path/to/image.jpg",
+    "image": "images/id-28.jpg",
     "time_minutes": 10,
     "difficulty": "Beginner",
     "calories": 240,
@@ -767,7 +767,7 @@
   {
     "id": 29,
     "title": "Quick Beef Rendang (Student Version)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-29.jpg",
     "time_minutes": 60,
     "difficulty": "Intermediate",
     "calories": 450,
@@ -795,7 +795,7 @@
   {
     "id": 30,
     "title": "Coconut Chickpea Curry",
-    "image": "path/to/image.jpg",
+    "image": "images/id-30.jpg",
     "time_minutes": 20,
     "difficulty": "Beginner",
     "calories": 340,
@@ -822,7 +822,7 @@
   {
     "id": 31,
     "title": "Perkedel Kentang (Potato Fritters)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-31.jpg",
     "time_minutes": 35,
     "difficulty": "Intermediate",
     "calories": 180,
@@ -850,7 +850,7 @@
   {
     "id": 32,
     "title": "One-Pan Lemon Garlic Shrimp",
-    "image": "path/to/image.jpg",
+    "image": "images/id-32.jpg",
     "time_minutes": 15,
     "difficulty": "Beginner",
     "calories": 240,
@@ -877,7 +877,7 @@
   {
     "id": 33,
     "title": "Tumis Kangkung Belacan",
-    "image": "path/to/image.jpg",
+    "image": "images/id-33.jpg",
     "time_minutes": 10,
     "difficulty": "Beginner",
     "calories": 140,
@@ -904,7 +904,7 @@
   {
     "id": 34,
     "title": "Chicken Teriyaki Rice Bowl",
-    "image": "path/to/image.jpg",
+    "image": "images/id-34.jpg",
     "time_minutes": 20,
     "difficulty": "Beginner",
     "calories": 460,
@@ -931,7 +931,7 @@
   {
     "id": 35,
     "title": "Bakso Ayam (Chicken Meatball Soup)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-35.jpg",
     "time_minutes": 40,
     "difficulty": "Intermediate",
     "calories": 310,
@@ -958,7 +958,7 @@
   {
     "id": 36,
     "title": "Mediterranean Hummus Wrap",
-    "image": "path/to/image.jpg",
+    "image": "images/id-36.jpg",
     "time_minutes": 10,
     "difficulty": "Beginner",
     "calories": 320,
@@ -985,7 +985,7 @@
   {
     "id": 37,
     "title": "Orak Arik Telur Sayur",
-    "image": "path/to/image.jpg",
+    "image": "images/id-37.jpg",
     "time_minutes": 15,
     "difficulty": "Beginner",
     "calories": 210,
@@ -1012,7 +1012,7 @@
   {
     "id": 38,
     "title": "Spicy Peanut Soba Noodles",
-    "image": "path/to/image.jpg",
+    "image": "images/id-38.jpg",
     "time_minutes": 15,
     "difficulty": "Beginner",
     "calories": 390,
@@ -1039,7 +1039,7 @@
   {
     "id": 39,
     "title": "Ayam Kecap (Soy Sauce Chicken)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-39.jpg",
     "time_minutes": 30,
     "difficulty": "Intermediate",
     "calories": 420,
@@ -1066,7 +1066,7 @@
   {
     "id": 40,
     "title": "Cheesy Beef Quesadillas",
-    "image": "path/to/image.jpg",
+    "image": "images/id-40.jpg",
     "time_minutes": 20,
     "difficulty": "Beginner",
     "calories": 510,
@@ -1093,7 +1093,7 @@
   {
     "id": 41,
     "title": "Telur Dadar Padang (Thick Minang Omelet)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-41.jpg",
     "time_minutes": 15,
     "difficulty": "Beginner",
     "calories": 310,
@@ -1121,7 +1121,7 @@
   {
     "id": 42,
     "title": "One-Pan Creamy Gnocchi with Spinach",
-    "image": "path/to/image.jpg",
+    "image": "images/id-42.jpg",
     "time_minutes": 20,
     "difficulty": "Beginner",
     "calories": 420,
@@ -1149,7 +1149,7 @@
   {
     "id": 43,
     "title": "Sayur Lodeh (Vegetable Coconut Soup)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-43.jpg",
     "time_minutes": 35,
     "difficulty": "Intermediate",
     "calories": 240,
@@ -1177,7 +1177,7 @@
   {
     "id": 44,
     "title": "Garlic Butter Steak Bites",
-    "image": "path/to/image.jpg",
+    "image": "images/id-44.jpg",
     "time_minutes": 15,
     "difficulty": "Beginner",
     "calories": 380,
@@ -1205,7 +1205,7 @@
   {
     "id": 45,
     "title": "Ayam Bakar Teflon (Pan-Grilled Soy Chicken)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-45.jpg",
     "time_minutes": 40,
     "difficulty": "Intermediate",
     "calories": 410,
@@ -1233,7 +1233,7 @@
   {
     "id": 46,
     "title": "Chickpea 'Tuna' Salad Sandwich",
-    "image": "path/to/image.jpg",
+    "image": "images/id-46.jpg",
     "time_minutes": 10,
     "difficulty": "Beginner",
     "calories": 350,
@@ -1260,7 +1260,7 @@
   {
     "id": 47,
     "title": "Bihun Goreng (Indonesian Fried Vermicelli)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-47.jpg",
     "time_minutes": 20,
     "difficulty": "Beginner",
     "calories": 380,
@@ -1288,7 +1288,7 @@
   {
     "id": 48,
     "title": "Easy Baked Ziti",
-    "image": "path/to/image.jpg",
+    "image": "images/id-48.jpg",
     "time_minutes": 40,
     "difficulty": "Intermediate",
     "calories": 520,
@@ -1316,7 +1316,7 @@
   {
     "id": 49,
     "title": "Martabak Mie (Instant Noodle Pancake)",
-    "image": "path/to/image.jpg",
+    "image": "images/id-49.jpeg",
     "time_minutes": 15,
     "difficulty": "Beginner",
     "calories": 340,
@@ -1344,7 +1344,7 @@
   {
     "id": 50,
     "title": "Mushroom and Spinach Quesadilla",
-    "image": "path/to/image.jpg",
+    "image": "images/id-50.jpg",
     "time_minutes": 15,
     "difficulty": "Beginner",
     "calories": 310,
