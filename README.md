@@ -84,7 +84,7 @@ A native desktop window will open automatically with FridgeMate. 🎉
 ## How to Use
 
 1. **Home Page**: Type an ingredient into the search bar and press **Enter** to add it as a tag. Add as many ingredients as you like.
-2. **Search**: Press the **"Let's Cook!"** button to search for matching recipes.
+2. **Search**: Press the **"Find Recipes"** button to search for matching recipes.
 3. **Results Page**: Browse the list of recipes ranked by match percentage. Each card shows how many ingredients are needed and how many you already have.
 4. **Recipe Detail**: Tap any recipe card to view the full details — including an ingredients checklist (✅ available / ⬜ missing) and numbered cooking steps.
 5. **Go Back**: Use the **←** back arrow in the top-left to return to the previous screen.
