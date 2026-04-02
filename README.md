@@ -6,7 +6,7 @@ FridgeMate is a desktop application that lets you search for recipes using the i
 
 ---
 
-##Features
+## Features
 
 - **Ingredient-based recipe search** — type in what you have, get recipes that match
 - **Fuzzy matching** — handles typos and partial names (e.g. "onion" matches "spring onion")
@@ -82,7 +82,7 @@ A native desktop window will open automatically with FridgeMate. 🎉
 
 ---
 
-## 🖥️ How to Use
+## How to Use
 
 1. **Home Page**: Type an ingredient into the search bar and press **Enter** to add it as a tag. Add as many ingredients as you like.
 2. **Search**: Press the **"Let's Cook!"** button to search for matching recipes.
@@ -93,7 +93,7 @@ A native desktop window will open automatically with FridgeMate. 🎉
 
 ---
 
-## 🧩 How It Works
+## How It Works
 
 FridgeMate uses [WebUI](https://webui.me/) (`webui2`) to serve the HTML frontend as a native desktop application. Communication between the browser-based UI and the Python backend happens over a local WebSocket bridge.
 
@@ -111,7 +111,7 @@ The **fuzzy matcher** uses Python's built-in `difflib.SequenceMatcher` to handle
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 | Package | Purpose |
 |---------|---------|
@@ -124,28 +124,5 @@ pip install webui2
 
 ---
 
-## 📸 Screenshots
 
-| Home | Results | Recipe Detail |
-|------|---------|---------------|
-| Add ingredients from your fridge | See ranked recipe matches | Full steps & ingredient checker |
 
----
-
-## 📝 Notes
-
-- Recipe images are stored in `frontend/images/` and named `id-1.jpg`, `id-2.jpg`, etc., matching the `"image"` field in `resep.json`.
-- Session data (recent searches, current results) is held in Python memory and resets when you close the app.
-- The app is designed to be run locally and does **not** require an internet connection (CDN assets for Tailwind and Google Fonts are loaded online, so an internet connection is recommended for the best visual experience).
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome! If you'd like to add more recipes to the database, expand the fuzzy matching logic, or improve the UI, feel free to fork the repo and submit a PR.
-
----
-
-## 📄 License
-
-This project is for educational purposes.
