@@ -14,7 +14,6 @@ FridgeMate is a desktop application that lets you search for recipes using the i
 - **Ingredient checker** — visual indicators show which ingredients you have vs. which you're missing
 - **Recent searches** — quickly re-run your past ingredient searches for the session
 - **Step-by-step instructions** — detailed cooking steps for every recipe
-- **Desktop app** — runs as a native window, no browser needed
 
 ---
 
