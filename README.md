@@ -77,7 +77,7 @@ This installs the `webui2` library which powers the desktop window.
 python main.py
 ```
 
-A native desktop window will open automatically with FridgeMate. 🎉
+A native desktop window will open automatically with FridgeMate. 
 
 ---
 
