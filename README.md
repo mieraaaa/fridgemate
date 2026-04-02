@@ -1,4 +1,4 @@
-# FridgeMate
+# 🥗 FridgeMate
 
 > **Find recipes using ingredients you already have — right from your desktop.**
 
@@ -6,14 +6,15 @@ FridgeMate is a desktop application that lets you search for recipes using the i
 
 ---
 
-## Features
+## ✨ Features
 
-- **Ingredient-based recipe search** — type in what you have, get recipes that match
-- **Fuzzy matching** — handles typos and partial names (e.g. "onion" matches "spring onion")
-- **Match percentage** — see how well each recipe fits your available ingredients
-- **Ingredient checker** — visual indicators show which ingredients you have vs. which you're missing
-- **Recent searches** — quickly re-run your past ingredient searches for the session
-- **Step-by-step instructions** — detailed cooking steps for every recipe
+- 🔍 **Ingredient-based recipe search** — type in what you have, get recipes that match
+- 🧠 **Fuzzy matching** — handles typos and partial names (e.g. "onion" matches "spring onion")
+- 📊 **Match percentage** — see how well each recipe fits your available ingredients
+- ✅ **Ingredient checker** — visual indicators show which ingredients you have vs. which you're missing
+- 🕒 **Recent searches** — quickly re-run your past ingredient searches for the session
+- 📖 **Step-by-step instructions** — detailed cooking steps for every recipe
+- 🖥️ **Desktop app** — runs as a native window, no browser needed
 
 ---
 
@@ -42,14 +43,14 @@ fridgemate/
 
 ---
 
-## Requirements
+## 🛠️ Requirements
 
 - **Python 3.8+**
 - **pip** (comes bundled with Python)
 
 ---
 
-## How to Run
+## 🚀 How to Run
 
 ### 1. Clone the Repository
 
