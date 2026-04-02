@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>FridgeMate - Recipe Details</title>
+    <meta name="description" content="Step-by-step recipe details with ingredients and preparation guide." />
+    <link rel="stylesheet" href="style.css" />
+    <script src="webui.js"></script>
+</head>
+
+<body>
+
+    <!-- ── Top Navigation Bar ───────────────────────────── -->
+    <nav class="site-header" style="border-bottom: 1px solid rgba(214,211,209,0.1);">
+        <div class="site-header__inner">
+            <div style="display:flex; align-items:center; gap:1rem;">
+                <button class="btn-icon" style="margin-left:-0.5rem;" onclick="window.location.href='recipes.html'"
+                    aria-label="Go back">
+                    <span class="material-symbols-outlined">arrow_back</span>
+                </button>
+                <span id="recipe-header" class="site-header__logo truncate" style="max-width:200px;">FridgeMate</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:0.75rem;">
+                <button class="btn-icon" style="background-color:var(--surface-container-highest);"
+                    aria-label="Save recipe">
+                    <span class="material-symbols-outlined"
+                        style="color:#57534e; font-variation-settings:'FILL' 1;">bookmark</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ── Hero Image ───────────────────────────────────── -->
+    <header class="card-hero" style="margin-top: 4.5rem;">
+        <img id="recipe-image" src="" alt="Recipe image" />
+        <div class="card-hero__overlay"></div>
+    </header>
+
+    <!-- ── Main Content ─────────────────────────────────── -->
+    <main class="card-main">
+
+        <!-- Title & Stats -->
+        <section class="card-intro">
+            <div style="max-width:42rem;">
+                <span id="recipe-tag" class="card-tag">Recipe</span>
+                <h1 id="recipe-title" class="card-title">Loading…</h1>
+                <p id="recipe-desc" class="card-desc"></p>
+            </div>
+
+            <div class="card-stats-grid">
+                <div class="stat-box">
+                    <span class="material-symbols-outlined stat-box__icon">schedule</span>
+                    <span id="recipe-time" class="stat-box__value">0</span>
+                    <span class="stat-box__label">Minutes</span>
+                </div>
+                <div class="stat-box">
+                    <span class="material-symbols-outlined stat-box__icon">signal_cellular_alt</span>
+                    <span id="recipe-difficulty" class="stat-box__value lg">-</span>
+                    <span class="stat-box__label">Difficulty</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ingredients + Steps -->
+        <div class="content-grid">
+
+            <!-- Ingredients Sidebar -->
+            <aside>
+                <div class="ingredients-box">
+                    <div class="ingredients-box__header">
+                        <h2 style="font-size:1.25rem; font-weight:700;">Ingredients</h2>
+                        <span id="recipe-ing-count" class="ingredients-box__count">0 Items</span>
+                    </div>
+                    <ul id="recipe-ing-list"></ul>
+                </div>
+            </aside>
+
+            <!-- Steps -->
+            <section>
+                <div class="steps-header">
+                    <h2 style="font-size:1.875rem; font-weight:700;">Preparation</h2>
+                    <div class="steps-divider"></div>
+                </div>
+                <div id="recipe-steps-list" style="display:flex; flex-direction:column; gap:0;"></div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- ── Scripts ──────────────────────────────────────── -->
+    <script>
+        async function loadRecipeDetails() {
+            try {
+                let res;
+                for (let i = 0; i < 30; i++) {
+                    try {
+                        res = await webui.call("get_recipe_details");
+                        break;
+                    } catch (e) {
+                        if (e.message && e.message.includes("WebSocket is not connected")) {
+                            await new Promise(r => setTimeout(r, 100));
+                        } else {
+                            throw e;
+                        }
+                    }
+                }
+
+                if (!res) {
+                    alert("Error: Backend returned empty response or timed out.");
+                    return;
+                }
+
+                const recipe = JSON.parse(res);
+
+                if (recipe.error) {
+                    alert(recipe.error);
+                    return;
+                }
+
+                document.getElementById('recipe-header').textContent = recipe.title;
+                document.getElementById('recipe-title').textContent = recipe.title;
+                document.getElementById('recipe-image').src = recipe.image;
+                document.getElementById('recipe-image').alt = recipe.title;
+                document.getElementById('recipe-time').textContent = recipe.time_minutes;
+                document.getElementById('recipe-difficulty').textContent = recipe.difficulty;
+                document.getElementById('recipe-tag').textContent = recipe.tag || 'RECIPE';
+                document.getElementById('recipe-desc').textContent = recipe.description || 'Delicious and hearty recipe!';
+                document.getElementById('recipe-ing-count').textContent = `${recipe.ingredients.length} Items`;
+
+                // ── Ingredients ─────────────────────────────
+                const ingList = document.getElementById('recipe-ing-list');
+                ingList.innerHTML = '';
+                const availableIngs = (recipe.available_ingredients || []).map(i => i.toLowerCase());
+
+                recipe.ingredients.forEach(ing => {
+                    const isAvailable = availableIngs.includes(ing.name.toLowerCase());
+                    const li = document.createElement('li');
+                    li.className = 'ingredient-item';
+                    li.innerHTML = `
+                        <span class="material-symbols-outlined ingredient-item__icon ${isAvailable ? 'available' : 'missing'}">
+                            ${isAvailable ? 'check_circle' : 'circle'}
+                        </span>
+                        <div>
+                            <p class="ingredient-item__name">${ing.name}</p>
+                            <p class="ingredient-item__amount">${ing.amount}</p>
+                        </div>
+                    `;
+                    ingList.appendChild(li);
+                });
+
+                // ── Steps ────────────────────────────────────
+                const stepsList = document.getElementById('recipe-steps-list');
+                stepsList.innerHTML = '';
+
+                recipe.steps.forEach((step, index) => {
+                    const isFirst = index === 0;
+                    const isLast = index === recipe.steps.length - 1;
+
+                    const div = document.createElement('div');
+                    div.className = 'step-item';
+                    div.innerHTML = `
+                        <div class="step-item__track">
+                            <div class="step-number ${isFirst ? 'first' : 'rest'}">0${step.step}</div>
+                            ${!isLast ? '<div class="step-connector"></div>' : ''}
+                        </div>
+                        <div class="step-item__content ${!isLast ? 'has-spacing' : ''}">
+                            <h3 class="step-title">${step.title}</h3>
+                            <p class="step-desc">${step.desc}</p>
+                        </div>
+                    `;
+                    stepsList.appendChild(div);
+                });
+
+            } catch (err) {
+                alert("JS Exception: " + err.message);
+            }
+        }
+
+        window.addEventListener('load', loadRecipeDetails);
+    </script>
+
+</body>
+
+</html>

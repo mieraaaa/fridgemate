@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>FridgeMate - Your Digital Kitchen Assistant</title>
+    <meta name="description"
+        content="Enter your ingredients and FridgeMate will suggest the perfect recipes for your next meal." />
+    <link rel="stylesheet" href="style.css" />
+    <script src="webui.js"></script>
+</head>
+
+<body>
+
+    <!-- ── Header ───────────────────────────────────────── -->
+    <header class="site-header">
+        <div class="site-header__inner">
+            <h1 class="site-header__logo">FridgeMate</h1>
+        </div>
+    </header>
+
+    <!-- ── Main Content ─────────────────────────────────── -->
+    <main>
+        <!-- Hero & Search -->
+        <section class="hero-section" style="padding-top: 7rem; padding-bottom: 2rem;">
+            <p class="hero-headline">
+                What's in your <span>fridge?</span>
+            </p>
+            <p class="hero-sub">Enter your ingredients and we'll find the perfect recipe for your next meal.</p>
+
+            <div class="search-compose">
+                <!-- Input -->
+                <div class="search-wrapper">
+                    <span class="material-symbols-outlined search-icon">search</span>
+                    <input id="ingredient-input" class="search-input" placeholder="Add ingredient… (Press Enter)"
+                        type="text" />
+                </div>
+
+                <!-- Ingredient Tags -->
+                <div id="tags-container" class="tags-container"></div>
+
+                <!-- Find Button -->
+                <button id="find-recipes-btn" class="btn-primary">
+                    Find Recipes
+                    <span class="material-symbols-outlined">arrow_forward</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Recent Searches -->
+        <section class="hero-section" style="padding-top: 1.5rem;">
+            <div class="card-section">
+                <div class="card-section__header">
+                    <h2 class="text-xl font-bold">Recent Searches</h2>
+                    <button class="btn-text" onclick="clearRecentSearches()">Clear all</button>
+                </div>
+                <div id="recent-searches-container" class="recent-grid"></div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ── Bottom Nav ───────────────────────────────────── -->
+    <nav class="bottom-nav">
+        <a href="home.html" class="nav-item active">
+            <span class="material-symbols-outlined" style="font-variation-settings:'FILL' 1;">home</span>
+            <span class="nav-label">Home</span>
+        </a>
+        <a href="recipes.html" class="nav-item">
+            <span class="material-symbols-outlined">rebase_edit</span>
+            <span class="nav-label">Recipes</span>
+        </a>
+        <a href="#" class="nav-item">
+            <span class="material-symbols-outlined">bookmark</span>
+            <span class="nav-label">Saved</span>
+        </a>
+    </nav>
+
+    <!-- ── Scripts ──────────────────────────────────────── -->
+    <script>
+        let ingredients = [];
+        const input = document.getElementById('ingredient-input');
+        const tagsContainer = document.getElementById('tags-container');
+        const findBtn = document.getElementById('find-recipes-btn');
+        const recentContainer = document.getElementById('recent-searches-container');
+
+        function renderTags() {
+            tagsContainer.innerHTML = '';
+            ingredients.forEach((ing, index) => {
+                const tag = document.createElement('div');
+                tag.className = 'tag';
+                tag.innerHTML = `
+                    <span>${ing}</span>
+                    <button class="material-symbols-outlined tag__remove" onclick="removeIngredient(${index})">close</button>
+                `;
+                tagsContainer.appendChild(tag);
+            });
+        }
+
+        window.removeIngredient = (index) => {
+            ingredients.splice(index, 1);
+            renderTags();
+        };
+
+        input.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter' && input.value.trim() !== '') {
+                ingredients.push(input.value.trim());
+                input.value = '';
+                renderTags();
+            }
+        });
+
+        findBtn.addEventListener('click', async () => {
+            if (ingredients.length === 0) {
+                alert("Please add at least one ingredient!");
+                return;
+            }
+            findBtn.textContent = "Searching…";
+            await webui.call("search_recipes", JSON.stringify(ingredients));
+            window.location.href = "recipes.html";
+        });
+
+        async function loadRecentSearches() {
+            try {
+                let res;
+                for (let i = 0; i < 30; i++) {
+                    try {
+                        res = await webui.call("get_recent_searches");
+                        break;
+                    } catch (e) {
+                        if (e.message && e.message.includes("WebSocket is not connected")) {
+                            await new Promise(r => setTimeout(r, 100));
+                        } else {
+                            throw e;
+                        }
+                    }
+                }
+                if (!res) return;
+
+                const searches = JSON.parse(res);
+                recentContainer.innerHTML = '';
+
+                if (searches.length === 0) {
+                    recentContainer.innerHTML = '<span style="color:#a8a29e;font-style:italic;margin-top:0.5rem;display:block;">No recent searches</span>';
+                } else {
+                    searches.forEach(searchArr => {
+                        const searchStr = searchArr.join(', ');
+                        const item = document.createElement('div');
+                        item.className = 'recent-item';
+                        item.onclick = () => fillIngredients(searchStr);
+                        item.innerHTML = `
+                            <div class="recent-item__left">
+                                <span class="material-symbols-outlined recent-item__icon">history</span>
+                                <span class="font-medium text-on-surface truncate">${searchStr}</span>
+                            </div>
+                            <span class="material-symbols-outlined recent-item__arrow">north_west</span>
+                        `;
+                        recentContainer.appendChild(item);
+                    });
+                }
+            } catch (err) {
+                console.error("Recent Searches Error:", err);
+            }
+        }
+
+        window.fillIngredients = (str) => {
+            ingredients = str.split(',').map(s => s.trim());
+            renderTags();
+        };
+
+        window.clearRecentSearches = async () => {
+            try {
+                await webui.call("clear_recent_searches");
+                loadRecentSearches();
+            } catch (err) {
+                console.error("Clear Searches Error:", err);
+            }
+        };
+
+        window.addEventListener('load', loadRecentSearches);
+    </script>
+</body>
+
+</html>

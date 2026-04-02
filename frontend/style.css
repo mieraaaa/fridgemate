@@ -1,0 +1,894 @@
+/* ============================================================
+   FridgeMate — Design System (Pure CSS3)
+   Migrated from Tailwind CSS
+   ============================================================ */
+
+/* ── 1. Google Fonts Import ─────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Be+Vietnam+Pro:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&display=swap');
+
+/* ── 2. Color Tokens ────────────────────────────────────── */
+:root {
+    --primary:                    #3d6b00;
+    --primary-dim:                #355d00;
+    --primary-fixed:              #b5f571;
+    --primary-fixed-dim:          #a8e664;
+    --primary-container:          #b5f571;
+    --on-primary:                 #eeffd6;
+    --on-primary-fixed:           #274700;
+    --on-primary-fixed-variant:   #3b6700;
+    --on-primary-container:       #345c00;
+
+    --secondary:                  #436745;
+    --secondary-dim:              #375b3a;
+    --secondary-fixed:            #c4edc2;
+    --secondary-fixed-dim:        #b6dfb4;
+    --secondary-container:        #c4edc2;
+    --on-secondary:               #e9ffe5;
+    --on-secondary-container:     #365a39;
+    --on-secondary-fixed:         #244728;
+    --on-secondary-fixed-variant: #406442;
+
+    --tertiary:                   #6b5f27;
+    --tertiary-dim:               #5f531c;
+    --tertiary-fixed:             #fae8a2;
+    --tertiary-fixed-dim:         #ecda95;
+    --tertiary-container:         #fae8a2;
+    --on-tertiary:                #fff8eb;
+    --on-tertiary-container:      #61551e;
+    --on-tertiary-fixed:          #4d420c;
+    --on-tertiary-fixed-variant:  #6b5f27;
+
+    --error:                      #a73b21;
+    --error-dim:                  #791903;
+    --error-container:            #fd795a;
+    --on-error:                   #fff7f6;
+    --on-error-container:         #6e1400;
+
+    --surface:                    #fafaf5;
+    --surface-bright:             #fafaf5;
+    --surface-dim:                #d8dbd3;
+    --surface-variant:            #e0e4dc;
+    --surface-container:          #edefe8;
+    --surface-container-low:      #f3f4ee;
+    --surface-container-high:     #e7e9e2;
+    --surface-container-highest:  #e0e4dc;
+    --surface-container-lowest:   #ffffff;
+    --surface-tint:               #3d6b00;
+
+    --on-surface:                 #2f342e;
+    --on-surface-variant:         #5c605a;
+    --on-background:              #2f342e;
+    --background:                 #fafaf5;
+
+    --outline:                    #787c75;
+    --outline-variant:            #afb3ac;
+    --inverse-surface:            #0d0f0c;
+    --inverse-on-surface:         #9c9d99;
+    --inverse-primary:            #bdfe78;
+
+    --radius-sm:   0.5rem;
+    --radius-md:   1rem;
+    --radius-lg:   2rem;
+    --radius-xl:   3rem;
+    --radius-full: 9999px;
+}
+
+/* ── 3. Reset & Base ─────────────────────────────────────── */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-color: var(--background);
+    color: var(--on-surface);
+    min-height: max(884px, 100dvh);
+    padding-bottom: 8rem;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-family: inherit;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* ── 4. Material Symbols ─────────────────────────────────── */
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+    line-height: 1;
+    font-size: 1.5rem;
+}
+
+/* ── 5. Layout Utilities ─────────────────────────────────── */
+.container {
+    width: 100%;
+    max-width: 80rem; /* ~1280px */
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+}
+
+.flex          { display: flex; }
+.flex-col      { flex-direction: column; }
+.items-center  { align-items: center; }
+.items-start   { align-items: flex-start; }
+.items-end     { align-items: flex-end; }
+.justify-center   { justify-content: center; }
+.justify-between  { justify-content: space-between; }
+.flex-wrap     { flex-wrap: wrap; }
+.flex-1        { flex: 1; }
+.shrink-0      { flex-shrink: 0; }
+.grow          { flex-grow: 1; }
+
+.grid { display: grid; }
+
+.gap-1  { gap: 0.25rem; }
+.gap-2  { gap: 0.5rem; }
+.gap-3  { gap: 0.75rem; }
+.gap-4  { gap: 1rem; }
+.gap-6  { gap: 1.5rem; }
+.gap-8  { gap: 2rem; }
+.gap-12 { gap: 3rem; }
+
+.w-full  { width: 100%; }
+.h-full  { height: 100%; }
+
+.overflow-hidden  { overflow: hidden; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed    { position: fixed; }
+.inset-0  { inset: 0; }
+
+.z-40 { z-index: 40; }
+.z-50 { z-index: 50; }
+
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* ── 6. Typography Utilities ─────────────────────────────── */
+.text-sm   { font-size: 0.875rem; }
+.text-xs   { font-size: 0.75rem; }
+.text-lg   { font-size: 1.125rem; }
+.text-xl   { font-size: 1.25rem; }
+.text-2xl  { font-size: 1.5rem; }
+.text-3xl  { font-size: 1.875rem; }
+.text-4xl  { font-size: 2.25rem; }
+.text-5xl  { font-size: 3rem; }
+
+.font-medium   { font-weight: 500; }
+.font-semibold { font-weight: 600; }
+.font-bold     { font-weight: 700; }
+.font-extrabold{ font-weight: 800; }
+.font-black    { font-weight: 900; }
+
+.tracking-tight   { letter-spacing: -0.025em; }
+.tracking-wider   { letter-spacing: 0.05em; }
+.tracking-widest  { letter-spacing: 0.1em; }
+.leading-tight    { line-height: 1.2; }
+.leading-relaxed  { line-height: 1.7; }
+
+.uppercase { text-transform: uppercase; }
+.italic    { font-style: italic; }
+
+.text-label {
+    font-size: 0.6875rem; /* 11px */
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+}
+
+/* ── 7. Color Utilities ──────────────────────────────────── */
+.text-primary          { color: var(--primary); }
+.text-on-surface       { color: var(--on-surface); }
+.text-on-surface-variant { color: var(--on-surface-variant); }
+.text-on-background    { color: var(--on-background); }
+.text-on-secondary-container { color: var(--on-secondary-container); }
+.text-stone-300        { color: #d6d3d1; }
+.text-stone-400        { color: #a8a29e; }
+.text-stone-500        { color: #78716c; }
+.text-stone-600        { color: #57534e; }
+.text-lime-800         { color: #3f6212; }
+.text-lime-900         { color: #365314; }
+
+.bg-surface                 { background-color: var(--surface); }
+.bg-surface-container       { background-color: var(--surface-container); }
+.bg-surface-container-low   { background-color: var(--surface-container-low); }
+.bg-surface-container-high  { background-color: var(--surface-container-high); }
+.bg-surface-container-highest { background-color: var(--surface-container-highest); }
+.bg-surface-container-lowest  { background-color: var(--surface-container-lowest); }
+.bg-primary-container       { background-color: var(--primary-container); }
+.bg-secondary-container     { background-color: var(--secondary-container); }
+.bg-lime-100                { background-color: #ecfccb; }
+
+/* ── 8. Glass / Backdrop ─────────────────────────────────── */
+.glass-header {
+    background: rgba(250, 250, 245, 0.82);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+/* ── 9. Scrollbar ────────────────────────────────────────── */
+::-webkit-scrollbar { width: 0; background: transparent; }
+
+/* ── 10. COMPONENT: Header / Top Nav ─────────────────────── */
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    background: rgba(250, 250, 245, 0.82);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.site-header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    max-width: 80rem;
+    margin-inline: auto;
+}
+
+.site-header__logo {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--primary);
+    letter-spacing: -0.025em;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* ── 11. COMPONENT: Bottom Nav ───────────────────────────── */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.75rem 1rem 1.5rem;
+    background: rgba(250, 250, 245, 0.82);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-top: 1px solid rgba(214, 211, 209, 0.15);
+    border-radius: var(--radius-xl) var(--radius-xl) 0 0;
+    box-shadow: 0 -8px 32px rgba(0, 0, 0, 0.05);
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    color: #78716c;
+    transition: transform 0.2s ease;
+    gap: 0.25rem;
+}
+
+.nav-item:hover {
+    transform: scale(1.1);
+}
+
+.nav-item.active {
+    background-color: #ecfccb;
+    color: #365314;
+    border-radius: var(--radius-full);
+    padding: 0.5rem 1.25rem;
+    transform: scale(0.9);
+}
+
+.nav-item .nav-label {
+    font-size: 0.6875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    margin-top: 0.1rem;
+}
+
+/* ── 12. COMPONENT: Search Input ─────────────────────────── */
+.search-wrapper {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 1.25rem;
+    transform: translateY(-50%);
+    color: var(--primary);
+    pointer-events: none;
+    font-size: 1.5rem;
+}
+
+.search-input {
+    width: 100%;
+    padding: 1rem 1.5rem 1rem 3.75rem;
+    background-color: var(--surface-container-highest);
+    border: none;
+    border-radius: var(--radius-lg);
+    font-size: 1.125rem;
+    font-weight: 500;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: var(--on-surface);
+    outline: none;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-input::placeholder { color: #a8a29e; }
+
+.search-input:focus {
+    background-color: var(--surface-container-lowest);
+    box-shadow: 0 0 0 2px var(--primary);
+}
+
+/* ── 13. COMPONENT: Ingredient Tags ─────────────────────── */
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+}
+
+.tag {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    padding: 0.375rem 0.75rem;
+    background-color: rgba(61, 107, 0, 0.1);
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 0.875rem;
+    border-radius: var(--radius-md);
+}
+
+.tag__remove {
+    font-size: 0.875rem !important;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.tag__remove:hover { color: var(--on-primary-fixed-variant); }
+
+/* ── 14. COMPONENT: Primary Button ──────────────────────── */
+.btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    width: 100%;
+    padding: 1.25rem;
+    background-color: var(--primary);
+    color: var(--on-primary);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: var(--radius-xl);
+    box-shadow: 0 8px 24px rgba(61, 107, 0, 0.2);
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-primary:hover  { background-color: var(--on-primary-fixed-variant); }
+.btn-primary:active { transform: scale(0.95); }
+
+/* ── 15. COMPONENT: Card (Recent Search) ─────────────────── */
+.card-section {
+    background-color: var(--surface-container-lowest);
+    padding: 2rem;
+    border-radius: var(--radius-md);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(175, 179, 172, 0.15);
+}
+
+.card-section__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.btn-text {
+    background: none;
+    border: none;
+    color: var(--primary);
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.btn-text:hover { text-decoration: underline; }
+
+/* ── 16. COMPONENT: Recent Search Item ──────────────────── */
+.recent-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .recent-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+.recent-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: var(--surface);
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.recent-item:hover { background-color: var(--surface-container-high); }
+
+.recent-item__left {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.recent-item__icon { color: #a8a29e; }
+
+.recent-item__arrow {
+    color: #d6d3d1;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.recent-item:hover .recent-item__arrow { opacity: 1; }
+
+/* ── 17. COMPONENT: Recipe Card (List) ───────────────────── */
+.recipe-card {
+    display: flex;
+    gap: 1rem;
+    background-color: var(--surface-container-lowest);
+    padding: 1rem;
+    border-radius: var(--radius-md);
+    border: 1px solid rgba(175, 179, 172, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+    transition: box-shadow 0.2s ease, transform 0.1s ease;
+}
+
+.recipe-card:hover { box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08); }
+.recipe-card:active { transform: scale(0.98); }
+
+.recipe-card__thumb {
+    width: 7rem;
+    height: 7rem;
+    flex-shrink: 0;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    position: relative;
+}
+
+.recipe-card__thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.recipe-card__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.recipe-card__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.recipe-card__title {
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 1.3;
+    color: var(--on-surface);
+    transition: color 0.2s ease;
+}
+
+.recipe-card:hover .recipe-card__title { color: var(--primary); }
+
+.recipe-card__meta {
+    font-size: 0.75rem;
+    color: var(--on-surface-variant);
+    margin-top: 0.25rem;
+}
+
+.recipe-card__stats {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.75rem;
+    font-weight: 700;
+    font-size: 0.5625rem; /* 9px */
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #a8a29e;
+}
+
+.recipe-card__match { color: var(--primary); }
+
+/* ── 18. PAGE: Home — Hero Section ───────────────────────── */
+.hero-section {
+    padding-top: 6rem;
+    padding-inline: 1.5rem;
+    max-width: 80rem;
+    margin-inline: auto;
+}
+
+.hero-headline {
+    font-size: clamp(2.25rem, 6vw, 3rem);
+    font-weight: 800;
+    color: var(--on-surface);
+    letter-spacing: -0.025em;
+    line-height: 1.15;
+    margin-bottom: 0.75rem;
+}
+
+.hero-headline span { color: var(--primary); font-style: italic; }
+
+.hero-sub {
+    font-size: 1.125rem;
+    color: var(--on-surface-variant);
+    max-width: 36rem;
+    margin-bottom: 2.5rem;
+}
+
+.search-compose {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 48rem;
+}
+
+/* ── 19. PAGE: Recipes List — Header ─────────────────────── */
+.page-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background: rgba(250, 250, 245, 0.82);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.btn-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-full);
+    transition: background-color 0.2s ease;
+    color: #57534e;
+}
+
+.btn-icon:hover { background-color: rgba(214, 211, 209, 0.5); }
+
+.page-header__title-group { display: flex; flex-direction: column; }
+
+.page-header__title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #3f6212;
+    letter-spacing: -0.025em;
+}
+
+.page-header__subtitle {
+    font-size: 0.6875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: #78716c;
+}
+
+.page-header__actions {
+    margin-left: auto;
+    display: flex;
+    gap: 0.75rem;
+}
+
+/* ── 20. PAGE: Recipes — Count Row ───────────────────────── */
+.recipes-meta {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.recipes-count-heading {
+    font-size: 1.875rem;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+    color: var(--on-background);
+}
+
+.recipes-sort {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+
+/* ── 21. PAGE: Open Card — Hero Image ────────────────────── */
+.card-hero {
+    position: relative;
+    width: 100%;
+    height: 397px;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) { .card-hero { height: 530px; } }
+
+.card-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(250,250,245,0.9) 0%, transparent 60%);
+}
+
+/* ── 22. PAGE: Open Card — Title Section ─────────────────── */
+.card-main {
+    position: relative;
+    margin-top: -6rem;
+    padding-inline: 1.5rem;
+    max-width: 64rem;
+    margin-inline: auto;
+    padding-bottom: 2rem;
+}
+
+.card-intro {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+    .card-intro {
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+}
+
+.card-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.375rem 1rem;
+    border-radius: var(--radius-full);
+    background-color: var(--secondary-container);
+    color: var(--on-secondary-container);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.75rem;
+}
+
+.card-title {
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 800;
+    color: var(--on-background);
+    letter-spacing: -0.025em;
+    line-height: 1.15;
+    margin-bottom: 0.75rem;
+}
+
+.card-desc {
+    color: var(--on-surface-variant);
+    line-height: 1.7;
+    max-width: 36rem;
+}
+
+/* ── 23. PAGE: Open Card — Stats Grid ────────────────────── */
+.card-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    flex-shrink: 0;
+}
+
+.stat-box {
+    background-color: var(--surface-container-low);
+    padding: 1.5rem;
+    border-radius: var(--radius-xl);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 0.25rem;
+}
+
+.stat-box__icon    { font-size: 1.875rem !important; color: var(--primary); margin-bottom: 0.25rem; }
+.stat-box__value   { font-size: 1.5rem; font-weight: 700; }
+.stat-box__value.lg { font-size: 1.125rem; }
+.stat-box__label   { font-size: 0.6875rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.07em; color: #78716c; }
+
+/* ── 24. PAGE: Open Card — Content Grid ──────────────────── */
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+
+@media (min-width: 1024px) {
+    .content-grid { grid-template-columns: 1fr 2fr; }
+}
+
+/* ── 25. PAGE: Open Card — Ingredients Sidebar ───────────── */
+.ingredients-box {
+    background-color: var(--surface-container-lowest);
+    padding: 2rem;
+    border-radius: var(--radius-xl);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(214, 211, 209, 0.1);
+}
+
+.ingredients-box__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.ingredients-box__count { font-size: 0.875rem; font-weight: 500; color: var(--primary); }
+
+.ingredient-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+    cursor: pointer;
+}
+
+.ingredient-item__icon         { margin-top: 0.125rem; }
+.ingredient-item__icon.available  { color: var(--primary); }
+.ingredient-item__icon.missing    { color: #d6d3d1; }
+
+.ingredient-item__name   { font-weight: 500; color: var(--on-surface); }
+.ingredient-item__amount { font-size: 0.75rem; color: var(--on-surface-variant); margin-top: 0.125rem; }
+
+/* ── 26. PAGE: Open Card — Steps Section ──────────────────── */
+.steps-header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.steps-divider {
+    height: 1px;
+    flex-grow: 1;
+    background-color: rgba(214, 211, 209, 0.5);
+}
+
+.step-item {
+    display: flex;
+    gap: 2rem;
+}
+
+.step-item__track {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.step-number {
+    width: 3rem;
+    height: 3rem;
+    border-radius: var(--radius-full);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-weight: 900;
+    font-size: 1.25rem;
+}
+
+.step-number.first {
+    background-color: var(--primary-container);
+    color: var(--primary-dim);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.step-number.rest {
+    background-color: var(--surface-container-high);
+    color: #a8a29e;
+}
+
+.step-connector {
+    width: 2px;
+    flex-grow: 1;
+    margin-top: 1rem;
+    background-color: var(--surface-container-highest);
+}
+
+.step-item__content { flex: 1; }
+.step-item__content.has-spacing { padding-bottom: 2.5rem; }
+
+.step-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    transition: color 0.2s ease;
+}
+
+.step-item:hover .step-title { color: var(--primary); }
+
+.step-desc {
+    color: var(--on-surface-variant);
+    line-height: 1.7;
+    font-size: 1.125rem;
+}
+
+/* ── 27. Spacing & Page Main ────────────────────────────── */
+.page-main {
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+    padding-inline: 1.5rem;
+}
+
+.page-main.recipes-page {
+    max-width: 80rem;
+    margin-inline: auto;
+}
+
+/* ── 28. Responsive Helpers ────────────────────────────── */
+@media (min-width: 768px) {
+    .hero-headline { font-size: 3rem; }
+}
