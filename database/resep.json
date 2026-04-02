@@ -1,0 +1,1122 @@
+{
+  "resep": [
+  {
+    "id": 1,
+    "title": "Classic Indonesian Nasi Goreng",
+    "tag": "TRADITIONAL FAVORITE",
+    "description": "A savory and aromatic Indonesian staple featuring stir-fried rice with a perfect balance of sweet soy sauce and authentic spices.",
+    "image": "images/id-1.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "White Rice", "amount": "2 cups, day-old"},
+      {"name": "Egg", "amount": "1 large, beaten"},
+      {"name": "Kecap Manis (Sweet Soy Sauce)", "amount": "2 tablespoons"},
+      {"name": "Garlic", "amount": "2 cloves, minced"},
+      {"name": "Shallots", "amount": "3 small, thinly sliced"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Aromatics", "desc": "Heat oil in a wok or large skillet over medium-high heat. Sauté the garlic and shallots until fragrant and golden brown."},
+      {"step": 2, "title": "Scramble Egg", "desc": "Push the aromatics to the side of the pan. Pour in the beaten egg and scramble quickly until just set."},
+      {"step": 3, "title": "Fry Rice", "desc": "Add the cold cooked rice to the pan. Break up any clumps with a spatula and toss thoroughly with the egg and aromatics."},
+      {"step": 4, "title": "Season", "desc": "Drizzle the Kecap Manis over the rice. Season with a pinch of salt and white pepper. Stir-fry for 3-5 minutes until the rice is evenly coated and slightly caramelized."},
+      {"step": 5, "title": "Final Garnish", "desc": "Plate the rice and serve with sliced cucumber, tomato, and a fried egg on top if desired."}
+    ]
+  },
+  {
+    "id": 2,
+    "title": "One-Pot Creamy Garlic Pasta",
+    "tag": "QUICK DINNER",
+    "description": "A comforting one-pot meal where al dente pasta is enveloped in a rich, velvety garlic and parmesan cream sauce.",
+    "image": "images/id-2.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Fettuccine", "amount": "8 oz"},
+      {"name": "Garlic", "amount": "4 cloves, minced"},
+      {"name": "Vegetable Broth", "amount": "2 cups"},
+      {"name": "Heavy Cream", "amount": "1 cup"},
+      {"name": "Parmesan Cheese", "amount": "1/2 cup, shredded"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Sauté Garlic", "desc": "In a large pot, melt butter over medium heat. Add minced garlic and cook for 1 minute until fragrant but not browned."},
+      {"step": 2, "title": "Simmer Liquids", "desc": "Pour in the vegetable broth, heavy cream, and the dry pasta. Bring the mixture to a gentle boil."},
+      {"step": 3, "title": "Cook Pasta", "desc": "Reduce heat to a simmer. Cook for 10-12 minutes, stirring occasionally to prevent the pasta from sticking, until the liquid has thickened into a sauce."},
+      {"step": 4, "title": "Finish with Cheese", "desc": "Remove from heat. Stir in the Parmesan cheese until melted and the sauce is velvety. Season with black pepper and parsley."}
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Indonesian Gado-Gado Salad",
+    "tag": "HEALTHY CHOICE",
+    "description": "A vibrant Indonesian 'mix-mix' salad combining fresh blanched vegetables and fried tofu with a signature nutty peanut dressing.",
+    "image": "images/id-3.jpg",
+    "time_minutes": 30,
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {"name": "Tofu", "amount": "1 block, cubed and fried"},
+      {"name": "Potatoes", "amount": "2 medium, boiled and sliced"},
+      {"name": "Bean Sprouts", "amount": "1 cup, blanched"},
+      {"name": "Spinach", "amount": "1 bunch, steamed"},
+      {"name": "Peanut Sauce", "amount": "1/2 cup, prepared"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Prep Proteins", "desc": "Fry the cubed tofu until the edges are golden and crispy. Set aside on a paper towel to drain excess oil."},
+      {"step": 2, "title": "Blanch Veggies", "desc": "Quickly blanch the bean sprouts and spinach in boiling water for 1 minute, then immediately shock in cold water to keep them crisp."},
+      {"step": 3, "title": "Assemble Plate", "desc": "Arrange the boiled potatoes, fried tofu, and blanched vegetables on a large platter or in individual bowls."},
+      {"step": 4, "title": "Sauce Application", "desc": "Warm the peanut sauce slightly and pour generously over the vegetables. Serve with crackers (krupuk) and a hard-boiled egg."}
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Hearty Red Lentil Dahl",
+    "tag": "VEGAN DELIGHT",
+    "description": "A warm and nourishing bowl of protein-packed red lentils simmered with turmeric, coconut milk, and aromatic ginger.",
+    "image": "images/id-4.jpg",
+    "time_minutes": 25,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Red Lentils", "amount": "1 cup, rinsed"},
+      {"name": "Turmeric", "amount": "1 teaspoon"},
+      {"name": "Canned Tomatoes", "amount": "1/2 cup, crushed"},
+      {"name": "Coconut Milk", "amount": "1/2 cup"},
+      {"name": "Spinach", "amount": "2 cups, fresh"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Boil Lentils", "desc": "Place rinsed lentils in a pot with 3 cups of water and turmeric. Bring to a boil, then simmer for 15 minutes until lentils are soft."},
+      {"step": 2, "title": "Add Base", "desc": "Stir in the crushed tomatoes and coconut milk. Let it simmer for another 5 minutes to allow flavors to meld."},
+      {"step": 3, "title": "Wilt Greens", "desc": "Fold in the fresh spinach and cook until just wilted. Season with salt and a squeeze of lime juice."},
+      {"step": 4, "title": "Serve", "desc": "Serve hot in a bowl, optionally topped with a dollop of yogurt or fresh cilantro alongside toasted bread."}
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Ayam Goreng Mentega (Butter Chicken)",
+    "tag": "DINNER SPECIAL",
+    "description": "Tender chicken pieces glazed in a luscious, savory-sweet butter and Worcestershire sauce for a decadent weeknight meal.",
+    "image": "images/id-5.jpg",
+    "time_minutes": 35,
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {"name": "Chicken Thighs", "amount": "500g, bite-sized"},
+      {"name": "Margarine/Butter", "amount": "3 tablespoons"},
+      {"name": "Worcestershire Sauce", "amount": "2 tablespoons"},
+      {"name": "Onion", "amount": "1/2, sliced into wedges"},
+      {"name": "Lime juice", "amount": "1 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Marinate & Fry", "desc": "Marinate chicken with salt and lime. Fry in oil until golden and fully cooked, then set aside."},
+      {"step": 2, "title": "Sauté Aromatics", "desc": "In a clean pan, melt the butter. Sauté the onions until they soften and become translucent."},
+      {"step": 3, "title": "Make Sauce", "desc": "Add Worcestershire sauce, a tablespoon of sweet soy sauce, and a pinch of sugar. Stir until the sauce bubbles and thickens."},
+      {"step": 4, "title": "Toss Chicken", "desc": "Return the fried chicken to the pan. Toss quickly so every piece is coated in the glossy butter sauce and serve immediately."}
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Lemon Herb Sheet Pan Chicken",
+    "tag": "EASY CLEANUP",
+    "description": "An effortless and healthy dinner featuring zesty lemon-herb chicken roasted alongside crisp broccoli and colorful bell peppers.",
+    "image": "images/id-6.jpg",
+    "time_minutes": 30,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Chicken Breast", "amount": "2 large, sliced"},
+      {"name": "Broccoli Florets", "amount": "2 cups"},
+      {"name": "Bell Peppers", "amount": "2 medium, sliced"},
+      {"name": "Olive Oil", "amount": "3 tablespoons"},
+      {"name": "Dried Oregano", "amount": "1 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Preheat", "desc": "Preheat your oven to 400°F (200°C) and line a large baking sheet with parchment paper for easy cleanup."},
+      {"step": 2, "title": "Seasoning", "desc": "Place chicken and vegetables on the sheet. Drizzle with olive oil, lemon juice, oregano, salt, and pepper. Toss with hands to coat."},
+      {"step": 3, "title": "Roast", "desc": "Spread everything in a single layer. Bake for 20-25 minutes until the chicken reaches an internal temperature of 165°F."},
+      {"step": 4, "title": "Rest & Serve", "desc": "Let the chicken rest for 5 minutes before serving to keep it juicy. Serve as is or over a bed of rice."}
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Telur Balado (Spicy Chili Eggs)",
+    "tag": "SPICY DELIGHT",
+    "description": "Fried hard-boiled eggs smothered in a bold and fiery Indonesian red chili sambal for a punch of authentic heat.",
+    "image": "images/id-7.jpg",
+    "time_minutes": 25,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Eggs", "amount": "4, hard-boiled and peeled"},
+      {"name": "Red Chilies", "amount": "5, deseeded and blended"},
+      {"name": "Tomato", "amount": "1 medium, chopped"},
+      {"name": "Garlic", "amount": "2 cloves, minced"},
+      {"name": "Sugar", "amount": "1 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Fry Eggs", "desc": "Deep fry or pan-fry the boiled eggs until a thin, golden, bubbly skin forms on the outside. Remove and drain."},
+      {"step": 2, "title": "Sauté Sambal", "desc": "In a pan with 2 tablespoons of oil, sauté the blended chilies, garlic, and chopped tomato until the oil starts to separate from the sauce."},
+      {"step": 3, "title": "Seasoning", "desc": "Add sugar and salt to the chili paste. The sugar helps balance the heat and gives the sauce a beautiful deep red color."},
+      {"step": 4, "title": "Combine", "desc": "Add the fried eggs into the chili sauce. Toss gently to coat and simmer for 2 minutes before serving."}
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Black Bean & Corn Tacos",
+    "tag": "BUDGET FRIENDLY",
+    "description": "A quick and healthy plant-based favorite featuring smoky black beans and sweet corn tucked into warm tortillas.",
+    "image": "images/id-8.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Canned Black Beans", "amount": "1 can, rinsed"},
+      {"name": "Corn Kernels", "amount": "1 cup, frozen or canned"},
+      {"name": "Tortillas", "amount": "6 small, corn or flour"},
+      {"name": "Taco Seasoning", "amount": "1 tablespoon"},
+      {"name": "Avocado", "amount": "1, sliced"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Warm Filling", "desc": "In a skillet over medium heat, combine black beans, corn, and taco seasoning with a splash of water. Heat for 5 minutes."},
+      {"step": 2, "title": "Toast Tortillas", "desc": "In a separate dry pan, toast the tortillas for 30 seconds on each side until warm and slightly charred."},
+      {"step": 3, "title": "Assemble", "desc": "Fill each tortilla with the bean and corn mixture. Top with fresh avocado slices and a squeeze of lime."},
+      {"step": 4, "title": "Optional Garnish", "desc": "Add salsa or Greek yogurt (as a sour cream substitute) if available for extra flavor."}
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Mie Goreng (Indonesian Stir-Fry Noodles)",
+    "tag": "STREET FOOD CLASSIC",
+    "description": "A classic street food favorite consisting of chewy stir-fried noodles tossed with savory sauces, fresh vegetables, and protein.",
+    "image": "images/id-9.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Egg Noodles", "amount": "200g, boiled and drained"},
+      {"name": "Cabbage", "amount": "1 cup, shredded"},
+      {"name": "Chicken Breast", "amount": "100g, thinly sliced"},
+      {"name": "Sweet Soy Sauce", "amount": "3 tablespoons"},
+      {"name": "Oyster Sauce", "amount": "1 tablespoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Cook Chicken", "desc": "Sauté chicken strips in a hot pan with oil until no longer pink. Add garlic and shallots for aroma."},
+      {"step": 2, "title": "Vegetables", "desc": "Toss in the shredded cabbage and any other greens. Stir-fry for 2 minutes until slightly softened but still crunchy."},
+      {"step": 3, "title": "Mix Noodles", "desc": "Add the pre-boiled noodles to the pan. Pour in the sweet soy sauce and oyster sauce."},
+      {"step": 4, "title": "Final Sear", "desc": "Stir-fry everything on high heat for 3 minutes to ensure the noodles are evenly coated and pick up a bit of smokiness from the pan."}
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Beef and Broccoli Stir-Fry",
+    "tag": "CHEF'S CHOICE",
+    "description": "A better-than-takeout stir-fry featuring tender strips of steak and crisp broccoli florets in a savory ginger-soy glaze.",
+    "image": "images/id-10.jpg",
+    "time_minutes": 20,
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {"name": "Flank Steak", "amount": "300g, thinly sliced"},
+      {"name": "Broccoli", "amount": "2 cups, florets"},
+      {"name": "Soy Sauce", "amount": "1/4 cup"},
+      {"name": "Ginger", "amount": "1 teaspoon, grated"},
+      {"name": "Cornstarch", "amount": "1 tablespoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Marinate Beef", "desc": "Toss the sliced beef with a tablespoon of soy sauce and cornstarch. Let it sit for 10 minutes while you prep veggies."},
+      {"step": 2, "title": "Sear Beef", "desc": "Heat oil in a wok until very hot. Sear the beef in batches until browned on both sides, then remove from the pan."},
+      {"step": 3, "title": "Steam Broccoli", "desc": "Add broccoli and a splash of water to the pan. Cover for 2 minutes to steam-cook the broccoli until tender-crisp."},
+      {"step": 4, "title": "Thicken Sauce", "desc": "Add ginger, the remaining soy sauce, and a pinch of sugar. Return beef to the pan and toss until the sauce thickens and coats everything."}
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Bubur Ayam (Indonesian Chicken Porridge)",
+    "tag": "BREAKFAST CLASSIC",
+    "description": "A comforting, creamy rice porridge topped with savory shredded chicken, crunchy cakwe, and aromatic fried shallots.",
+    "image": "images/id-11.jpg",
+    "time_minutes": 45,
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {"name": "White Rice", "amount": "1 cup, washed"},
+      {"name": "Chicken Stock", "amount": "6 cups"},
+      {"name": "Chicken Breast", "amount": "200g, boiled and shredded"},
+      {"name": "Fried Shallots", "amount": "2 tablespoons"},
+      {"name": "Cakwe (Chinese Crullers)", "amount": "1, sliced"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Cook Porridge", "desc": "Combine rice and chicken stock in a large pot. Bring to a boil, then reduce heat to low and simmer, stirring occasionally, for 30-40 minutes until creamy."},
+      {"step": 2, "title": "Prep Toppings", "desc": "While the porridge cooks, shred the boiled chicken and slice the cakwe and spring onions into thin rings."},
+      {"step": 3, "title": "Adjust Consistency", "desc": "If the porridge becomes too thick, add a splash more stock or water. Season with salt and white pepper to taste."},
+      {"step": 4, "title": "Plating", "desc": "Ladle the hot porridge into a bowl. Top with shredded chicken, cakwe, fried shallots, and a drizzle of sweet soy sauce."}
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Greek Chickpea Salad",
+    "tag": "FRESH & LIGHT",
+    "description": "A refreshing Mediterranean-style salad featuring protein-rich chickpeas, crisp cucumbers, and tangy feta cheese in a zesty lemon dressing.",
+    "image": "images/id-12.jpg",
+    "time_minutes": 10,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Canned Chickpeas", "amount": "1 can, drained and rinsed"},
+      {"name": "Cucumber", "amount": "1 large, diced"},
+      {"name": "Cherry Tomatoes", "amount": "1 cup, halved"},
+      {"name": "Feta Cheese", "amount": "1/4 cup, crumbled"},
+      {"name": "Lemon Vinaigrette", "amount": "3 tablespoons"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Vegetable Prep", "desc": "Wash and dice the cucumber and tomatoes into bite-sized pieces. Place them in a large mixing bowl."},
+      {"step": 2, "title": "Combine", "desc": "Add the rinsed chickpeas and crumbled feta cheese to the bowl with the vegetables."},
+      {"step": 3, "title": "Dress Salad", "desc": "Pour the lemon vinaigrette (or a mix of olive oil and lemon juice) over the salad and toss gently to coat."},
+      {"step": 4, "title": "Serve", "desc": "Season with dried oregano and black pepper. Serve immediately or let it chill in the fridge for 30 minutes for better flavor."}
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Soto Ayam (Yellow Chicken Soup)",
+    "tag": "COMFORT BOWL",
+    "description": "A fragrant and warming Indonesian herbal soup characterized by its vibrant yellow turmeric broth and tender shredded chicken.",
+    "image": "images/id-13.jpg",
+    "time_minutes": 50,
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {"name": "Chicken Thighs", "amount": "2 pieces, bone-in"},
+      {"name": "Turmeric Powder", "amount": "1 teaspoon"},
+      {"name": "Lemongrass", "amount": "1 stalk, bruised"},
+      {"name": "Rice Vermicelli", "amount": "50g, soaked in hot water"},
+      {"name": "Cabbage", "amount": "1/2 cup, shredded"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Make Broth", "desc": "Boil chicken thighs in 5 cups of water with lemongrass, turmeric, and ginger. Simmer for 30 minutes until chicken is tender."},
+      {"step": 2, "title": "Shred Chicken", "desc": "Remove chicken from the broth, let it cool slightly, and shred the meat. Discard the bones."},
+      {"step": 3, "title": "Season Soup", "desc": "Taste the broth and season generously with salt, sugar, and white pepper. Keep the broth simmering on low."},
+      {"step": 4, "title": "Assemble", "desc": "Place a portion of vermicelli and cabbage in a bowl. Add the shredded chicken and pour the hot yellow broth over it."},
+      {"step": 5, "title": "Garnish", "desc": "Serve with a squeeze of lime, fresh celery, and a hard-boiled egg for an authentic Indonesian experience."}
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Spicy Tuna Mayo Onigiri",
+    "tag": "GRAB & GO",
+    "description": "Convenient and delicious Japanese rice balls filled with a creamy, spicy tuna mixture wrapped in crisp roasted seaweed.",
+    "image": "images/id-14.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Sushi Rice", "amount": "2 cups, cooked and warm"},
+      {"name": "Canned Tuna", "amount": "1 small can, drained"},
+      {"name": "Japanese Mayo", "amount": "2 tablespoons"},
+      {"name": "Sriracha", "amount": "1 teaspoon"},
+      {"name": "Nori (Seaweed)", "amount": "2 sheets, cut into strips"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Tuna Filling", "desc": "In a small bowl, mix the drained tuna with mayo and sriracha until well combined. Adjust spice to your preference."},
+      {"step": 2, "title": "Prep Hands", "desc": "Wet your hands with water and a pinch of salt to prevent the rice from sticking to your skin."},
+      {"step": 3, "title": "Shape Rice", "desc": "Place a handful of warm rice in your palm. Make a small indentation in the center and add a teaspoon of the tuna mixture."},
+      {"step": 4, "title": "Fold & Press", "desc": "Cover the filling with more rice and press firmly into a triangle or ball shape. Ensure the filling is completely enclosed."},
+      {"step": 5, "title": "Wrap", "desc": "Wrap a strip of nori around the bottom of the rice ball. Repeat for the remaining rice and filling."}
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Indonesian Capcay (Stir-fry Veggies)",
+    "tag": "VEGGIE POWER",
+    "description": "A colorful medley of garden-fresh vegetables and savory meatballs stir-fried in a glossy, flavorful oyster sauce.",
+    "image": "images/id-15.png",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Broccoli & Cauliflower", "amount": "2 cups, florets"},
+      {"name": "Carrots", "amount": "1, thinly sliced"},
+      {"name": "Fish Balls or Meatballs", "amount": "5 pieces, halved"},
+      {"name": "Oyster Sauce", "amount": "2 tablespoons"},
+      {"name": "Cornstarch", "amount": "1 teaspoon, mixed with water"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Sauté Garlic", "desc": "Heat oil in a pan and sauté minced garlic until golden. Add the meatballs and cook for 2 minutes."},
+      {"step": 2, "title": "Hard Veggies", "desc": "Add the carrots and a splash of water. Cook for 3 minutes until they start to soften."},
+      {"step": 3, "title": "Green Veggies", "desc": "Add the broccoli and cauliflower. Stir-fry for another 3 minutes on medium-high heat."},
+      {"step": 4, "title": "Season & Thicken", "desc": "Pour in the oyster sauce and salt. Stir in the cornstarch slurry and cook until the sauce thickens into a glossy glaze."}
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Sheet Pan Sausage and Peppers",
+    "tag": "FAMILY DINNER",
+    "description": "A simple yet flavorful one-pan meal featuring juicy Italian sausages roasted to perfection with sweet bell peppers and onions.",
+    "image": "images/id-16.jpg",
+    "time_minutes": 35,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Italian Sausages", "amount": "4 links, sliced"},
+      {"name": "Bell Peppers", "amount": "2 large, sliced into strips"},
+      {"name": "Red Onion", "amount": "1, cut into wedges"},
+      {"name": "Olive Oil", "amount": "2 tablespoons"},
+      {"name": "Dried Thyme", "amount": "1 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Oven Prep", "desc": "Preheat your oven to 400°F (200°C). Grease a large baking sheet or line it with foil."},
+      {"step": 2, "title": "Toss Ingredients", "desc": "Place the sliced sausages, peppers, and onions on the sheet. Drizzle with olive oil and sprinkle with thyme, salt, and pepper."},
+      {"step": 3, "title": "Roast", "desc": "Bake for 25-30 minutes, tossing halfway through, until the sausages are browned and the vegetables are tender and slightly charred."},
+      {"step": 4, "title": "Final Touch", "desc": "Drizzle with a bit of balsamic vinegar or serve in toasted hoagie rolls for a complete meal."}
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Pempek Dos (Vegetarian Fish Cakes)",
+    "tag": "REGIONAL SPECIALTY",
+    "description": "A popular Palembang-style savory snack made from a chewy flour-based dough, fried until crisp and served with spicy vinegar sauce.",
+    "image": "images/id-17.jpg",
+    "time_minutes": 45,
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {"name": "Wheat Flour", "amount": "125g"},
+      {"name": "Tapioca Flour", "amount": "200g"},
+      {"name": "Garlic", "amount": "2 cloves, mashed"},
+      {"name": "Egg", "amount": "1, for the dough"},
+      {"name": "Cuka Sauce", "amount": "1/2 cup, for dipping"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Make Starter", "desc": "Mix wheat flour, garlic, salt, and 250ml water in a pot. Cook over low heat while stirring until it becomes a thick paste. Let it cool."},
+      {"step": 2, "title": "Knead Dough", "desc": "Add the egg to the paste and mix well. Gradually add tapioca flour while kneading gently until the dough is no longer sticky."},
+      {"step": 3, "title": "Shape & Boil", "desc": "Shape the dough into small logs or discs. Boil in water until they float to the surface, then drain."},
+      {"step": 4, "title": "Fry", "desc": "Once cooled, deep fry the boiled dough until the exterior is golden and crispy."},
+      {"step": 5, "title": "Serve", "desc": "Serve with 'Cuka' (spicy vinegar sauce), diced cucumber, and yellow noodles."}
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Quick Creamy Mushroom Risotto",
+    "tag": "ITALIAN NIGHT",
+    "description": "An elegant and velvety rice dish slow-cooked with earthy mushrooms, aromatic garlic, and rich Parmesan cheese.",
+    "image": "images/id-18.jpg",
+    "time_minutes": 30,
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {"name": "Arborio Rice", "amount": "1 cup"},
+      {"name": "Mushrooms", "amount": "200g, sliced"},
+      {"name": "Vegetable Stock", "amount": "3-4 cups, warm"},
+      {"name": "Onion", "amount": "1/2, finely chopped"},
+      {"name": "Parmesan Cheese", "amount": "1/3 cup"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Sauté Veggies", "desc": "Sauté onions and mushrooms in butter until the mushrooms are browned and the onions are translucent."},
+      {"step": 2, "title": "Toast Rice", "desc": "Add the dry Arborio rice to the pan. Stir for 2 minutes until the edges of the grains become slightly translucent."},
+      {"step": 3, "title": "Add Stock", "desc": "Add warm stock one ladle at a time. Stir constantly and wait until the liquid is absorbed before adding the next ladle."},
+      {"step": 4, "title": "Final Texture", "desc": "Repeat until the rice is tender but firm (al dente). This usually takes about 18-20 minutes."},
+      {"step": 5, "title": "Creamy Finish", "desc": "Remove from heat. Stir in the Parmesan and a knob of butter to create a creamy, rich sauce."}
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Bakwan Jagung (Corn Fritters)",
+    "tag": "TEA TIME SNACK",
+    "description": "Crispy, golden-brown Indonesian fritters packed with sweet corn kernels and aromatic green onions.",
+    "image": "images/id-19.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Sweet Corn", "amount": "2 cobs, kernels removed"},
+      {"name": "Wheat Flour", "amount": "1/2 cup"},
+      {"name": "Rice Flour", "amount": "2 tablespoons"},
+      {"name": "Spring Onion", "amount": "1 stalk, sliced"},
+      {"name": "Turmeric Powder", "amount": "1/2 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Mix Batter", "desc": "In a bowl, combine corn kernels, flours, spring onion, turmeric, salt, and a splash of water to make a thick batter."},
+      {"step": 2, "title": "Heat Oil", "desc": "Heat about 1/2 inch of oil in a skillet over medium heat until a drop of batter sizzles immediately."},
+      {"step": 3, "title": "Fry", "desc": "Drop tablespoons of the batter into the hot oil, flattening them slightly with the back of the spoon."},
+      {"step": 4, "title": "Golden Brown", "desc": "Fry for 3-4 minutes per side until they are crispy and golden brown. Drain on paper towels and serve warm."}
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Chicken Pesto Pasta",
+    "tag": "QUICK BITE",
+    "description": "A vibrant and aromatic pasta dish featuring tender chicken cubes tossed in a rich basil pesto sauce and sweet cherry tomatoes.",
+    "image": "images/id-20.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Penne Pasta", "amount": "200g"},
+      {"name": "Basil Pesto", "amount": "3 tablespoons, jarred"},
+      {"name": "Chicken Breast", "amount": "150g, cubed"},
+      {"name": "Cherry Tomatoes", "amount": "1/2 cup, halved"},
+      {"name": "Parmesan", "amount": "Optional garnish"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Boil Pasta", "desc": "Cook the penne in salted boiling water according to the package instructions. Reserve a small splash of pasta water."},
+      {"step": 2, "title": "Cook Chicken", "desc": "While pasta boils, sauté the chicken cubes in a pan with olive oil until fully cooked and slightly browned."},
+      {"step": 3, "title": "Combine", "desc": "Drain the pasta and return it to the pot. Add the cooked chicken, pesto sauce, and cherry tomatoes."},
+      {"step": 4, "title": "Final Mix", "desc": "Toss everything together over low heat. If the sauce is too thick, add the reserved pasta water to loosen it. Serve with parmesan."}
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Soto Betawi (Jakarta Beef Soup)",
+    "tag": "CITY CLASSIC",
+    "description": "A creamy and rich Jakarta-style beef soup made with a unique blend of coconut milk and evaporated milk for a velvety finish.",
+    "image": "images/id-21.jpg",
+    "time_minutes": 50,
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {"name": "Beef Brisket", "amount": "300g, cubed"},
+      {"name": "Coconut Milk", "amount": "200ml"},
+      {"name": "Evaporated Milk", "amount": "100ml"},
+      {"name": "Lemongrass", "amount": "1 stalk, bruised"},
+      {"name": "Emping (Melinjo Crackers)", "amount": "1 handful"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Parboil Beef", "desc": "Boil beef cubes in water for 10 minutes to remove impurities. Drain and replace with 4 cups of fresh water, then simmer until tender."},
+      {"step": 2, "title": "Sauté Spices", "desc": "In a separate pan, sauté a paste of garlic, shallots, and ginger with lemongrass and bay leaves until the oil separates and smells fragrant."},
+      {"step": 3, "title": "Combine", "desc": "Add the sautéed spices into the beef pot. Pour in the coconut milk and evaporated milk while stirring constantly to prevent the milk from curdling."},
+      {"step": 4, "title": "Simmer", "desc": "Let the soup simmer on low heat for 10-15 minutes so the beef absorbs the creamy flavors. Season with salt, sugar, and white pepper."},
+      {"step": 5, "title": "Serve", "desc": "Garnish with fried shallots, sliced tomatoes, and lime juice. Serve with hot rice and crispy emping crackers."}
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Honey Garlic Salmon & Broccoli",
+    "tag": "OMEGA-3 BOOST",
+    "description": "Perfectly seared salmon fillets glazed in a sweet honey-garlic sauce, served with crisp steamed broccoli.",
+    "image": "images/id-22.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Salmon Fillet", "amount": "150g"},
+      {"name": "Broccoli", "amount": "1 cup, florets"},
+      {"name": "Honey", "amount": "2 tablespoons"},
+      {"name": "Soy Sauce", "amount": "1 tablespoon"},
+      {"name": "Garlic", "amount": "2 cloves, minced"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Make Glaze", "desc": "In a small bowl, whisk together honey, soy sauce, lemon juice, and minced garlic."},
+      {"step": 2, "title": "Sear Salmon", "desc": "Heat oil in a pan over medium-high heat. Place salmon skin-side down and sear for 4 minutes until crispy. Flip and cook for 2 more minutes."},
+      {"step": 3, "title": "Glaze & Veggies", "desc": "Add the broccoli florets to the pan. Pour the honey mixture over the salmon and broccoli."},
+      {"step": 4, "title": "Reduce Sauce", "desc": "Simmer for 2-3 minutes until the sauce thickens into a sticky glaze and the broccoli is tender-crisp. Serve over steamed rice."}
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Ayam Geprek (Smashed Fried Chicken)",
+    "tag": "HOT & SPICY",
+    "description": "Crispy fried chicken smashed with a bold, fiery garlic chili sambal—a favorite street food for those who love a kick of heat.",
+    "image": "images/id-23.jpg",
+    "time_minutes": 30,
+    "ingredients": [
+      {"name": "Chicken Breast", "amount": "150g, breaded & fried"},
+      {"name": "Bird's Eye Chilies", "amount": "5-10 pieces"},
+      {"name": "Garlic", "amount": "2 cloves"},
+      {"name": "Hot Oil", "amount": "2 tablespoons"},
+      {"name": "Salt & Sugar", "amount": "to taste"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Prepare Chicken", "desc": "Use a pre-breaded frozen chicken cutlet or fry a fresh one until golden and extra crunchy. This 'crunch' is vital for the geprek texture."},
+      {"step": 2, "title": "Grind Sambal", "desc": "Using a mortar and pestle (cobek), grind raw chilies, garlic, salt, and sugar into a coarse paste."},
+      {"step": 3, "title": "Sizzle", "desc": "Carefully pour 2 tablespoons of smoking hot oil over the chili paste. It should sizzle and release a spicy aroma immediately."},
+      {"step": 4, "title": "The Smash", "desc": "Place the hot fried chicken on top of the sambal and smash it (geprek) with the pestle until the meat is shredded and coated in chili."},
+      {"step": 5, "title": "Serve", "desc": "Serve immediately with a mound of warm white rice and a few slices of fresh cucumber to cool the heat."}
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Tomato and Pepper Shakshuka",
+    "tag": "ONE-PAN BRUNCH",
+    "description": "A vibrant North African-inspired dish of eggs poached in a simmering, spiced tomato and bell pepper sauce.",
+    "image": "images/id-24.jpg",
+    "time_minutes": 25,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Eggs", "amount": "3 large"},
+      {"name": "Canned Tomatoes", "amount": "1 can, crushed"},
+      {"name": "Bell Pepper", "amount": "1, diced"},
+      {"name": "Onion", "amount": "1/2, diced"},
+      {"name": "Cumin", "amount": "1 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Sauté Base", "desc": "Heat oil in a skillet. Sauté onions and bell peppers for 5 minutes until soft and slightly browned."},
+      {"step": 2, "title": "Simmer Sauce", "desc": "Stir in the crushed tomatoes, cumin, paprika, and a pinch of chili flakes. Let the sauce simmer and thicken for 10 minutes."},
+      {"step": 3, "title": "Poach Eggs", "desc": "Use a spoon to make three small wells in the sauce. Gently crack an egg into each well."},
+      {"step": 4, "title": "Cover & Cook", "desc": "Cover the pan with a lid and cook for 5-8 minutes until the egg whites are set but the yolks are still runny."},
+      {"step": 5, "title": "Garnish", "desc": "Sprinkle with fresh parsley or feta cheese. Serve straight from the pan with crusty bread for dipping."}
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Sayur Asem (Tamarind Soup)",
+    "tag": "SOUR & SAVORY",
+    "description": "A refreshing Indonesian clear soup with a signature tamarind tang, packed with corn, chayote, and long beans.",
+    "image": "images/id-25.jpg",
+    "time_minutes": 35,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Chayote (Labu Siam)", "amount": "1, cubed"},
+      {"name": "Sweet Corn", "amount": "1, cut into rounds"},
+      {"name": "Long Beans", "amount": "1 bunch, cut into 2-inch pieces"},
+      {"name": "Tamarind Paste", "amount": "2 tablespoons"},
+      {"name": "Raw Peanuts", "amount": "1/4 cup"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Boil Water", "desc": "Bring 6 cups of water to a boil in a large pot. Add tamarind paste, galangal, and bay leaves for the soup base."},
+      {"step": 2, "title": "Cook Hard Veggies", "desc": "Add the raw peanuts and corn rounds first, as they take the longest to cook. Boil for about 10 minutes."},
+      {"step": 3, "title": "Add Soft Veggies", "desc": "Stir in the chayote and long beans. Season with salt and a generous amount of sugar to get that classic sweet-and-sour balance."},
+      {"step": 4, "title": "Final Simmer", "desc": "Cook for another 10 minutes until all vegetables are tender. Serve warm or at room temperature alongside fried fish or tempeh."}
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Korean Beef Bibimbap Bowl",
+    "tag": "K-FOOD FAVORITE",
+    "description": "A classic Korean rice bowl topped with seasoned beef, colorful sautéed vegetables, and a signature spicy gochujang sauce.",
+    "image": "images/id-26.jpg",
+    "time_minutes": 25,
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {"name": "Ground Beef", "amount": "150g"},
+      {"name": "Spinach", "amount": "1 cup, blanched"},
+      {"name": "Carrots", "amount": "1, julienned"},
+      {"name": "Gochujang (Chili Paste)", "amount": "1 tablespoon"},
+      {"name": "Egg", "amount": "1, sunny-side up"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Brown Beef", "desc": "Sauté ground beef with a little soy sauce and sesame oil until browned and fully cooked. Set aside."},
+      {"step": 2, "title": "Veggies Prep", "desc": "Briefly sauté the carrots and mushrooms separately with a pinch of salt. Blanch the spinach and squeeze out excess water."},
+      {"step": 3, "title": "Bibimbap Sauce", "desc": "Mix gochujang with a teaspoon of sugar, sesame oil, and a splash of water to create a smooth, pourable sauce."},
+      {"step": 4, "title": "Assemble", "desc": "Place a scoop of rice in a bowl. Arrange the beef and vegetables in neat piles on top. Place the fried egg in the center."},
+      {"step": 5, "title": "Mix & Eat", "desc": "Drizzle the sauce over everything. Mix thoroughly before eating so every grain of rice is coated in the spicy sauce."}
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Tahu Tempe Bacem (Sweet Braised Tofu)",
+    "tag": "SWEET & SAVORY",
+    "description": "Traditional Javanese braised tofu and tempeh slow-cooked in coconut water and palm sugar until deeply caramelized.",
+    "image": "images/id-27.jpg",
+    "time_minutes": 45,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Tempeh", "amount": "1 block, sliced"},
+      {"name": "Tofu", "amount": "4 pieces, firm"},
+      {"name": "Coconut Water", "amount": "500ml"},
+      {"name": "Palm Sugar", "amount": "50g, crushed"},
+      {"name": "Coriander Powder", "amount": "1 tablespoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Layer the Pot", "desc": "Arrange the tofu and tempeh slices in a wide pot so they don't overlap too much."},
+      {"step": 2, "title": "Add Braising Liquid", "desc": "Pour in the coconut water. Add palm sugar, coriander powder, garlic, and bay leaves. The liquid should almost cover the tofu."},
+      {"step": 3, "title": "Slow Simmer", "desc": "Cook on medium-low heat until the liquid has completely evaporated and the tofu/tempeh has turned a deep brown color."},
+      {"step": 4, "title": "Quick Fry", "desc": "Heat a small amount of oil and briefly fry the braised pieces for 1 minute per side to caramelize the sugars. Serve with chili sauce."}
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Spinach and Feta Omelet",
+    "tag": "PROTEIN PACKED",
+    "description": "A quick and nutritious breakfast omelet filled with fresh wilted spinach and tangy, crumbly feta cheese.",
+    "image": "images/id-28.jpg",
+    "time_minutes": 10,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Eggs", "amount": "2 large"},
+      {"name": "Fresh Spinach", "amount": "1 cup"},
+      {"name": "Feta Cheese", "amount": "2 tablespoons, crumbled"},
+      {"name": "Butter", "amount": "1 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Wilt Spinach", "desc": "Melt butter in a small pan. Add spinach and cook for 1 minute until just wilted. Remove and set aside."},
+      {"step": 2, "title": "Whisk Eggs", "desc": "Beat the eggs with a pinch of salt and pepper until very bubbly."},
+      {"step": 3, "title": "Cook Eggs", "desc": "Pour eggs into the hot pan. Let them sit for 30 seconds, then gently lift the edges to let the raw egg flow underneath."},
+      {"step": 4, "title": "Fill & Fold", "desc": "When the top is almost set, add the spinach and feta to one half. Fold the other half over and cook for 30 more seconds."}
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Quick Beef Rendang (Student Version)",
+    "tag": "STUDENT SPECIAL",
+    "description": "A simplified version of the legendary Indonesian beef rendang, slow-cooked in rich spices and coconut milk until tender and dark.",
+    "image": "images/id-29.jpg",
+    "time_minutes": 60,
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {"name": "Beef Stew Meat", "amount": "300g, small cubes"},
+      {"name": "Rendang Paste", "amount": "3 tablespoons, store-bought"},
+      {"name": "Coconut Milk", "amount": "400ml"},
+      {"name": "Toasted Coconut (Kerisik)", "amount": "2 tablespoons"},
+      {"name": "Kaffir Lime Leaves", "amount": "2 leaves"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Sauté Paste", "desc": "In a heavy-bottomed pot, sauté the rendang paste until it darkens and becomes very fragrant."},
+      {"step": 2, "title": "Sear Beef", "desc": "Add the beef cubes and cook until they are browned on all sides and coated in the paste."},
+      {"step": 3, "title": "Simmer", "desc": "Pour in the coconut milk and add the lime leaves. Bring to a boil, then reduce heat to very low."},
+      {"step": 4, "title": "Reduce Sauce", "desc": "Simmer uncovered, stirring occasionally, until the liquid reduces and the oil starts to separate from the sauce (about 45 mins)."},
+      {"step": 5, "title": "The Finish", "desc": "Stir in the toasted coconut (kerisik) to thicken and darken the sauce. Cook until the beef is tender and the sauce is thick and dark brown."}
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Coconut Chickpea Curry",
+    "tag": "PLANT BASED",
+    "description": "A creamy and aromatic chickpea curry simmered in coconut milk and warm spices, ready in just 20 minutes.",
+    "image": "images/id-30.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Canned Chickpeas", "amount": "1 can, rinsed"},
+      {"name": "Coconut Milk", "amount": "1/2 cup"},
+      {"name": "Curry Powder", "amount": "1 tablespoon"},
+      {"name": "Onion", "amount": "1/2, chopped"},
+      {"name": "Fresh Cilantro", "amount": "for garnish"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Sauté Aromatics", "desc": "Sauté chopped onion and garlic in oil until softened. Stir in the curry powder and cook for 30 seconds to toast the spices."},
+      {"step": 2, "title": "Add Base", "desc": "Add the chickpeas and coconut milk. If you like it saucier, add a splash of vegetable broth or water."},
+      {"step": 3, "title": "Simmer", "desc": "Let the curry bubble gently for 10 minutes so the chickpeas absorb the flavors. Season with salt and a squeeze of lime."},
+      {"step": 4, "title": "Serve", "desc": "Serve over rice or with toasted flatbread. Garnish generously with fresh cilantro."}
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Perkedel Kentang (Potato Fritters)",
+    "tag": "SIDE DISH HERO",
+    "description": "Savory and soft Indonesian potato patties made from fried mashed potatoes mixed with aromatic shallots and celery.",
+    "image": "images/id-31.jpg",
+    "time_minutes": 35,
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {"name": "Potatoes", "amount": "500g, peeled and cubed"},
+      {"name": "Fried Shallots", "amount": "2 tablespoons"},
+      {"name": "Celery", "amount": "1 stalk, finely chopped"},
+      {"name": "Egg", "amount": "1, beaten"},
+      {"name": "Nutmeg", "amount": "1/4 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Fry Potatoes", "desc": "Fry the cubed potatoes in oil until soft and golden. This method prevents the perkedel from being too watery compared to boiling."},
+      {"step": 2, "title": "Mash", "desc": "While still hot, mash the fried potatoes in a bowl until smooth. Add salt, pepper, nutmeg, celery, and fried shallots."},
+      {"step": 3, "title": "Shape", "desc": "Take a tablespoon of the mixture and shape it into a smooth, slightly flattened ball. Repeat until all mixture is used."},
+      {"step": 4, "title": "Coating", "desc": "Dip each potato ball into the beaten egg, ensuring it is fully coated. This creates the signature golden 'lace' when fried."},
+      {"step": 5, "title": "Final Fry", "desc": "Fry the patties in hot oil over medium heat until the egg coating is crispy and deep golden brown. Serve as a side dish."}
+    ]
+  },
+  {
+    "id": 32,
+    "title": "One-Pan Lemon Garlic Shrimp",
+    "tag": "SEAFOOD QUICKIE",
+    "description": "Succulent shrimp sautéed in a rich garlic butter sauce with a zesty lemon finish, perfect for a 15-minute meal.",
+    "image": "images/id-32.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Shrimp", "amount": "250g, peeled and deveined"},
+      {"name": "Garlic", "amount": "3 cloves, minced"},
+      {"name": "Butter", "amount": "2 tablespoons"},
+      {"name": "Lemon Juice", "amount": "1 tablespoon"},
+      {"name": "Red Chili Flakes", "amount": "1/2 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Melt Butter", "desc": "In a large skillet, melt the butter over medium-high heat until it starts to bubble."},
+      {"step": 2, "title": "Sauté Garlic", "desc": "Add minced garlic and chili flakes. Cook for 1 minute until the garlic is fragrant but not burnt."},
+      {"step": 3, "title": "Sear Shrimp", "desc": "Add the shrimp to the pan in a single layer. Cook for 2 minutes per side until they turn pink and opaque."},
+      {"step": 4, "title": "Deglaze", "desc": "Stir in the lemon juice and a pinch of salt. Toss everything together to coat the shrimp in the garlic butter sauce and serve hot."}
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Tumis Kangkung Belacan",
+    "tag": "SAVORY GREENS",
+    "description": "A classic Indonesian stir-fry of water spinach with pungent shrimp paste and spicy red chilies.",
+    "image": "images/id-33.jpg",
+    "time_minutes": 10,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Water Spinach (Kangkung)", "amount": "1 bunch"},
+      {"name": "Shrimp Paste (Belacan)", "amount": "1 teaspoon"},
+      {"name": "Red Chili", "amount": "2, sliced"},
+      {"name": "Garlic", "amount": "2 cloves, minced"},
+      {"name": "Oyster Sauce", "amount": "1 tablespoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Prepare Greens", "desc": "Wash the kangkung thoroughly. Separate the tougher stems from the tender leaves and cut into 3-inch lengths."},
+      {"step": 2, "title": "Toast Paste", "desc": "Sauté garlic and shrimp paste in oil until the paste is fragrant and broken down. Add the sliced chilies."},
+      {"step": 3, "title": "Stir-Fry", "desc": "Add the stems first and stir-fry for 1 minute. Then add the leaves and oyster sauce. Cook on high heat for 2 more minutes."},
+      {"step": 4, "title": "Season", "desc": "Add a splash of water if it's too dry. Season with salt and sugar to taste, then serve immediately while the greens are vibrant."}
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Chicken Teriyaki Rice Bowl",
+    "tag": "BOWL FAVORITE",
+    "description": "Tender chicken thigh glazed in a sweet and savory homemade teriyaki sauce, served over warm rice with steamed broccoli.",
+    "image": "images/id-34.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Chicken Thigh", "amount": "200g, cubed"},
+      {"name": "Soy Sauce", "amount": "3 tablespoons"},
+      {"name": "Honey", "amount": "2 tablespoons"},
+      {"name": "Ginger", "amount": "1 teaspoon, grated"},
+      {"name": "Broccoli", "amount": "1 cup, steamed"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Make Sauce", "desc": "Mix soy sauce, honey, and grated ginger in a small bowl until the honey is fully dissolved."},
+      {"step": 2, "title": "Cook Chicken", "desc": "Sauté chicken cubes in a pan over medium heat until they are golden brown and fully cooked through."},
+      {"step": 3, "title": "Glaze", "desc": "Pour the sauce over the chicken. Simmer for 3-5 minutes until the sauce reduces into a thick, shiny glaze."},
+      {"step": 4, "title": "Assemble", "desc": "Serve the glazed chicken over a bowl of steamed white rice. Add the steamed broccoli on the side for a balanced meal."}
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Bakso Ayam (Chicken Meatball Soup)",
+    "tag": "COMFORT SOUP",
+    "description": "Hearty chicken meatballs served in a clear, savory broth with hints of garlic and fresh celery.",
+    "image": "images/id-35.jpg",
+    "time_minutes": 40,
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {"name": "Ground Chicken", "amount": "250g"},
+      {"name": "Tapioca Flour", "amount": "4 tablespoons"},
+      {"name": "Garlic Powder", "amount": "1 teaspoon"},
+      {"name": "Beef or Chicken Broth", "amount": "4 cups"},
+      {"name": "Celery", "amount": "1 stalk, sliced"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Mix Meatballs", "desc": "Combine ground chicken, tapioca flour, garlic powder, salt, and pepper. Knead until the mixture is sticky and well-blended."},
+      {"step": 2, "title": "Shape & Boil", "desc": "Bring a pot of water to a simmer. Shape the mixture into small balls and drop them into the water. Remove once they float."},
+      {"step": 3, "title": "Prepare Broth", "desc": "In a separate pot, heat the broth with minced garlic and celery. Season with salt and a pinch of sugar."},
+      {"step": 4, "title": "Serve", "desc": "Place the meatballs in a bowl. Pour the hot broth over them and garnish with fried shallots and sambal if desired."}
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Mediterranean Hummus Wrap",
+    "tag": "VEGGIE WRAP",
+    "description": "A fresh and healthy Mediterranean wrap filled with creamy hummus, crisp vegetables, and tangy feta cheese.",
+    "image": "images/id-36.jpg",
+    "time_minutes": 10,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Tortilla", "amount": "1 large"},
+      {"name": "Hummus", "amount": "3 tablespoons"},
+      {"name": "Cucumber", "amount": "1/2, sliced"},
+      {"name": "Cherry Tomatoes", "amount": "5, halved"},
+      {"name": "Feta Cheese", "amount": "1 tablespoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Spread", "desc": "Lay the tortilla flat and spread the hummus evenly across the center, leaving room at the edges."},
+      {"step": 2, "title": "Layer", "desc": "Place the cucumber slices, tomatoes, and crumbled feta on top of the hummus layer."},
+      {"step": 3, "title": "Fold", "desc": "Fold in the sides of the tortilla and roll it up tightly to enclose the filling."},
+      {"step": 4, "title": "Optional Toast", "desc": "Briefly toast the wrap in a dry pan for 1 minute per side until golden and slightly crunchy."}
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Orak Arik Telur Sayur",
+    "tag": "FAST BREAKFAST",
+    "description": "A simple yet nutritious Indonesian stir-fry of scrambled eggs, cabbage, and carrots seasoned with white pepper.",
+    "image": "images/id-37.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Eggs", "amount": "2 large"},
+      {"name": "Cabbage", "amount": "1 cup, shredded"},
+      {"name": "Carrot", "amount": "1, julienned"},
+      {"name": "Garlic", "amount": "2 cloves, minced"},
+      {"name": "White Pepper", "amount": "1/2 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Sauté Veggies", "desc": "Heat oil and sauté garlic until fragrant. Add carrots and cabbage, stir-frying until they soften slightly."},
+      {"step": 2, "title": "Scramble", "desc": "Push the vegetables to the side of the pan. Crack the eggs into the empty space and scramble until mostly set."},
+      {"step": 3, "title": "Mix", "desc": "Toss the eggs and vegetables together. Season with salt, sugar, and white pepper."},
+      {"step": 4, "title": "Finish", "desc": "Cook for 1 more minute until the eggs are fully done and the flavors are well combined. Perfect for breakfast or a light lunch."}
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Spicy Peanut Soba Noodles",
+    "tag": "NUTTY NOODLES",
+    "description": "Chilled soba noodles tossed in a creamy, spicy peanut sauce for a quick and satisfying fusion meal.",
+    "image": "images/id-38.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Soba Noodles", "amount": "100g, dry"},
+      {"name": "Peanut Butter", "amount": "2 tablespoons"},
+      {"name": "Soy Sauce", "amount": "1 tablespoon"},
+      {"name": "Lime Juice", "amount": "1 teaspoon"},
+      {"name": "Chili Oil", "amount": "1 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Cook Noodles", "desc": "Boil soba noodles for 4-5 minutes. Drain and rinse under cold water to stop the cooking and remove excess starch."},
+      {"step": 2, "title": "Whisk Sauce", "desc": "In a bowl, combine peanut butter, soy sauce, lime juice, chili oil, and a tablespoon of hot water. Whisk until smooth."},
+      {"step": 3, "title": "Combine", "desc": "Toss the cold noodles with the peanut sauce until every strand is thoroughly coated."},
+      {"step": 4, "title": "Garnish", "desc": "Top with crushed peanuts or sliced green onions for extra crunch and flavor."}
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Ayam Kecap (Soy Sauce Chicken)",
+    "tag": "HOME-STYLE CLASSIC",
+    "description": "Juicy chicken drumsticks braised in a sweet soy sauce glaze with aromatic ginger and garlic.",
+    "image": "images/id-39.jpg",
+    "time_minutes": 30,
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {"name": "Chicken Drumsticks", "amount": "4 pieces"},
+      {"name": "Sweet Soy Sauce", "amount": "4 tablespoons"},
+      {"name": "Ginger", "amount": "2cm, bruised"},
+      {"name": "Garlic", "amount": "3 cloves, minced"},
+      {"name": "Onion", "amount": "1/2, sliced"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Initial Fry", "desc": "Lightly fry the chicken drumsticks in oil until the skin is golden but the meat is not fully cooked. Set aside."},
+      {"step": 2, "title": "Aromatics", "desc": "Sauté the garlic, ginger, and onion in the same pan until the onion becomes translucent and fragrant."},
+      {"step": 3, "title": "Simmer", "desc": "Return the chicken to the pan. Add sweet soy sauce and 1/2 cup of water. Cover and simmer on low heat for 15 minutes."},
+      {"step": 4, "title": "Glaze", "desc": "Remove the lid and increase the heat. Cook until the liquid reduces into a thick, dark, savory syrup that coats the chicken."}
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Cheesy Beef Quesadillas",
+    "tag": "CHEESY COMFORT",
+    "description": "Golden, crispy tortillas filled with seasoned ground beef and melted cheddar cheese, served in wedges.",
+    "image": "images/id-40.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Ground Beef", "amount": "150g"},
+      {"name": "Tortilla", "amount": "2 medium"},
+      {"name": "Cheddar Cheese", "amount": "1/2 cup, shredded"},
+      {"name": "Onion", "amount": "1/4, diced"},
+      {"name": "Taco Seasoning", "amount": "1 tablespoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Cook Beef", "desc": "Brown the ground beef and onion in a skillet. Stir in the taco seasoning and a splash of water, then remove from the pan."},
+      {"step": 2, "title": "Assemble", "desc": "Place one tortilla in the skillet. Sprinkle half the cheese, then the beef mixture, and top with the remaining cheese and second tortilla."},
+      {"step": 3, "title": "Grill", "desc": "Cook over medium heat for 3 minutes per side until the tortilla is golden brown and the cheese has completely melted."},
+      {"step": 4, "title": "Slice", "desc": "Slide onto a cutting board and let it rest for 1 minute before slicing into wedges. Serve with sour cream or salsa."}
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Telur Dadar Padang (Thick Minang Omelet)",
+    "tag": "MINANG PRIDE",
+    "description": "A thick, savory Minang-style omelet made with rice flour and plenty of aromatic scallions for a satisfying crunch.",
+    "image": "images/id-41.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Eggs", "amount": "3 large"},
+      {"name": "Rice Flour", "amount": "2 tablespoons"},
+      {"name": "Red Chili", "amount": "2, finely chopped"},
+      {"name": "Scallions", "amount": "2 stalks, sliced"},
+      {"name": "Celery", "amount": "1 stalk, minced"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Whisk Base", "desc": "In a bowl, whisk the eggs thoroughly. Sift in the rice flour and whisk again until no lumps remain; the flour is key to the omelet's thickness."},
+      {"step": 2, "title": "Add Aromatics", "desc": "Stir in the chopped chilies, scallions, celery, salt, and a pinch of coriander powder. Ensure the vegetables are evenly distributed."},
+      {"step": 3, "title": "Heat Pan", "desc": "Heat a generous amount of oil in a small, deep skillet over medium-low heat. The oil must be hot enough to make the edges crisp immediately."},
+      {"step": 4, "title": "Slow Fry", "desc": "Pour in the egg mixture. Cook on low heat so the center sets without burning the bottom. Use a spatula to gently lift the edges."},
+      {"step": 5, "title": "The Flip", "desc": "Once the top is mostly set, carefully flip the omelet. Cook for another 3 minutes until both sides are deep golden brown and crispy."}
+    ]
+  },
+  {
+    "id": 42,
+    "title": "One-Pan Creamy Gnocchi with Spinach",
+    "tag": "COZY COMFORT",
+    "description": "Soft potato gnocchi simmered in a rich, velvety cream sauce with fresh spinach and Parmesan.",
+    "image": "images/id-42.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Store-bought Gnocchi", "amount": "400g"},
+      {"name": "Heavy Cream", "amount": "1/2 cup"},
+      {"name": "Fresh Spinach", "amount": "2 cups"},
+      {"name": "Garlic", "amount": "2 cloves, minced"},
+      {"name": "Parmesan Cheese", "amount": "1/4 cup, grated"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Sauté Garlic", "desc": "Heat butter in a large pan over medium heat. Sauté the minced garlic for about 1 minute until fragrant."},
+      {"step": 2, "title": "Simmer Gnocchi", "desc": "Add the heavy cream and 1/4 cup of water to the pan. Bring to a gentle simmer, then add the dry gnocchi directly into the liquid."},
+      {"step": 3, "title": "Cook through", "desc": "Cover and cook for 5-7 minutes. The gnocchi will absorb the cream and become tender. Stir occasionally to prevent sticking."},
+      {"step": 4, "title": "Wilt Greens", "desc": "Stir in the fresh spinach and parmesan cheese. Heat until the spinach has completely wilted into the sauce."},
+      {"step": 5, "title": "Season", "desc": "Adjust seasoning with salt and plenty of cracked black pepper. Serve immediately while the sauce is velvety."}
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Sayur Lodeh (Vegetable Coconut Soup)",
+    "tag": "VEGGIE COCONUT",
+    "description": "A traditional Indonesian vegetable stew cooked in a fragrant coconut milk broth with tempeh and eggplant.",
+    "image": "images/id-43.jpg",
+    "time_minutes": 35,
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {"name": "Chayote", "amount": "1, cubed"},
+      {"name": "Long Beans", "amount": "5-6, cut into pieces"},
+      {"name": "Eggplant", "amount": "1 small, cubed"},
+      {"name": "Coconut Milk", "amount": "400ml"},
+      {"name": "Tempeh", "amount": "1/2 block, cubed"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Prepare Base", "desc": "Boil 2 cups of water with bay leaves, galangal, and a paste made of garlic, shallots, and candlenuts (or macadamias)."},
+      {"step": 2, "title": "Hard Veggies", "desc": "Add the chayote and tempeh cubes to the boiling water. Cook for 10 minutes until the chayote begins to soften."},
+      {"step": 3, "title": "Coconut Milk", "desc": "Pour in the coconut milk slowly. Keep the heat on medium and stir continuously so the coconut milk doesn't break/separate."},
+      {"step": 4, "title": "Soft Veggies", "desc": "Add the long beans and eggplant. Simmer for another 10 minutes until all vegetables are tender but not mushy."},
+      {"step": 5, "title": "Final Season", "desc": "Add salt and a teaspoon of sugar. The soup should be creamy, savory, and slightly sweet. Serve with warm rice."}
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Garlic Butter Steak Bites",
+    "tag": "MEAT LOVER'S",
+    "description": "Juicy, high-heat seared steak cubes tossed in a decadent garlic butter and parsley glaze.",
+    "image": "images/id-44.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Sirloin or Ribeye", "amount": "300g, cubed"},
+      {"name": "Butter", "amount": "2 tablespoons"},
+      {"name": "Garlic", "amount": "4 cloves, minced"},
+      {"name": "Dried Parsley", "amount": "1 teaspoon"},
+      {"name": "Olive Oil", "amount": "1 tablespoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "High Heat Sear", "desc": "Heat olive oil in a skillet over high heat until smoking slightly. Pat the steak bites dry with a paper towel and season with salt."},
+      {"step": 2, "title": "Brown Beef", "desc": "Add steak bites to the pan in a single layer. Sear for 2 minutes without moving them to get a crust, then flip and sear for 1 more minute."},
+      {"step": 3, "title": "Butter Bath", "desc": "Reduce heat to medium. Add the butter, minced garlic, and parsley to the pan."},
+      {"step": 4, "title": "Baste", "desc": "Toss the steak bites in the melting garlic butter for 1-2 minutes until the garlic is golden. Remove from heat immediately to avoid overcooking."},
+      {"step": 5, "title": "Rest", "desc": "Let the meat rest in the pan for 2 minutes before serving to ensure the juices redistribute."}
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Ayam Bakar Teflon (Pan-Grilled Soy Chicken)",
+    "tag": "SMOKY GLAZE",
+    "description": "Sweet and savory pan-grilled chicken thighs caramelized to perfection with a hint of lime.",
+    "image": "images/id-45.jpg",
+    "time_minutes": 40,
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {"name": "Chicken Thighs", "amount": "2 pieces, bone-in"},
+      {"name": "Kecap Manis", "amount": "4 tablespoons"},
+      {"name": "Lime Juice", "amount": "1 tablespoon"},
+      {"name": "Garlic", "amount": "3 cloves, minced"},
+      {"name": "Coriander Powder", "amount": "1 teaspoon"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Braise (Ungkep)", "desc": "In a pot, combine chicken with garlic, coriander, salt, and enough water to half-cover the meat. Simmer until the water is almost gone."},
+      {"step": 2, "title": "Make Baste", "desc": "Mix the Kecap Manis with lime juice and a tablespoon of the remaining braising liquid or oil."},
+      {"step": 3, "title": "Prep Pan", "desc": "Heat a non-stick (Teflon) pan over medium-high heat. You don't need much oil as the chicken skin will release its own."},
+      {"step": 4, "title": "Grill", "desc": "Place the chicken on the pan. Brush generously with the soy sauce mixture. Flip every 2 minutes, reapplying the sauce each time."},
+      {"step": 5, "title": "Caramelize", "desc": "Continue grilling until the chicken has dark, charred, caramelized patches and the sauce has thickened into a sticky glaze."}
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Chickpea 'Tuna' Salad Sandwich",
+    "tag": "VEGAN FLAKES",
+    "description": "A clever plant-based alternative to tuna salad using mashed chickpeas, red onion, and tangy Dijon mustard.",
+    "image": "images/id-46.jpg",
+    "time_minutes": 10,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Canned Chickpeas", "amount": "1 can, drained"},
+      {"name": "Vegan Mayo or Greek Yogurt", "amount": "3 tablespoons"},
+      {"name": "Red Onion", "amount": "2 tablespoons, finely diced"},
+      {"name": "Dijon Mustard", "amount": "1 teaspoon"},
+      {"name": "Whole Wheat Bread", "amount": "2 slices"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Mash Chickpeas", "desc": "Place drained chickpeas in a bowl and mash them with a fork until they reach a flaky, tuna-like consistency."},
+      {"step": 2, "title": "Mix Filling", "desc": "Add the mayo, onion, mustard, salt, and pepper. For extra flavor, add a squeeze of lemon or chopped pickles."},
+      {"step": 3, "title": "Toast Bread", "desc": "Lightly toast your bread slices until golden brown."},
+      {"step": 4, "title": "Assemble", "desc": "Spread the chickpea mixture thickly onto one slice of bread. Top with lettuce or spinach if desired, then close the sandwich."}
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Bihun Goreng (Indonesian Fried Vermicelli)",
+    "tag": "STIR-FRY SPECIAL",
+    "description": "Delicate rice vermicelli noodles stir-fried with sweet soy sauce, fresh cabbage, and scrambled eggs.",
+    "image": "images/id-47.jpg",
+    "time_minutes": 20,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Rice Vermicelli", "amount": "150g, soaked in warm water"},
+      {"name": "Cabbage", "amount": "1 cup, shredded"},
+      {"name": "Carrot", "amount": "1, julienned"},
+      {"name": "Egg", "amount": "1, scrambled"},
+      {"name": "Sweet Soy Sauce", "amount": "2 tablespoons"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Noodle Prep", "desc": "Ensure the vermicelli is soft but still has a 'bite' (al dente). Drain thoroughly and toss with 1 tablespoon of oil to prevent clumping."},
+      {"step": 2, "title": "Sauté Aromatics", "desc": "Sauté minced garlic and white pepper in a wok until fragrant. Add the julienned carrots and shredded cabbage."},
+      {"step": 3, "title": "Add Protein", "desc": "Push veggies aside and scramble the egg in the center of the pan. Mix everything together once the egg is set."},
+      {"step": 4, "title": "Combine", "desc": "Add the noodles and sweet soy sauce. Stir-fry vigorously on high heat for 3-4 minutes so the noodles absorb the sauce evenly."},
+      {"step": 5, "title": "Garnish", "desc": "Serve with a side of pickled cucumber (acar) and a sprinkle of crispy fried shallots."}
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Easy Baked Ziti",
+    "tag": "PASTA PARTY",
+    "description": "Hearty baked pasta layered with marinara sauce, ground beef, and gooey melted mozzarella.",
+    "image": "images/id-48.jpg",
+    "time_minutes": 40,
+    "difficulty": "Intermediate",
+    "ingredients": [
+      {"name": "Ziti or Penne Pasta", "amount": "250g"},
+      {"name": "Marinara Sauce", "amount": "1.5 cups"},
+      {"name": "Ricotta Cheese", "amount": "1/2 cup"},
+      {"name": "Mozzarella Cheese", "amount": "1 cup, shredded"},
+      {"name": "Ground Beef", "amount": "150g"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Boil Pasta", "desc": "Cook pasta in salted water for 2 minutes less than the package instructions. It will finish cooking in the oven."},
+      {"step": 2, "title": "Brown Meat", "desc": "In a pan, brown the ground beef. Drain excess fat and stir in the marinara sauce. Simmer for 5 minutes."},
+      {"step": 3, "title": "Mix", "desc": "In a large bowl, toss the cooked pasta with the meat sauce and the ricotta cheese until well combined."},
+      {"step": 4, "title": "Layer", "desc": "Transfer the mixture to a baking dish. Top generously with shredded mozzarella and a sprinkle of dried oregano."},
+      {"step": 5, "title": "Bake", "desc": "Bake at 375°F (190°C) for 20 minutes until the cheese is bubbly and starting to brown on top."}
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Martabak Mie (Instant Noodle Pancake)",
+    "tag": "DORM FAVORITE",
+    "description": "The ultimate student comfort food: a savory noodle pancake made with instant noodles and fresh eggs.",
+    "image": "images/id-49.jpeg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Instant Noodles", "amount": "1 pack, any flavor"},
+      {"name": "Eggs", "amount": "2 large"},
+      {"name": "Spring Onion", "amount": "2 stalks, sliced"},
+      {"name": "Sausage", "amount": "1, thinly sliced"},
+      {"name": "Bird's Eye Chili", "amount": "1, optional"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Boil Noodles", "desc": "Cook the instant noodles in boiling water until soft. Drain and set aside in a bowl."},
+      {"step": 2, "title": "Mix Batter", "desc": "Add the noodle seasoning packets, eggs, sliced spring onions, sausage, and chili to the noodles. Mix until well incorporated."},
+      {"step": 3, "title": "Fry", "desc": "Heat a tablespoon of oil in a small pan. Pour the noodle mixture in and spread it out evenly to form a circle."},
+      {"step": 4, "title": "Flip", "desc": "Cook for 4-5 minutes on medium-low heat. Once the bottom is crispy, flip carefully and cook the other side for 3 minutes."},
+      {"step": 5, "title": "Serve", "desc": "Cut into wedges like a pizza and serve with chili sauce or ketchup. A classic Indonesian student comfort food!"}
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Mushroom and Spinach Quesadilla",
+    "tag": "CHEESY VEGGIE",
+    "description": "A quick and crispy tortilla filled with earthy sautéed mushrooms, wilted spinach, and melted cheese.",
+    "image": "images/id-50.jpg",
+    "time_minutes": 15,
+    "difficulty": "Beginner",
+    "ingredients": [
+      {"name": "Tortilla", "amount": "2 small"},
+      {"name": "Button Mushrooms", "amount": "1 cup, sliced"},
+      {"name": "Fresh Spinach", "amount": "1 cup"},
+      {"name": "Monterey Jack Cheese", "amount": "1/2 cup, shredded"},
+      {"name": "Onion", "amount": "1/4, sliced"}
+    ],
+    "steps": [
+      {"step": 1, "title": "Sauté Filling", "desc": "Sauté onions and mushrooms in a pan until the mushrooms have released their moisture and are browned."},
+      {"step": 2, "title": "Wilt Spinach", "desc": "Add the spinach to the pan and cook for 1 minute until wilted. Season with salt and garlic powder, then remove from pan."},
+      {"step": 3, "title": "Assemble", "desc": "Clean the pan and place one tortilla in it. Sprinkle half the cheese, then the mushroom-spinach mix, and the rest of the cheese."},
+      {"step": 4, "title": "Grill", "desc": "Top with the second tortilla. Cook for 2-3 minutes per side over medium heat until the tortilla is crisp and the cheese is melted."},
+      {"step": 5, "title": "Slice", "desc": "Remove from heat, let it sit for 30 seconds so the cheese sets, then slice into quarters."}
+    ]
+  }
+  ]
+}
